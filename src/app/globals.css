@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-swiss-navy: #0F172A;
+  --color-swiss-red: #A6192E;
+  --color-swiss-surface: #F8FAFC;
+  --color-swiss-text: #334155;
+  --color-swiss-dark: #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply bg-swiss-surface text-swiss-text antialiased selection:bg-swiss-navy selection:text-white;
+  }
+}
