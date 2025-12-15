@@ -479,12 +479,12 @@ const TrustMarquee = ()=>{
                                     className: "w-2 h-2 bg-swiss-navy/30 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 33,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                lineNumber: 27,
+                                lineNumber: 32,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -492,28 +492,28 @@ const TrustMarquee = ()=>{
                                 children: partner
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                lineNumber: 30,
+                                lineNumber: 35,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, i, true, {
                         fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                        lineNumber: 25,
+                        lineNumber: 30,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                lineNumber: 15,
+                lineNumber: 20,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-            lineNumber: 14,
+            lineNumber: 19,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-        lineNumber: 13,
+        lineNumber: 18,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

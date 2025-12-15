@@ -81,8 +81,11 @@ export default function ContactPage() {
                             </div>
 
                             <div className="relative">
-                                <select className="w-full border-b border-swiss-navy/20 py-4 text-swiss-navy focus:outline-none bg-transparent text-lg appearance-none rounded-none">
-                                    <option value="" disabled selected>Serviço de Interesse</option>
+                                <select
+                                    className="w-full border-b border-swiss-navy/20 py-4 text-swiss-navy focus:outline-none bg-transparent text-lg appearance-none rounded-none"
+                                    defaultValue=""
+                                >
+                                    <option value="" disabled>Serviço de Interesse</option>
                                     <option value="corporate">Corporate Relocation</option>
                                     <option value="private">Private Estate Logistics</option>
                                     <option value="art">Fine Art & Antiques</option>

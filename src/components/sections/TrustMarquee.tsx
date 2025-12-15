@@ -3,9 +3,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const partners = [
-  "Private Banking Group", "Geneva Artport", "Swiss Insurance Global", "International Movers Assoc.",
-  "Basel Art Fair", "Zürich Airport VIP", "Federation of Logistics"
+const partners: string[] = [
+  "Private Banking Group",
+  "Geneva Artport",
+  "Swiss Insurance Global",
+  "International Movers Assoc.",
+  "Basel Art Fair",
+  "Zürich Airport VIP",
+  "Federation of Logistics",
 ];
 
 const TrustMarquee: React.FC = () => {

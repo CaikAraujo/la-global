@@ -4,13 +4,14 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import type { NavLink } from '@/types';
 
-const links = [
+const links: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "L'Excellence", href: "/about" },
   { label: "Serviços", href: "/services" },
   { label: "Contato", href: "/contact" },
-];
+] as const;
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
