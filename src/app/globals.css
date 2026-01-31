@@ -12,4 +12,7 @@
   body {
     @apply bg-swiss-surface text-swiss-text antialiased selection:bg-swiss-navy selection:text-white;
   }
+  button {
+    @apply cursor-pointer;
+  }
 }

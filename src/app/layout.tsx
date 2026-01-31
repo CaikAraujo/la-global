@@ -8,8 +8,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-    title: "Confœderatio Logistica | Swiss Precision Moving",
+    title: "LA Global Corporation | Swiss Precision Moving",
     description: "Logística global para corporações, residências de prestígio e belas artes.",
+    icons: {
+        icon: '/header-logo.svg',
+    },
 };
 
 export default function RootLayout({

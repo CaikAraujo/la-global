@@ -23,7 +23,7 @@ const detailedServices = [
             'Descarte Certificado de Ativos',
             'Layout Operacional "Turn-key"'
         ],
-        image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'private',
@@ -36,7 +36,7 @@ const detailedServices = [
             'Catalogação de Bibliotecas',
             'Design de Interiores Temporário'
         ],
-        image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2700&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
         id: 'art',
@@ -49,20 +49,46 @@ const detailedServices = [
             'Instalação Especializada',
             'Seguro "Prego-a-Prego"'
         ],
-        image: 'https://images.unsplash.com/photo-1551194368-2453e970b869?q=80&w=2574&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
-        id: 'freeport',
-        title: 'Swiss Free Port Storage',
-        subtitle: 'Armazenamento Franco',
-        description: 'Acesso aos nossos espaços em zonas francas de Genebra e Zurique. Soluções de longo prazo para colecionadores e investidores que exigem suspensão de impostos (VAT) e segurança máxima para seus ativos, mantendo-os em jurisdição neutra e ambiente controlado.',
+        id: 'diplomatic',
+        title: 'Diplomatic Services',
+        subtitle: 'Protocolo & Segurança',
+        description: 'Logística de alta precisão para missões diplomáticas e governamentais. Entendemos as nuances do protocolo internacional e a necessidade absoluta de confidencialidade. Nossas operações são coordenadas com equipes de segurança para garantir a integridade de documentos e ativos sensíveis.',
         features: [
-            'Isenção Fiscal Temporária',
-            'Showrooms Privados',
-            'Conservação Preventiva',
-            'Segurança 24/7'
+            'Transporte em Comboio Seguro',
+            'Liberação Aduaneira Diplomática',
+            'Equipe Vetted & Cleared',
+            'Rotas Confidenciais'
         ],
-        image: 'https://images.unsplash.com/photo-1590422749897-400b65677b1e?q=80&w=2574&auto=format&fit=crop'
+        image: '/images/diplomatic-convoy.png'
+    },
+    {
+        id: 'storage',
+        title: 'Secure Storage',
+        subtitle: 'Cofre & Proteção de Ativos',
+        description: 'Instalações de armazenamento de última geração em zonas francas estratégicas. Oferecemos ambientes com controle climático rigoroso (temperatura e umidade) para preservação de obras de arte, vinhos raros e metais preciosos, com a vantagem de suspensão temporária de impostos.',
+        features: [
+            'Segurança Biométrica Nível 5',
+            'Controle Climático Redundante',
+            'Isenção Fiscal (Bonded Warehouse)',
+            'Salas de Visualização Privadas'
+        ],
+        image: '/images/secure-storage.png'
+    },
+    {
+        id: 'events',
+        title: 'Event Logistics',
+        subtitle: 'Coordenação & Precisão',
+        description: 'A espinha dorsal invisível de eventos de prestígio. Gerenciamos a logística complexa de galas, exposições e lançamentos de produtos. Sincronizamos o transporte, a montagem e a desmontagem de estruturas, garantindo que o palco esteja pronto no momento exato, sem falhas.',
+        features: [
+            'Logística "Just-in-Time"',
+            'Manuseio de Equipamento Sensível',
+            'Equipes de Montagem 24/7',
+            'Gestão de Carnet ATA'
+        ],
+        image: '/images/event-logistics.png'
     }
 ];
 function ServicesPage() {
@@ -89,7 +115,7 @@ function ServicesPage() {
                             children: "Nossas Divisões"
                         }, void 0, false, {
                             fileName: "[project]/src/app/services/page.tsx",
-                            lineNumber: 52,
+                            lineNumber: 68,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -97,18 +123,18 @@ function ServicesPage() {
                             children: "Excelência operacional adaptada às necessidades únicas de corporações globais e grandes propriedades privadas."
                         }, void 0, false, {
                             fileName: "[project]/src/app/services/page.tsx",
-                            lineNumber: 53,
+                            lineNumber: 69,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/services/page.tsx",
-                    lineNumber: 47,
+                    lineNumber: 63,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 46,
+                lineNumber: 62,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -138,7 +164,7 @@ function ServicesPage() {
                                         className: "absolute inset-0 bg-swiss-navy/10 z-10 transition-opacity duration-700 group-hover:opacity-0"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 88,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -147,13 +173,13 @@ function ServicesPage() {
                                         className: "w-full h-full object-cover filter grayscale transition-all duration-1000 ease-out group-hover:grayscale-0 group-hover:scale-105"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 73,
+                                        lineNumber: 89,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/services/page.tsx",
-                                lineNumber: 71,
+                                lineNumber: 87,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -164,7 +190,7 @@ function ServicesPage() {
                                         children: service.subtitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 98,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -172,7 +198,7 @@ function ServicesPage() {
                                         children: service.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 99,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -180,7 +206,7 @@ function ServicesPage() {
                                         children: service.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 100,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -192,7 +218,7 @@ function ServicesPage() {
                                                         className: "w-1 h-1 bg-swiss-navy rounded-full"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 107,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -200,41 +226,41 @@ function ServicesPage() {
                                                         children: feature
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/services/page.tsx",
-                                                        lineNumber: 92,
+                                                        lineNumber: 108,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, i, true, {
                                                 fileName: "[project]/src/app/services/page.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 106,
                                                 columnNumber: 37
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/services/page.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 104,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/services/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 97,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, service.id, true, {
                         fileName: "[project]/src/app/services/page.tsx",
-                        lineNumber: 62,
+                        lineNumber: 78,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/services/page.tsx",
-                lineNumber: 60,
+                lineNumber: 76,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/services/page.tsx",
-        lineNumber: 43,
+        lineNumber: 59,
         columnNumber: 9
     }, this);
 }

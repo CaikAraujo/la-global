@@ -1,9 +1,19 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function ContactPage() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedService, setSelectedService] = useState("");
+
+    const services = [
+        "Corporate Relocation",
+        "Private Estate Logistics",
+        "Fine Art & Antiques",
+        "Outros"
+    ];
+
     return (
         <div className="bg-swiss-surface min-h-screen">
 
@@ -80,20 +90,55 @@ export default function ContactPage() {
                                 </label>
                             </div>
 
-                            <div className="relative">
-                                <select
-                                    className="w-full border-b border-swiss-navy/20 py-4 text-swiss-navy focus:outline-none bg-transparent text-lg appearance-none rounded-none"
-                                    defaultValue=""
+                            {/* Custom Dropdown */}
+                            <div className="relative z-50">
+                                <label className={`absolute left-0 transition-all pointer-events-none uppercase tracking-widest text-swiss-text/50 ${selectedService || isOpen ? '-top-4 text-xs' : 'top-4 text-sm'}`}>
+                                    Selecione o tipo de serviço
+                                </label>
+                                <div
+                                    onClick={() => setIsOpen(!isOpen)}
+                                    className="w-full border-b border-swiss-navy/20 py-4 flex justify-between items-center cursor-pointer hover:border-swiss-navy transition-colors"
                                 >
-                                    <option value="" disabled>Serviço de Interesse</option>
-                                    <option value="corporate">Corporate Relocation</option>
-                                    <option value="private">Private Estate Logistics</option>
-                                    <option value="art">Fine Art & Antiques</option>
-                                    <option value="other">Outros</option>
-                                </select>
+                                    <span className={`text-lg transition-colors ${selectedService ? 'text-swiss-navy' : 'text-transparent'}`}>
+                                        {selectedService || "Placeholder"}
+                                    </span>
+                                    <motion.div
+                                        animate={{ rotate: isOpen ? 180 : 0 }}
+                                        transition={{ duration: 0.3 }}
+                                    >
+                                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1.5L6 6.5L11 1.5" stroke="#0F172A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    </motion.div>
+                                </div>
+
+                                <AnimatePresence>
+                                    {isOpen && (
+                                        <motion.div
+                                            initial={{ opacity: 0, y: -10 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            exit={{ opacity: 0, y: -10 }}
+                                            transition={{ duration: 0.2 }}
+                                            className="absolute top-full left-0 w-full bg-white shadow-xl shadow-swiss-navy/10 mt-2 py-2 border border-swiss-navy/5"
+                                        >
+                                            {services.map((service) => (
+                                                <div
+                                                    key={service}
+                                                    onClick={() => {
+                                                        setSelectedService(service);
+                                                        setIsOpen(false);
+                                                    }}
+                                                    className="px-6 py-3 hover:bg-swiss-surface text-swiss-navy cursor-pointer transition-colors text-sm"
+                                                >
+                                                    {service}
+                                                </div>
+                                            ))}
+                                        </motion.div>
+                                    )}
+                                </AnimatePresence>
                             </div>
 
-                            <div className="relative">
+                            <div className="relative z-0">
                                 <textarea
                                     rows={4}
                                     placeholder=" "

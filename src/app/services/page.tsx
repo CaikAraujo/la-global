@@ -10,7 +10,7 @@ const detailedServices = [
         subtitle: 'Continuidade de Negócios',
         description: 'Transferência de sedes globais com foco absoluto na manutenção da produtividade. Nossa equipe técnica desmonta, transporta e remonta infraestruturas complexas de TI e escritórios executivos, garantindo que sua equipe comece a trabalhar no novo endereço como se nunca tivesse saído.',
         features: ['Gestão de Risco ISO 31000', 'Logística de Servidores Críticos', 'Descarte Certificado de Ativos', 'Layout Operacional "Turn-key"'],
-        image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'private',
@@ -18,7 +18,7 @@ const detailedServices = [
         subtitle: 'Residências & Propriedades',
         description: 'Herdeiros da tradição da "Grand Hotelaria", tratamos sua mudança como a migração de um estilo de vida. Gerenciamos inventários complexos de múltiplas propriedades, adegas e bibliotecas. Não apenas transportamos caixas; recriamos a atmosfera do seu lar no destino final.',
         features: ['Embalagem de Alta Costura', 'Transporte de Veículos de Coleção', 'Catalogação de Bibliotecas', 'Design de Interiores Temporário'],
-        image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2700&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
         id: 'art',
@@ -26,15 +26,31 @@ const detailedServices = [
         subtitle: 'Padrão Museológico',
         description: 'A divisão especializada em objetos insubstituíveis. Nossa equipe de art handlers certificados utiliza técnicas de conservação preventiva. Construímos caixas (crates) personalizadas com controle de umidade e choque para cada peça, garantindo que esculturas, telas e antiguidades viagem em ambiente estável.',
         features: ['Caixas Climatizadas (ISPM 15)', 'Trâmites Aduaneiros CITES', 'Instalação Especializada', 'Seguro "Prego-a-Prego"'],
-        image: 'https://images.unsplash.com/photo-1551194368-2453e970b869?q=80&w=2574&auto=format&fit=crop'
+        image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
-        id: 'freeport',
-        title: 'Swiss Free Port Storage',
-        subtitle: 'Armazenamento Franco',
-        description: 'Acesso aos nossos espaços em zonas francas de Genebra e Zurique. Soluções de longo prazo para colecionadores e investidores que exigem suspensão de impostos (VAT) e segurança máxima para seus ativos, mantendo-os em jurisdição neutra e ambiente controlado.',
-        features: ['Isenção Fiscal Temporária', 'Showrooms Privados', 'Conservação Preventiva', 'Segurança 24/7'],
-        image: 'https://images.unsplash.com/photo-1590422749897-400b65677b1e?q=80&w=2574&auto=format&fit=crop'
+        id: 'diplomatic',
+        title: 'Diplomatic Services',
+        subtitle: 'Protocolo & Segurança',
+        description: 'Logística de alta precisão para missões diplomáticas e governamentais. Entendemos as nuances do protocolo internacional e a necessidade absoluta de confidencialidade. Nossas operações são coordenadas com equipes de segurança para garantir a integridade de documentos e ativos sensíveis.',
+        features: ['Transporte em Comboio Seguro', 'Liberação Aduaneira Diplomática', 'Equipe Vetted & Cleared', 'Rotas Confidenciais'],
+        image: '/images/diplomatic-convoy.png'
+    },
+    {
+        id: 'storage',
+        title: 'Secure Storage',
+        subtitle: 'Cofre & Proteção de Ativos',
+        description: 'Instalações de armazenamento de última geração em zonas francas estratégicas. Oferecemos ambientes com controle climático rigoroso (temperatura e umidade) para preservação de obras de arte, vinhos raros e metais preciosos, com a vantagem de suspensão temporária de impostos.',
+        features: ['Segurança Biométrica Nível 5', 'Controle Climático Redundante', 'Isenção Fiscal (Bonded Warehouse)', 'Salas de Visualização Privadas'],
+        image: '/images/secure-storage.png'
+    },
+    {
+        id: 'events',
+        title: 'Event Logistics',
+        subtitle: 'Coordenação & Precisão',
+        description: 'A espinha dorsal invisível de eventos de prestígio. Gerenciamos a logística complexa de galas, exposições e lançamentos de produtos. Sincronizamos o transporte, a montagem e a desmontagem de estruturas, garantindo que o palco esteja pronto no momento exato, sem falhas.',
+        features: ['Logística "Just-in-Time"', 'Manuseio de Equipamento Sensível', 'Equipes de Montagem 24/7', 'Gestão de Carnet ATA'],
+        image: '/images/event-logistics.png'
     }
 ];
 
