@@ -2,49 +2,50 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { ServiceItem } from '../../types';
 
 const services: ServiceItem[] = [
   {
     id: 'corp',
-    title: 'Corporate Relocation',
-    subtitle: 'Business Continuity',
-    description: 'Transição perfeita para sedes corporativas. Gestão de TI segura, minimização de inatividade e protocolos de confidencialidade rigorosos.',
+    title: 'Relocalisation d\'Entreprise',
+    subtitle: 'Continuité des Affaires',
+    description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 'private',
-    title: 'Private Estate Moving',
-    subtitle: 'Lifestyle Logistics',
-    description: 'Serviço de luvas brancas para residências e propriedades. Gestão completa de inventário e recriação do ambiente doméstico no destino.',
+    title: 'Logistique de Résidence Privée',
+    subtitle: 'Résidences & Propriétés',
+    description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
     image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
   },
   {
     id: 'art',
-    title: 'Fine Art Logistics',
-    subtitle: 'Museum Standard',
-    description: 'Caixas climatizadas personalizadas (crates), transporte aéreo seguro e instalação profissional para obras de valor inestimável.',
+    title: 'Beaux-Arts & Antiquités',
+    subtitle: 'Standard Muséal',
+    description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
     image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 'diplomatic',
-    title: 'Diplomatic Services',
-    subtitle: 'Protocol & Security',
-    description: 'Logística especializada para missões diplomáticas e governamentais. Protocolos de segurança rigorosos e discrição absoluta garantida.',
-    image: '/images/diplomatic-convoy.png'
+    title: 'Service de Nettoyage de Bureaux',
+    subtitle: 'Hygiène et Confort',
+    description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
+    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop'
   },
   {
     id: 'storage',
-    title: 'Secure Storage',
-    subtitle: 'Vault & Asset Protection',
-    description: 'Armazenamento de segurança máxima em zonas francas. Controle climático de precisão para ativos valiosos e isenção fiscal temporária.',
+    title: 'Stockage Sécurisé',
+    subtitle: 'Coffre-fort & Protection d\'Actifs',
+    description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
     image: '/images/secure-storage.png'
   },
   {
     id: 'events',
-    title: 'Event Logistics',
-    subtitle: 'Coordination & Precision',
-    description: 'Gestão completa para eventos de alto perfil. Sincronia perfeita para transporte, montagem e desmontagem de estruturas complexas.',
+    title: 'Montage de Stands pour Foires et Événements',
+    subtitle: 'Coordination & Précision',
+    description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
     image: '/images/event-logistics.png'
   }
 ];
@@ -66,10 +67,12 @@ const Services: React.FC = () => {
         >
           <div>
             <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-2 block">Expertise</span>
-            <h2 className="font-serif text-4xl md:text-5xl text-swiss-navy">Serviços Especializados</h2>
+            <h2 className="font-serif text-4xl md:text-5xl text-swiss-navy">Services Spécialisés</h2>
           </div>
           <p className="text-swiss-text/70 max-w-md text-sm leading-relaxed mt-6 md:mt-0 text-right md:text-left">
-            Uma abordagem holística para logística complexa, garantindo que cada item chegue ao seu destino com a dignidade que merece.
+            Nous transformons la logistique en art pour votre opération. <br />
+            Nous prenons en charge tout — du stockage et montage de mobilier à la gestion des facilities, avec attention au nettoyage et à l’élimination confidentielle. <br />
+            Nous garantissons le cadre idéal pour que votre entreprise fonctionne avec excellence.
           </p>
         </motion.div>
 
@@ -89,10 +92,12 @@ const Services: React.FC = () => {
                   transition={{ duration: 1.2, ease: [0.25, 1, 0.5, 1] }}
                   className="w-full h-full"
                 >
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0"
+                    fill
+                    className="object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0"
+                    sizes="(max-width: 1024px) 100vw, 33vw"
                   />
                 </motion.div>
                 <div className="absolute inset-0 border border-swiss-navy/0 transition-colors duration-700 group-hover:border-swiss-navy/20 pointer-events-none" />

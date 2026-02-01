@@ -8,7 +8,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 const Hero = ()=>{
@@ -32,38 +34,41 @@ const Hero = ()=>{
                             repeatType: "reverse"
                         },
                         className: "w-full h-full",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             src: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop",
                             alt: "Swiss Corporate Office",
-                            className: "w-full h-full object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]"
+                            fill: true,
+                            priority: true,
+                            className: "object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]",
+                            sizes: "100vw"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
-                            lineNumber: 18,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 11,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-swiss-navy/20 mix-blend-multiply"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 25,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-t from-swiss-navy/50 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 26,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/Hero.tsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -88,26 +93,26 @@ const Hero = ()=>{
                             ],
                             delay: 0.4
                         },
-                        className: "font-serif text-5xl md:text-7xl lg:text-8xl text-white font-medium leading-[1.1] mb-8",
+                        className: "font-serif text-4xl md:text-6xl lg:text-7xl text-white font-medium leading-[1.1] mb-8",
                         children: [
-                            "A Arte da Mudança ",
+                            "L’art de la logistique ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/sections/Hero.tsx",
-                                lineNumber: 37,
-                                columnNumber: 29
+                                lineNumber: 41,
+                                columnNumber: 34
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "italic font-normal opacity-90",
-                                children: "com Precisão Suíça."
+                                children: "au service de votre infrastructure"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/Hero.tsx",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 31,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -122,16 +127,16 @@ const Hero = ()=>{
                             delay: 0.8
                         },
                         className: "text-white/80 font-light text-lg md:text-xl max-w-2xl mx-auto tracking-wide leading-relaxed",
-                        children: "Logística global para corporações, residências de prestígio e belas artes. Discrição absoluta."
+                        children: "Logistique avancée et résidences de prestige, avec un soin absolu pour votre entreprise."
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 41,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/Hero.tsx",
-                lineNumber: 30,
+                lineNumber: 34,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -149,10 +154,10 @@ const Hero = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-white/60 text-[10px] uppercase tracking-widest",
-                        children: "Discover"
+                        children: "Découvrir"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 59,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -172,24 +177,24 @@ const Hero = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
-                            lineNumber: 61,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Hero.tsx",
-                        lineNumber: 60,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/Hero.tsx",
-                lineNumber: 53,
+                lineNumber: 56,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/Hero.tsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -210,50 +215,52 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 const services = [
     {
         id: 'corp',
-        title: 'Corporate Relocation',
-        subtitle: 'Business Continuity',
-        description: 'Transição perfeita para sedes corporativas. Gestão de TI segura, minimização de inatividade e protocolos de confidencialidade rigorosos.',
+        title: 'Relocalisation d\'Entreprise',
+        subtitle: 'Continuité des Affaires',
+        description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'private',
-        title: 'Private Estate Moving',
-        subtitle: 'Lifestyle Logistics',
-        description: 'Serviço de luvas brancas para residências e propriedades. Gestão completa de inventário e recriação do ambiente doméstico no destino.',
+        title: 'Logistique de Résidence Privée',
+        subtitle: 'Résidences & Propriétés',
+        description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
         id: 'art',
-        title: 'Fine Art Logistics',
-        subtitle: 'Museum Standard',
-        description: 'Caixas climatizadas personalizadas (crates), transporte aéreo seguro e instalação profissional para obras de valor inestimável.',
+        title: 'Beaux-Arts & Antiquités',
+        subtitle: 'Standard Muséal',
+        description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'diplomatic',
-        title: 'Diplomatic Services',
-        subtitle: 'Protocol & Security',
-        description: 'Logística especializada para missões diplomáticas e governamentais. Protocolos de segurança rigorosos e discrição absoluta garantida.',
-        image: '/images/diplomatic-convoy.png'
+        title: 'Service de Nettoyage de Bureaux',
+        subtitle: 'Hygiène et Confort',
+        description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
+        image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'storage',
-        title: 'Secure Storage',
-        subtitle: 'Vault & Asset Protection',
-        description: 'Armazenamento de segurança máxima em zonas francas. Controle climático de precisão para ativos valiosos e isenção fiscal temporária.',
+        title: 'Stockage Sécurisé',
+        subtitle: 'Coffre-fort & Protection d\'Actifs',
+        description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
         image: '/images/secure-storage.png'
     },
     {
         id: 'events',
-        title: 'Event Logistics',
-        subtitle: 'Coordination & Precision',
-        description: 'Gestão completa para eventos de alto perfil. Sincronia perfeita para transporte, montagem e desmontagem de estruturas complexas.',
+        title: 'Montage de Stands pour Foires et Événements',
+        subtitle: 'Coordination & Précision',
+        description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
         image: '/images/event-logistics.png'
     }
 ];
@@ -266,14 +273,14 @@ const Services = ()=>{
                 className: "absolute left-12 top-0 bottom-0 w-[1px] bg-swiss-navy/5 hidden lg:block"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 56,
+                lineNumber: 57,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute right-12 top-0 bottom-0 w-[1px] bg-swiss-navy/5 hidden lg:block"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -303,35 +310,49 @@ const Services = ()=>{
                                         children: "Expertise"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "font-serif text-4xl md:text-5xl text-swiss-navy",
-                                        children: "Serviços Especializados"
+                                        children: "Services Spécialisés"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 67,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-swiss-text/70 max-w-md text-sm leading-relaxed mt-6 md:mt-0 text-right md:text-left",
-                                children: "Uma abordagem holística para logística complexa, garantindo que cada item chegue ao seu destino com a dignidade que merece."
-                            }, void 0, false, {
+                                children: [
+                                    "Nous transformons la logistique en art pour votre opération. ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/sections/Services.tsx",
+                                        lineNumber: 73,
+                                        columnNumber: 74
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    "Nous prenons en charge tout — du stockage et montage de mobilier à la gestion des facilities, avec attention au nettoyage et à l’élimination confidentielle. ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/sections/Services.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 170
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    "Nous garantissons le cadre idéal pour que votre entreprise fonctionne avec excellence."
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 71,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/Services.tsx",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -371,31 +392,33 @@ const Services = ()=>{
                                                     ]
                                                 },
                                                 className: "w-full h-full",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     src: service.image,
                                                     alt: service.title,
-                                                    className: "w-full h-full object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0"
+                                                    fill: true,
+                                                    className: "object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0",
+                                                    sizes: "(max-width: 1024px) 100vw, 33vw"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/Services.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 95,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 90,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 border border-swiss-navy/0 transition-colors duration-700 group-hover:border-swiss-navy/20 pointer-events-none"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 89,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,7 +429,7 @@ const Services = ()=>{
                                                 children: service.subtitle
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 107,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -414,7 +437,7 @@ const Services = ()=>{
                                                 children: service.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 110,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -422,36 +445,36 @@ const Services = ()=>{
                                                 children: service.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, service.id, true, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 78,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Services.tsx",
-                        lineNumber: 76,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 59,
+                lineNumber: 60,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/Services.tsx",
-        lineNumber: 54,
+        lineNumber: 55,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -479,10 +502,10 @@ const partners = [
     "Private Banking Group",
     "Geneva Artport",
     "Swiss Insurance Global",
-    "International Movers Assoc.",
+    "Assoc. Internationale des Déménageurs",
     "Basel Art Fair",
     "Zürich Airport VIP",
-    "Federation of Logistics"
+    "Fédération de Logistique"
 ];
 const TrustMarquee = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -567,7 +590,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 const AboutSection = ()=>{
@@ -604,54 +629,54 @@ const AboutSection = ()=>{
                                             className: "w-8 h-[1px] bg-swiss-red"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                            lineNumber: 21,
+                                            lineNumber: 22,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        "Institucional"
+                                        "Institutionnel"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 21,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "font-serif text-4xl md:text-5xl lg:text-6xl text-swiss-navy leading-tight mb-8",
                                     children: [
-                                        "O Padrão ",
+                                        "L'Excellence ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                            lineNumber: 25,
-                                            columnNumber: 26
+                                            lineNumber: 26,
+                                            columnNumber: 30
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        "Suíço."
+                                        "Suisse."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-swiss-text font-light text-base leading-relaxed mb-6",
-                                    children: "Não somos apenas uma empresa de mudanças; somos guardiões do seu patrimônio durante transições críticas. Nossa filosofia é baseada na estabilidade da Confederação Suíça: neutra, segura e inabalável."
+                                    children: "Nous ne sommes pas seulement une entreprise de déménagement ; nous sommes les gardiens de votre patrimoine lors de transitions critiques. Notre philosophie repose sur la stabilité de la Confédération Suisse : neutre, sûre et inébranlable."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-swiss-text font-light text-base leading-relaxed mb-10",
-                                    children: "Desde 1924, servimos famílias reais, corporações Fortune 500 e museus internacionais com uma discrição que se tornou nossa marca registrada."
+                                    children: "Depuis 1924, nous servons des familles royales, des entreprises Fortune 500 et des musées internationaux avec une discrétion qui est devenue notre marque de fabrique."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 31,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                     className: "space-y-4",
                                     children: [
-                                        'Certificação ISO 27001',
-                                        'Seguro Integral "All-Risk"',
-                                        'Equipe Multilíngue (EN, FR, DE, PT)'
+                                        'Certification ISO 27001',
+                                        'Assurance Intégrale "All-Risk"',
+                                        'Équipe Multilingue (EN, FR, DE, PT)'
                                     ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].li, {
                                             initial: {
                                                 opacity: 0,
@@ -674,30 +699,30 @@ const AboutSection = ()=>{
                                                     className: "w-1.5 h-1.5 bg-swiss-red"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                    lineNumber: 44,
+                                                    lineNumber: 45,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 item
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 37,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 35,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/AboutSection.tsx",
-                            lineNumber: 14,
+                            lineNumber: 15,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -719,15 +744,17 @@ const AboutSection = ()=>{
                                     duration: 1,
                                     ease: "easeOut"
                                 },
-                                className: "relative z-10",
+                                className: "relative z-10 h-[600px] w-full",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop",
                                         alt: "White glove service meeting",
-                                        className: "w-full h-[600px] object-cover shadow-2xl filter sepia-[0.1]"
+                                        fill: true,
+                                        className: "object-cover shadow-2xl filter sepia-[0.1]",
+                                        sizes: "(max-width: 1024px) 100vw, 50vw"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -750,10 +777,10 @@ const AboutSection = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "font-serif italic text-xl leading-relaxed opacity-90",
-                                                children: '"A verdadeira elegância está no que não se vê: a ausência de ruído, a ausência de erro."'
+                                                children: "\"La véritable élégance réside dans ce que l'on ne voit pas : l'absence de bruit, l'absence d'erreur.\""
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 78,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -763,7 +790,7 @@ const AboutSection = ()=>{
                                                         className: "h-[1px] w-12 bg-swiss-red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 82,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -771,54 +798,54 @@ const AboutSection = ()=>{
                                                         children: "CEO, Confœderatio"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 83,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                lineNumber: 54,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-12 right-12 w-full h-full border border-swiss-navy/10 -z-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                lineNumber: 86,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/sections/AboutSection.tsx",
-            lineNumber: 9,
+            lineNumber: 10,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/sections/AboutSection.tsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

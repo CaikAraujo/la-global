@@ -13,33 +13,33 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
 
           <div className="md:col-span-2">
-            <h2 className="font-serif text-3xl mb-8">Solicitar Atendimento</h2>
+            <h2 className="font-serif text-3xl mb-8">Demander une Consultation</h2>
             <p className="text-white/60 font-light mb-8 max-w-md leading-relaxed">
-              Para discutir as suas necessidades logísticas com discrição absoluta, entre em contato com nossa equipe. Projetos complexos são nossa especialidade.
+              Pour discuter de vos besoins logistiques en toute discrétion, contactez notre équipe. Les projets complexes sont notre spécialité.
             </p>
             <Link href="/contact">
               <button className="bg-white text-swiss-navy px-8 py-4 text-xs font-bold tracking-swiss uppercase hover:bg-swiss-red hover:text-white transition-colors duration-300">
-                Fale Conosco
+                Nous Contacter
               </button>
             </Link>
           </div>
 
           <div>
-            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Sede</h3>
+            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Siège Social</h3>
             <address className="text-white/80 font-light not-italic leading-7">
-              Bahnhofstrasse 44<br />
-              8001 Zürich<br />
+              Av. des Communes-Réunies 43<br />
+              1212 Lancy<br />
               Schweiz (Switzerland)<br />
               <br />
-              +41 44 215 40 00<br />
-              contact@confoederatio.ch
+              +41 22 535 6333<br />
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">contact@laglobal.ch</a>
             </address>
           </div>
 
           <div>
-            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Links Legais</h3>
+            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Mentions Légales</h3>
             <ul className="space-y-4">
-              {['Política de Privacidade', 'Termos de Serviço', 'Seguros & Garantias', 'Portal do Cliente'].map(link => (
+              {['Politique de Confidentialité', 'Conditions Générales', 'Assurances & Garanties', 'Portail Client'].map(link => (
                 <li key={link}>
                   <a href="#" className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">
                     {link}
@@ -52,10 +52,10 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/10 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/30 text-[10px] tracking-widest uppercase">
-            © {new Date().getFullYear()} L.A Global Corporation - Logistica Avançada. All rights reserved.
+            © {new Date().getFullYear()} L.A Global Corporation - Logistique Avancée. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-white/30">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">made swiss</span>
+            <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Swiss Made</span>
             <div className="w-2 h-2">
               <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const AboutSection: React.FC = () => {
   return (
@@ -19,20 +20,20 @@ const AboutSection: React.FC = () => {
             >
               <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-6 block flex items-center gap-2">
                 <span className="w-8 h-[1px] bg-swiss-red"></span>
-                Institucional
+                Institutionnel
               </span>
               <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-swiss-navy leading-tight mb-8">
-                O Padrão <br />Suíço.
+                L'Excellence <br />Suisse.
               </h2>
               <p className="text-swiss-text font-light text-base leading-relaxed mb-6">
-                Não somos apenas uma empresa de mudanças; somos guardiões do seu patrimônio durante transições críticas. Nossa filosofia é baseada na estabilidade da Confederação Suíça: neutra, segura e inabalável.
+                Nous ne sommes pas seulement une entreprise de déménagement ; nous sommes les gardiens de votre patrimoine lors de transitions critiques. Notre philosophie repose sur la stabilité de la Confédération Suisse : neutre, sûre et inébranlable.
               </p>
               <p className="text-swiss-text font-light text-base leading-relaxed mb-10">
-                Desde 1924, servimos famílias reais, corporações Fortune 500 e museus internacionais com uma discrição que se tornou nossa marca registrada.
+                Depuis 1924, nous servons des familles royales, des entreprises Fortune 500 et des musées internationaux avec une discrétion qui est devenue notre marque de fabrique.
               </p>
 
               <ul className="space-y-4">
-                {['Certificação ISO 27001', 'Seguro Integral "All-Risk"', 'Equipe Multilíngue (EN, FR, DE, PT)'].map((item, i) => (
+                {['Certification ISO 27001', 'Assurance Intégrale "All-Risk"', 'Équipe Multilingue (EN, FR, DE, PT)'].map((item, i) => (
                   <motion.li
                     key={i}
                     initial={{ opacity: 0, x: -10 }}
@@ -56,12 +57,14 @@ const AboutSection: React.FC = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1, ease: "easeOut" }}
-              className="relative z-10"
+              className="relative z-10 h-[600px] w-full"
             >
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop"
                 alt="White glove service meeting"
-                className="w-full h-[600px] object-cover shadow-2xl filter sepia-[0.1]"
+                fill
+                className="object-cover shadow-2xl filter sepia-[0.1]"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
 
               {/* Decorative Quote Box */}
@@ -73,7 +76,7 @@ const AboutSection: React.FC = () => {
                 className="absolute -bottom-12 -left-12 bg-swiss-navy text-white p-12 max-w-sm shadow-xl hidden md:block"
               >
                 <p className="font-serif italic text-xl leading-relaxed opacity-90">
-                  "A verdadeira elegância está no que não se vê: a ausência de ruído, a ausência de erro."
+                  "La véritable élégance réside dans ce que l'on ne voit pas : l'absence de bruit, l'absence d'erreur."
                 </p>
                 <div className="mt-6 flex items-center gap-4">
                   <div className="h-[1px] w-12 bg-swiss-red" />

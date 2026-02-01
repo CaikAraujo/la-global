@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Hero: React.FC = () => {
   return (
@@ -15,10 +16,13 @@ const Hero: React.FC = () => {
           className="w-full h-full"
         >
           {/* Using a specific architectural/moody image */}
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop"
             alt="Swiss Corporate Office"
-            className="w-full h-full object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]"
+            fill
+            priority
+            className="object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]"
+            sizes="100vw"
           />
         </motion.div>
         {/* Overlay for text readability */}
@@ -32,10 +36,10 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-medium leading-[1.1] mb-8"
+          className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-medium leading-[1.1] mb-8"
         >
-          A Arte da Mudança <br />
-          <span className="italic font-normal opacity-90">com Precisão Suíça.</span>
+          L’art de la logistique <br />
+          <span className="italic font-normal opacity-90">au service de votre infrastructure</span>
         </motion.h1>
 
         <motion.p
@@ -44,8 +48,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1.5, delay: 0.8 }}
           className="text-white/80 font-light text-lg md:text-xl max-w-2xl mx-auto tracking-wide leading-relaxed"
         >
-          Logística global para corporações, residências de prestígio e belas artes.
-          Discrição absoluta.
+          Logistique avancée et résidences de prestige, avec un soin absolu pour votre entreprise.
         </motion.p>
       </div>
 
@@ -56,7 +59,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
       >
-        <span className="text-white/60 text-[10px] uppercase tracking-widest">Discover</span>
+        <span className="text-white/60 text-[10px] uppercase tracking-widest">Découvrir</span>
         <div className="w-[1px] h-12 bg-white/20 overflow-hidden relative">
           <motion.div
             className="w-full h-1/2 bg-white absolute top-0"

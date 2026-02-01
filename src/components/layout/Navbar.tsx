@@ -8,9 +8,9 @@ import type { NavLink } from '@/types';
 
 const links: NavLink[] = [
   { label: "Home", href: "/" },
-  { label: "Serviços", href: "/services" },
+  { label: "Services", href: "/services" },
   { label: "L'Excellence", href: "/about" },
-  { label: "Contato", href: "/contact" },
+  { label: "Contact", href: "/contact" },
 ] as const;
 
 const Navbar: React.FC = () => {
@@ -145,7 +145,7 @@ const Navbar: React.FC = () => {
             whileTap={{ scale: 0.98 }}
             className="px-8 py-3 text-xs font-semibold tracking-swiss uppercase border transition-all duration-500 ease-out border-[var(--nav-primary)] text-[var(--nav-primary)] hover:bg-[var(--nav-primary)] hover:text-[var(--nav-inverse)]"
           >
-            Fale Conosco
+            Nous Contacter
           </motion.button>
         </Link>
       </div>

@@ -48,7 +48,7 @@ const links = [
         href: "/"
     },
     {
-        label: "Serviços",
+        label: "Services",
         href: "/services"
     },
     {
@@ -56,7 +56,7 @@ const links = [
         href: "/about"
     },
     {
-        label: "Contato",
+        label: "Contact",
         href: "/contact"
     }
 ];
@@ -423,7 +423,7 @@ const Navbar = ()=>{
                             scale: 0.98
                         },
                         className: "px-8 py-3 text-xs font-semibold tracking-swiss uppercase border transition-all duration-500 ease-out border-[var(--nav-primary)] text-[var(--nav-primary)] hover:bg-[var(--nav-primary)] hover:text-[var(--nav-inverse)]",
-                        children: "Fale Conosco"
+                        children: "Nous Contacter"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
                         lineNumber: 143,

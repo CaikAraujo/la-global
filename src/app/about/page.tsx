@@ -1,11 +1,12 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function AboutPage() {
     const { scrollYProgress } = useScroll();
-    const yParallax = useTransform(scrollYProgress, [0, 1], [0, -100]);
+    const yParallax = useTransform(scrollYProgress, [0, 1], [0, -50]);
 
     return (
         <div className="bg-swiss-surface min-h-screen selection:bg-swiss-red selection:text-white">
@@ -14,12 +15,17 @@ export default function AboutPage() {
             <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
                 <motion.div
                     style={{ y: yParallax }}
-                    className="absolute inset-0 z-0"
+                    className="absolute inset-x-0 -top-[10%] h-[120%] z-0"
                 >
-                    <img
-                        src="https://images.unsplash.com/photo-1596395819057-d37c880f6398?q=80&w=2574&auto=format&fit=crop"
+
+
+                    <Image
+                        src="/excellence-hero.jpg"
                         alt="Grand Hotel Hallway Architecture"
-                        className="w-full h-[120%] object-cover filter grayscale brightness-[0.7] contrast-[1.1]"
+                        fill
+                        priority
+                        className="object-cover brightness-[0.9]"
+                        sizes="100vw"
                     />
                     <div className="absolute inset-0 bg-swiss-navy/30 mix-blend-multiply" />
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-swiss-surface" />
@@ -34,10 +40,10 @@ export default function AboutPage() {
                     >
                         <span className="w-[1px] h-24 bg-white/30 mb-8 block"></span>
                         <h1 className="font-serif text-6xl md:text-8xl mb-6 tracking-tight">
-                            A Grande <br /> Migração.
+                            La Grande <br /> Migration.
                         </h1>
                         <p className="text-xl md:text-2xl font-light text-white/80 tracking-wide max-w-2xl leading-relaxed">
-                            Da Era de Ouro da hotelaria à logística corporativa moderna. Um legado de servir quem exige o impecável.
+                            De l'Âge d'Or de l'hôtellerie à la logistique d'entreprise moderne. Un héritage au service de ceux qui exigent l'impeccable.
                         </p>
                     </motion.div>
                 </div>
@@ -52,19 +58,19 @@ export default function AboutPage() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-6 block">Capítulo I &mdash; 1924</span>
+                        <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-6 block">Chapitre I &mdash; 1924</span>
                         <h2 className="font-serif text-5xl md:text-6xl text-swiss-navy leading-[1.1] mb-12">
-                            A Estação de <br /> Inverno.
+                            La Saison <br /> d'Hiver.
                         </h2>
                         <div className="space-y-8 text-swiss-text text-lg font-light leading-relaxed text-justify">
                             <p>
-                                No auge dos anos 20, as famílias mais proeminentes da Europa não viajavam leve. Elas se mudavam. Entre a temporada de ópera em Viena e o inverno em St. Moritz, casas inteiras eram transportadas: prataria, guarda-roupas de alta costura, e até mobiliário específico.
+                                À l'apogée des années 20, les familles les plus éminentes d'Europe ne voyageaient pas léger. Elles déménageaient. Entre la saison de l'opéra à Vienne et l'hiver à St. Moritz, des maisons entières étaient transportées : argenterie, garde-robes de haute couture, et même du mobilier spécifique.
                             </p>
                             <p>
-                                A <strong>Confœderatio Logistica</strong> nasceu dentro desse ecossistema. Fundada por ex-gerentes de logística dos lendários "Palace Hotels" suíços, nossa missão original era garantir que, quando um hóspede chegasse à sua suíte de inverno, seus pertences pessoais já estivessem lá — dispostos exatamente como em sua residência de verão.
+                                La <strong>Confœderatio Logistica</strong> est née au sein de cet écosystème. Fondée par d'anciens responsables logistiques des légendaires "Palace Hôtels" suisses, notre mission originale était de garantir que, lorsqu'un hôte arrivait dans sa suite d'hiver, ses effets personnels soient déjà là — disposés exactement comme dans sa résidence d'été.
                             </p>
                             <p className="border-l-2 border-swiss-navy/20 pl-6 italic text-swiss-dark">
-                                "Não movíamos apenas malas. Movíamos a familiaridade. O luxo não é o objeto, mas a sensação de estar em casa, instantaneamente."
+                                "Nous ne déplacions pas seulement des valises. Nous déplacions la familiarité. Le luxe n'est pas l'objet, mais la sensation d'être chez soi, instantanément."
                             </p>
                         </div>
                     </motion.div>
@@ -76,14 +82,16 @@ export default function AboutPage() {
                         transition={{ duration: 1, delay: 0.2 }}
                         className="relative mt-12 lg:mt-0"
                     >
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80"
                             alt="Vintage Train Station Luggage"
-                            className="w-full aspect-[4/5] object-cover grayscale sepia-[0.1]"
+                            fill
+                            className="object-cover grayscale sepia-[0.1]"
+                            sizes="(max-width: 1024px) 100vw, 50vw"
                         />
                         <div className="absolute bottom-8 -left-8 bg-white p-6 max-w-xs shadow-xl border border-swiss-navy/10 z-20 hidden md:block">
                             <p className="text-xs font-serif text-swiss-navy leading-relaxed">
-                                Fig 1.0: Desembarque de itens pessoais da realeza na estação de Gstaad (c. 1928).
+                                Fig 1.0 : Débarquement des effets personnels royaux à la gare de Gstaad (c. 1928).
                             </p>
                         </div>
                     </motion.div>
@@ -100,19 +108,19 @@ export default function AboutPage() {
                         className="text-center mb-24"
                     >
                         <span className="border border-white/20 px-4 py-2 text-[10px] tracking-[0.3em] uppercase rounded-full backdrop-blur-md">
-                            Metodologia Proprietária
+                            Méthodologie Propriétaire
                         </span>
-                        <h2 className="font-serif text-5xl md:text-7xl mt-12 mb-6">O Protocolo Vontobel</h2>
+                        <h2 className="font-serif text-5xl md:text-7xl mt-12 mb-6">Le Protocole Vontobel</h2>
                         <p className="text-white/60 max-w-2xl mx-auto text-lg font-light">
-                            Adaptamos a precisão da hospitalidade de luxo para a complexidade da logística moderna.
+                            Nous adaptons la précision de l'hôtellerie de luxe à la complexité de la logistique moderne.
                         </p>
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         {[
-                            { title: "Mapeamento Visual", desc: "Antes de tocar em um item, fotografamos e mapeamos o layout original. Cada livro, cada caneta retorna ao seu lugar exato." },
-                            { title: "Cadeia de Custódia", desc: "Inspirados na diplomacia, nossos processos garantem que a responsabilidade nunca seja transferida a terceiros. Controle absoluto." },
-                            { title: "Silêncio Operacional", desc: "Nossas equipes treinam para operar em ambientes ocupados sem causar ruído ou distração. Somos invisíveis." }
+                            { title: "Cartographie Visuelle", desc: "Avant de toucher un objet, nous photographions et cartographions la disposition originale. Chaque livre, chaque stylo retrouve sa place exacte." },
+                            { title: "Chaîne de Responsabilité", desc: "Inspirés par la diplomatie, nos processus garantissent que la responsabilité n'est jamais transférée à des tiers. Contrôle absolu." },
+                            { title: "Silence Opérationnel", desc: "Nos équipes sont formées pour opérer dans des environnements occupés sans causer de bruit ou de distraction. Nous sommes invisibles." }
                         ].map((item, i) => (
                             <motion.div
                                 key={i}
@@ -135,21 +143,21 @@ export default function AboutPage() {
                 <div className="max-w-[1800px] mx-auto px-6 md:px-12">
                     <div className="flex flex-col md:flex-row gap-16 items-end mb-24">
                         <div className="md:w-1/2">
-                            <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-4 block">Liderança</span>
-                            <h2 className="font-serif text-5xl text-swiss-navy">Mestres da<br />Coordenação.</h2>
+                            <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-4 block">Leadership</span>
+                            <h2 className="font-serif text-5xl text-swiss-navy">Maîtres de la<br />Coordination.</h2>
                         </div>
                         <div className="md:w-1/2">
                             <p className="text-swiss-text font-light text-lg leading-relaxed">
-                                Nossa diretoria mantém vivo o espírito dos fundadores. Combinamos a disciplina da engenharia suíça com a sensibilidade cultural necessária para lidar com artefatos históricos e sedes corporativas.
+                                Notre direction maintient vivant l'esprit des fondateurs. Nous combinons la discipline de l'ingénierie suisse avec la sensibilité culturelle nécessaire pour traiter des artefacts historiques et des sièges sociaux.
                             </p>
                         </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
-                            { role: "Diretor de Operações", desc: "20 anos de experiência em logística de feiras de arte internacionais.", bg: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop" },
-                            { role: "Curadora de Fine Art", desc: "Especialista em conservação preventiva e embalagens climatizadas.", bg: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop" },
-                            { role: "Gerente de Frota", desc: "Engenheiro mecânico focado em transporte de precisão sem vibração.", bg: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop" }
+                            { role: "Directeur des Opérations", desc: "20 ans d'expérience dans la logistique de foires d'art internationales.", bg: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop" },
+                            { role: "Conservatrice des Beaux-Arts", desc: "Spécialiste en conservation préventive et emballages climatisés.", bg: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop" },
+                            { role: "Gestionnaire de Flotte", desc: "Ingénieur mécanique concentré sur le transport de précision sans vibration.", bg: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop" }
                         ].map((member, i) => (
                             <motion.div
                                 key={i}
@@ -158,7 +166,13 @@ export default function AboutPage() {
                                 whileInView={{ opacity: 1 }}
                                 transition={{ delay: i * 0.1 }}
                             >
-                                <img src={member.bg} alt={member.role} className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" />
+                                <Image
+                                    src={member.bg}
+                                    alt={member.role}
+                                    fill
+                                    className="object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                />
                                 <div className="absolute inset-0 bg-gradient-to-t from-swiss-navy/90 via-swiss-navy/20 to-transparent opacity-90 transition-opacity duration-500" />
                                 <div className="absolute bottom-0 left-0 right-0 p-8">
                                     <p className="text-white text-lg font-serif mb-2">{member.role}</p>

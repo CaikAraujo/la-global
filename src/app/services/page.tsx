@@ -2,54 +2,55 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const detailedServices = [
     {
         id: 'corporate',
-        title: 'Corporate Relocation',
-        subtitle: 'Continuidade de Negócios',
-        description: 'Transferência de sedes globais com foco absoluto na manutenção da produtividade. Nossa equipe técnica desmonta, transporta e remonta infraestruturas complexas de TI e escritórios executivos, garantindo que sua equipe comece a trabalhar no novo endereço como se nunca tivesse saído.',
-        features: ['Gestão de Risco ISO 31000', 'Logística de Servidores Críticos', 'Descarte Certificado de Ativos', 'Layout Operacional "Turn-key"'],
+        title: 'Relocalisation d\'Entreprise',
+        subtitle: 'Continuité des Affaires',
+        description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
+        features: ['Gestion des Risques ISO 31000', 'Logistique de Serveurs Critiques', 'Élimination Certifiée d\'Actifs', 'Mise en Place Opérationnelle "Clé en Main"'],
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'private',
-        title: 'Private Estate Logistics',
-        subtitle: 'Residências & Propriedades',
-        description: 'Herdeiros da tradição da "Grand Hotelaria", tratamos sua mudança como a migração de um estilo de vida. Gerenciamos inventários complexos de múltiplas propriedades, adegas e bibliotecas. Não apenas transportamos caixas; recriamos a atmosfera do seu lar no destino final.',
-        features: ['Embalagem de Alta Costura', 'Transporte de Veículos de Coleção', 'Catalogação de Bibliotecas', 'Design de Interiores Temporário'],
+        title: 'Logistique de Résidence Privée',
+        subtitle: 'Résidences & Propriétés',
+        description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
+        features: ['Emballage Haute Couture', 'Transport de Véhicules de Collection', 'Catalogage de Bibliothèques', 'Design d\'Intérieur Temporaire'],
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
         id: 'art',
-        title: 'Fine Art & Antiques',
-        subtitle: 'Padrão Museológico',
-        description: 'A divisão especializada em objetos insubstituíveis. Nossa equipe de art handlers certificados utiliza técnicas de conservação preventiva. Construímos caixas (crates) personalizadas com controle de umidade e choque para cada peça, garantindo que esculturas, telas e antiguidades viagem em ambiente estável.',
-        features: ['Caixas Climatizadas (ISPM 15)', 'Trâmites Aduaneiros CITES', 'Instalação Especializada', 'Seguro "Prego-a-Prego"'],
+        title: 'Beaux-Arts & Antiquités',
+        subtitle: 'Standard Muséal',
+        description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
+        features: ['Caisses Climatisées (ISPM 15)', 'Formalités Douanières CITES', 'Installation Spécialisée', 'Assurance "Clou à Clou"'],
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
-        id: 'diplomatic',
-        title: 'Diplomatic Services',
-        subtitle: 'Protocolo & Segurança',
-        description: 'Logística de alta precisão para missões diplomáticas e governamentais. Entendemos as nuances do protocolo internacional e a necessidade absoluta de confidencialidade. Nossas operações são coordenadas com equipes de segurança para garantir a integridade de documentos e ativos sensíveis.',
-        features: ['Transporte em Comboio Seguro', 'Liberação Aduaneira Diplomática', 'Equipe Vetted & Cleared', 'Rotas Confidenciais'],
-        image: '/images/diplomatic-convoy.png'
+        id: 'cleaning',
+        title: 'Service de Nettoyage de Bureaux',
+        subtitle: 'Hygiène et Confort',
+        description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
+        features: ['Nettoyage Certifié', 'Équipe Discrète', 'Produits Écologiques', 'Horaires Flexibles'],
+        image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop'
     },
     {
         id: 'storage',
-        title: 'Secure Storage',
-        subtitle: 'Cofre & Proteção de Ativos',
-        description: 'Instalações de armazenamento de última geração em zonas francas estratégicas. Oferecemos ambientes com controle climático rigoroso (temperatura e umidade) para preservação de obras de arte, vinhos raros e metais preciosos, com a vantagem de suspensão temporária de impostos.',
-        features: ['Segurança Biométrica Nível 5', 'Controle Climático Redundante', 'Isenção Fiscal (Bonded Warehouse)', 'Salas de Visualização Privadas'],
+        title: 'Stockage Sécurisé',
+        subtitle: 'Coffre-fort & Protection d\'Actifs',
+        description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
+        features: ['Sécurité Biométrique Niveau 5', 'Contrôle Climatique Redondant', 'Exonération Fiscale (Entrepôt Douanier)', 'Salons de Visionnage Privés'],
         image: '/images/secure-storage.png'
     },
     {
         id: 'events',
-        title: 'Event Logistics',
-        subtitle: 'Coordenação & Precisão',
-        description: 'A espinha dorsal invisível de eventos de prestígio. Gerenciamos a logística complexa de galas, exposições e lançamentos de produtos. Sincronizamos o transporte, a montagem e a desmontagem de estruturas, garantindo que o palco esteja pronto no momento exato, sem falhas.',
-        features: ['Logística "Just-in-Time"', 'Manuseio de Equipamento Sensível', 'Equipes de Montagem 24/7', 'Gestão de Carnet ATA'],
+        title: 'Montage de Stands pour Foires et Événements',
+        subtitle: 'Coordination & Précision',
+        description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
+        features: ['Logistique "Juste-à-Temps"', 'Manipulation d\'Équipement Sensible', 'Équipes de Montage 24/7', 'Gestion de Carnet ATA'],
         image: '/images/event-logistics.png'
     }
 ];
@@ -65,9 +66,9 @@ export default function ServicesPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <h1 className="font-serif text-5xl md:text-7xl text-swiss-navy mb-8">Nossas Divisões</h1>
+                    <h1 className="font-serif text-5xl md:text-7xl text-swiss-navy mb-8">Nos Divisions</h1>
                     <p className="text-swiss-text font-light text-xl max-w-2xl leading-relaxed border-l-2 border-swiss-red pl-6">
-                        Excelência operacional adaptada às necessidades únicas de corporações globais e grandes propriedades privadas.
+                        Excellence opérationnelle adaptée aux besoins uniques des entreprises mondiales et des grandes propriétés privées.
                     </p>
                 </motion.div>
             </section>
@@ -86,10 +87,12 @@ export default function ServicesPage() {
                         {/* Imagem */}
                         <div className="w-full lg:w-1/2 aspect-[4/3] overflow-hidden relative group">
                             <div className="absolute inset-0 bg-swiss-navy/10 z-10 transition-opacity duration-700 group-hover:opacity-0" />
-                            <img
+                            <Image
                                 src={service.image}
                                 alt={service.title}
-                                className="w-full h-full object-cover filter grayscale transition-all duration-1000 ease-out group-hover:grayscale-0 group-hover:scale-105"
+                                fill
+                                className="object-cover filter grayscale transition-all duration-1000 ease-out group-hover:grayscale-0 group-hover:scale-105"
+                                sizes="(max-width: 1024px) 100vw, 50vw"
                             />
                         </div>
 

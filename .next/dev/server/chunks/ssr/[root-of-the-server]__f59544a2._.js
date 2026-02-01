@@ -126,7 +126,7 @@ const Footer = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "font-serif text-3xl mb-8",
-                                        children: "Solicitar Atendimento"
+                                        children: "Demander une Consultation"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 16,
@@ -134,7 +134,7 @@ const Footer = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-white/60 font-light mb-8 max-w-md leading-relaxed",
-                                        children: "Para discutir as suas necessidades logísticas com discrição absoluta, entre em contato com nossa equipe. Projetos complexos são nossa especialidade."
+                                        children: "Pour discuter de vos besoins logistiques en toute discrétion, contactez notre équipe. Les projets complexes sont notre spécialité."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 17,
@@ -144,7 +144,7 @@ const Footer = ()=>{
                                         href: "/contact",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "bg-white text-swiss-navy px-8 py-4 text-xs font-bold tracking-swiss uppercase hover:bg-swiss-red hover:text-white transition-colors duration-300",
-                                            children: "Fale Conosco"
+                                            children: "Nous Contacter"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layout/Footer.tsx",
                                             lineNumber: 21,
@@ -165,7 +165,7 @@ const Footer = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-xs font-bold tracking-widest uppercase mb-6 text-white/40",
-                                        children: "Sede"
+                                        children: "Siège Social"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 28,
@@ -174,17 +174,17 @@ const Footer = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("address", {
                                         className: "text-white/80 font-light not-italic leading-7",
                                         children: [
-                                            "Bahnhofstrasse 44",
+                                            "Av. des Communes-Réunies 43",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Footer.tsx",
                                                 lineNumber: 30,
-                                                columnNumber: 32
+                                                columnNumber: 42
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            "8001 Zürich",
+                                            "1212 Lancy",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Footer.tsx",
                                                 lineNumber: 31,
-                                                columnNumber: 26
+                                                columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             "Schweiz (Switzerland)",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -197,13 +197,23 @@ const Footer = ()=>{
                                                 lineNumber: 33,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            "+41 44 215 40 00",
+                                            "+41 22 535 6333",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/components/layout/Footer.tsx",
                                                 lineNumber: 34,
-                                                columnNumber: 31
+                                                columnNumber: 30
                                             }, ("TURBOPACK compile-time value", void 0)),
-                                            "contact@confoederatio.ch"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                className: "hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1",
+                                                children: "contact@laglobal.ch"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 35,
+                                                columnNumber: 15
+                                            }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
@@ -220,7 +230,7 @@ const Footer = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-xs font-bold tracking-widest uppercase mb-6 text-white/40",
-                                        children: "Links Legais"
+                                        children: "Mentions Légales"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 40,
@@ -229,10 +239,10 @@ const Footer = ()=>{
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                         className: "space-y-4",
                                         children: [
-                                            'Política de Privacidade',
-                                            'Termos de Serviço',
-                                            'Seguros & Garantias',
-                                            'Portal do Cliente'
+                                            'Politique de Confidentialité',
+                                            'Conditions Générales',
+                                            'Assurances & Garanties',
+                                            'Portail Client'
                                         ].map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                     href: "#",
@@ -273,7 +283,7 @@ const Footer = ()=>{
                                 children: [
                                     "© ",
                                     new Date().getFullYear(),
-                                    " L.A Global Corporation - Logistica Avançada. All rights reserved."
+                                    " L.A Global Corporation - Logistique Avancée. All rights reserved."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/layout/Footer.tsx",
@@ -285,7 +295,7 @@ const Footer = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default",
-                                        children: "made swiss"
+                                        children: "Swiss Made"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 58,

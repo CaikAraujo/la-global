@@ -7,10 +7,10 @@ const partners: string[] = [
   "Private Banking Group",
   "Geneva Artport",
   "Swiss Insurance Global",
-  "International Movers Assoc.",
+  "Assoc. Internationale des Déménageurs",
   "Basel Art Fair",
   "Zürich Airport VIP",
-  "Federation of Logistics",
+  "Fédération de Logistique",
 ];
 
 const TrustMarquee: React.FC = () => {
