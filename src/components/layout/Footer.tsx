@@ -28,8 +28,8 @@ const Footer: React.FC = () => {
             <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Siège Social</h3>
             <address className="text-white/80 font-light not-italic leading-7">
               Av. des Communes-Réunies 43<br />
-              1212 Lancy<br />
-              Schweiz (Switzerland)<br />
+              Grand-Lancy 1212<br />
+              Switzerland<br />
               <br />
               +41 22 535 6333<br />
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">contact@laglobal.ch</a>
