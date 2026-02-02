@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             alt="Swiss Corporate Office"
             fill
             priority
-            className="object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]"
+            className="object-cover filter brightness-[0.7] saturate-[1.1] contrast-[1.1]"
             sizes="100vw"
           />
         </motion.div>

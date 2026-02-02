@@ -39,7 +39,7 @@ const Hero = ()=>{
                             alt: "Swiss Corporate Office",
                             fill: true,
                             priority: true,
-                            className: "object-cover filter brightness-[0.6] saturate-50 contrast-[1.1]",
+                            className: "object-cover filter brightness-[0.7] saturate-[1.1] contrast-[1.1]",
                             sizes: "100vw"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Hero.tsx",
@@ -216,13 +216,15 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
 const services = [
     {
-        id: 'corp',
+        id: 'corporate',
         title: 'Relocalisation d\'Entreprise',
         subtitle: 'Continuité des Affaires',
         description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
@@ -243,11 +245,11 @@ const services = [
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
-        id: 'diplomatic',
-        title: 'Service de Nettoyage de Bureaux',
+        id: 'cleaning',
+        title: 'Service de Bureaux',
         subtitle: 'Hygiène et Confort',
         description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
-        image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop'
+        image: '/images/cleaning-service.jpg'
     },
     {
         id: 'storage',
@@ -273,14 +275,14 @@ const Services = ()=>{
                 className: "absolute left-12 top-0 bottom-0 w-[1px] bg-swiss-navy/5 hidden lg:block"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute right-12 top-0 bottom-0 w-[1px] bg-swiss-navy/5 hidden lg:block"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 58,
+                lineNumber: 59,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -310,7 +312,7 @@ const Services = ()=>{
                                         children: "Expertise"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -318,13 +320,13 @@ const Services = ()=>{
                                         children: "Services Spécialisés"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -332,135 +334,142 @@ const Services = ()=>{
                                 children: "Nous portons votre opération à un nouveau niveau d’excellence, en soignant chaque détail pour des résultats sophistiqués et performants."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/Services.tsx",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-8",
-                        children: services.map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                initial: {
-                                    opacity: 0,
-                                    y: 30
-                                },
-                                whileInView: {
-                                    opacity: 1,
-                                    y: 0
-                                },
-                                viewport: {
-                                    once: true
-                                },
-                                transition: {
-                                    duration: 0.8,
-                                    delay: index * 0.2
-                                },
-                                className: "group cursor-pointer",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "overflow-hidden relative aspect-[2/1] mb-4 bg-swiss-navy/5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                                whileHover: {
-                                                    scale: 1.05
-                                                },
-                                                transition: {
-                                                    duration: 1.2,
-                                                    ease: [
-                                                        0.25,
-                                                        1,
-                                                        0.5,
-                                                        1
-                                                    ]
-                                                },
-                                                className: "w-full h-full",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: service.image,
-                                                    alt: service.title,
-                                                    fill: true,
-                                                    className: "object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0",
-                                                    sizes: "(max-width: 1024px) 100vw, 33vw"
+                        children: services.map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/services#${service.id}`,
+                                className: "block group cursor-pointer",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        y: 30
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true
+                                    },
+                                    transition: {
+                                        duration: 0.8,
+                                        delay: index * 0.2
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "overflow-hidden relative aspect-[2/1] mb-4 bg-swiss-navy/5",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                                    whileHover: {
+                                                        scale: 1.05
+                                                    },
+                                                    transition: {
+                                                        duration: 1.2,
+                                                        ease: [
+                                                            0.25,
+                                                            1,
+                                                            0.5,
+                                                            1
+                                                        ]
+                                                    },
+                                                    className: "w-full h-full",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: service.image,
+                                                        alt: service.title,
+                                                        fill: true,
+                                                        className: "object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0",
+                                                        sizes: "(max-width: 1024px) 100vw, 33vw"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/sections/Services.tsx",
+                                                        lineNumber: 93,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/Services.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 88,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 border border-swiss-navy/0 transition-colors duration-700 group-hover:border-swiss-navy/20 pointer-events-none"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                                    lineNumber: 101,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 88,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 border border-swiss-navy/0 transition-colors duration-700 group-hover:border-swiss-navy/20 pointer-events-none"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 101,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 87,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "pr-8",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-[10px] tracking-widest uppercase text-swiss-text/50 mb-2 block group-hover:text-swiss-red transition-colors duration-500",
-                                                children: service.subtitle
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 105,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "font-serif text-2xl text-swiss-dark mb-4 group-hover:translate-x-2 transition-transform duration-500 ease-out",
-                                                children: service.title
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 108,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-swiss-text/70 font-light text-sm leading-7 border-l border-swiss-navy/10 pl-4 group-hover:border-swiss-navy/40 transition-colors duration-500",
-                                                children: service.description
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/sections/Services.tsx",
-                                                lineNumber: 111,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/sections/Services.tsx",
-                                        lineNumber: 104,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, service.id, true, {
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/sections/Services.tsx",
+                                            lineNumber: 87,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "pr-8",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-[10px] tracking-widest uppercase text-swiss-text/50 mb-2 block group-hover:text-swiss-red transition-colors duration-500",
+                                                    children: service.subtitle
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                                    lineNumber: 105,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "font-serif text-2xl text-swiss-dark mb-4 group-hover:translate-x-2 transition-transform duration-500 ease-out",
+                                                    children: service.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                                    lineNumber: 108,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-swiss-text/70 font-light text-sm leading-7 border-l border-swiss-navy/10 pl-4 group-hover:border-swiss-navy/40 transition-colors duration-500",
+                                                    children: service.description
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                                    lineNumber: 111,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/sections/Services.tsx",
+                                            lineNumber: 104,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                    lineNumber: 81,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, service.id, false, {
                                 fileName: "[project]/src/components/sections/Services.tsx",
-                                lineNumber: 79,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Services.tsx",
-                        lineNumber: 77,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/Services.tsx",
-                lineNumber: 60,
+                lineNumber: 61,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/Services.tsx",
-        lineNumber: 55,
+        lineNumber: 56,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -485,13 +494,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$mo
 ;
 ;
 const partners = [
-    "Private Banking Group",
-    "Geneva Artport",
-    "Swiss Insurance Global",
-    "Assoc. Internationale des Déménageurs",
-    "Basel Art Fair",
-    "Zürich Airport VIP",
-    "Fédération de Logistique"
+    "Alinghi Red Bull Racing",
+    "Sitag",
+    "ECA",
+    "Côté Magazine",
+    "Compass Financial",
+    "Kassoe",
+    "Itten+Brechbühl SA",
+    "Gelog"
 ];
 const TrustMarquee = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -521,12 +531,12 @@ const TrustMarquee = ()=>{
                                     className: "w-2 h-2 bg-swiss-navy/30 rounded-full"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 34,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                lineNumber: 32,
+                                lineNumber: 33,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -534,28 +544,28 @@ const TrustMarquee = ()=>{
                                 children: partner
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                                lineNumber: 35,
+                                lineNumber: 36,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, i, true, {
                         fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/sections/TrustMarquee.tsx",
-        lineNumber: 18,
+        lineNumber: 19,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -626,15 +636,15 @@ const AboutSection = ()=>{
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "font-serif text-3xl md:text-4xl lg:text-5xl text-swiss-navy leading-tight mb-8",
+                                    className: "font-serif text-xl md:text-2xl lg:text-3xl text-swiss-navy leading-tight mb-8",
                                     children: [
-                                        "Bem-vindo à LA GLOBAL ",
+                                        "Bienvenue chez LA GLOBAL ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/sections/AboutSection.tsx",
                                             lineNumber: 26,
-                                            columnNumber: 39
+                                            columnNumber: 42
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        "sua parceira em soluções"
+                                        "votre partenaire en solutions"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
@@ -643,7 +653,7 @@ const AboutSection = ()=>{
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-swiss-text font-light text-base leading-relaxed mb-10",
-                                    children: "Pensar no futuro é parte essencial da nossa filosofia. Acreditamos que inovação, qualidade e responsabilidade caminham juntas para gerar valor real e duradouro aos nossos clientes. Atuamos com uma visão de longo prazo, desenvolvendo soluções reais a necessidade do nossos clientes."
+                                    children: "Penser à l'avenir est une partie essentielle de notre philosophie. Nous croyons que l'innovation, la qualité et la responsabilité vont de pair pour générer une valeur réelle et durable pour nos clients. Nous agissons avec une vision à long terme, en développant des solutions réelles aux besoins de nos clients."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/AboutSection.tsx",
                                     lineNumber: 28,
@@ -755,7 +765,7 @@ const AboutSection = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "font-serif italic text-base leading-relaxed opacity-90",
-                                                children: '"Como prestadores de serviços, nosso compromisso é compreender profundamente suas necessidades e oferecer soluções completas, personalizadas e confiáveis. Para isso, trabalhamos com tecnologias reconhecidas, processos bem definidos e um alto padrão de execução, garantindo resultados consistentes hoje — e preparados para o amanhã.”"'
+                                                children: "\"En tant que prestataires de services, notre engagement est de comprendre profondément vos besoins et d'offrir des solutions complètes, personnalisées et fiables. Pour cela, nous travaillons avec des technologies reconnues, des processus bien définis et un haut standard d'exécution, garantissant des résultats constants aujourd'hui — et préparés pour demain.\""
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
                                                 lineNumber: 75,
@@ -773,7 +783,7 @@ const AboutSection = ()=>{
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-[10px] uppercase tracking-widest",
-                                                        children: "Anderson Dias - Fundador"
+                                                        children: "Anderson Dias - Fondateur"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
                                                         lineNumber: 80,

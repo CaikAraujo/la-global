@@ -22,11 +22,11 @@ const AboutSection: React.FC = () => {
                 <span className="w-8 h-[1px] bg-swiss-red"></span>
                 Institutionnel
               </span>
-              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-swiss-navy leading-tight mb-8">
-                Bem-vindo à LA GLOBAL <br />sua parceira em soluções
+              <h2 className="font-serif text-xl md:text-2xl lg:text-3xl text-swiss-navy leading-tight mb-8">
+                Bienvenue chez LA GLOBAL <br />votre partenaire en solutions
               </h2>
               <p className="text-swiss-text font-light text-base leading-relaxed mb-10">
-                Pensar no futuro é parte essencial da nossa filosofia. Acreditamos que inovação, qualidade e responsabilidade caminham juntas para gerar valor real e duradouro aos nossos clientes. Atuamos com uma visão de longo prazo, desenvolvendo soluções reais a necessidade do nossos clientes.
+                Penser à l'avenir est une partie essentielle de notre philosophie. Nous croyons que l'innovation, la qualité et la responsabilité vont de pair pour générer une valeur réelle et durable pour nos clients. Nous agissons avec une vision à long terme, en développant des solutions réelles aux besoins de nos clients.
               </p>
 
               <ul className="space-y-4">
@@ -73,11 +73,11 @@ const AboutSection: React.FC = () => {
                 className="absolute -bottom-12 -left-12 bg-swiss-navy text-white p-10 max-w-md shadow-xl hidden md:block"
               >
                 <p className="font-serif italic text-base leading-relaxed opacity-90">
-                  "Como prestadores de serviços, nosso compromisso é compreender profundamente suas necessidades e oferecer soluções completas, personalizadas e confiáveis. Para isso, trabalhamos com tecnologias reconhecidas, processos bem definidos e um alto padrão de execução, garantindo resultados consistentes hoje — e preparados para o amanhã.”"
+                  "En tant que prestataires de services, notre engagement est de comprendre profondément vos besoins et d'offrir des solutions complètes, personnalisées et fiables. Pour cela, nous travaillons avec des technologies reconnues, des processus bien définis et un haut standard d'exécution, garantissant des résultats constants aujourd'hui — et préparés pour demain."
                 </p>
                 <div className="mt-6 flex items-center gap-4">
                   <div className="h-[1px] w-12 bg-swiss-red" />
-                  <span className="text-[10px] uppercase tracking-widest">Anderson Dias - Fundador</span>
+                  <span className="text-[10px] uppercase tracking-widest">Anderson Dias - Fondateur</span>
                 </div>
               </motion.div>
             </motion.div>

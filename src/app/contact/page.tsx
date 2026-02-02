@@ -7,6 +7,9 @@ const services = [
     "Relocalisation d'Entreprise",
     "Logistique de Résidence Privée",
     "Beaux-Arts & Antiquités",
+    "Service de Bureaux",
+    "Stockage Sécurisé",
+    "Montage de Stands pour Foires et Événements",
     "Autres"
 ];
 
@@ -98,7 +101,7 @@ export default function ContactPage() {
                         <div className="space-y-12 text-swiss-text">
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">Lancy HQ</h3>
-                                <p className="font-light text-xl">Av. des Communes-Réunies 43<br />Grand-Lancy 1212<br />Switzerland</p>
+                                <p className="font-light text-xl">Av. des Communes-Réunies 43<br />1212 Grand-Lancy<br />Suisse</p>
                             </div>
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">Contact Direct</h3>

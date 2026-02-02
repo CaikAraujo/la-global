@@ -31,11 +31,11 @@ const detailedServices = [
     },
     {
         id: 'cleaning',
-        title: 'Service de Nettoyage de Bureaux',
+        title: 'Service de Bureaux',
         subtitle: 'Hygiène et Confort',
         description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
         features: ['Nettoyage Certifié', 'Équipe Discrète', 'Produits Écologiques', 'Horaires Flexibles'],
-        image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop'
+        image: '/images/cleaning-service.jpg'
     },
     {
         id: 'storage',
@@ -78,10 +78,7 @@ export default function ServicesPage() {
                 {detailedServices.map((service, index) => (
                     <motion.div
                         key={service.id}
-                        initial={{ opacity: 0, y: 40 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true, margin: "-10%" }}
-                        transition={{ duration: 0.8 }}
+                        id={service.id}
                         className={`flex flex-col ${index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-16 items-center border-b border-swiss-navy/5 pb-16 last:border-0`}
                     >
                         {/* Imagem */}

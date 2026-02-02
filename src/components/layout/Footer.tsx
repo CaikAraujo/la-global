@@ -3,14 +3,17 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="bg-swiss-navy text-white pt-32 pb-12 relative overflow-hidden">
+    <footer id="contact" className="bg-swiss-navy text-white pt-16 pb-6 relative overflow-hidden">
       {/* Decorative Swiss Cross faint background */}
-      <div className="absolute -top-24 -right-24 text-white/[0.03] text-[400px] font-bold leading-none select-none pointer-events-none">
-        +
-      </div>
+      {/* Decorative Logo faint background */}
+      <img
+        src="/header-logo.svg"
+        alt=""
+        className="absolute -top-16 -right-16 w-[300px] h-[300px] opacity-[0.03] select-none pointer-events-none object-contain brightness-0 invert"
+      />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
 
           <div className="md:col-span-2">
             <h2 className="font-serif text-3xl mb-8">Demander une Consultation</h2>
@@ -28,8 +31,8 @@ const Footer: React.FC = () => {
             <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Siège Social</h3>
             <address className="text-white/80 font-light not-italic leading-7">
               Av. des Communes-Réunies 43<br />
-              Grand-Lancy 1212<br />
-              Switzerland<br />
+              1212 Grand-Lancy<br />
+              Suisse<br />
               <br />
               +41 22 535 6333<br />
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">contact@laglobal.ch</a>
@@ -50,12 +53,12 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="border-t border-white/10 pt-12 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/30 text-[10px] tracking-widest uppercase">
             © {new Date().getFullYear()} L.A Global Corporation - Logistique Avancée. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-white/30">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Swiss Made</span>
+            <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Made Suisse</span>
             <div className="w-2 h-2">
               <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />

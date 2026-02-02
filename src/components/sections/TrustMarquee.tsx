@@ -4,13 +4,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const partners: string[] = [
-  "Private Banking Group",
-  "Geneva Artport",
-  "Swiss Insurance Global",
-  "Assoc. Internationale des Déménageurs",
-  "Basel Art Fair",
-  "Zürich Airport VIP",
-  "Fédération de Logistique",
+  "Alinghi Red Bull Racing",
+  "Sitag",
+  "ECA",
+  "Côté Magazine",
+  "Compass Financial",
+  "Kassoe",
+  "Itten+Brechbühl SA",
+  "Gelog",
 ];
 
 const TrustMarquee: React.FC = () => {
