@@ -22,14 +22,11 @@ const AboutSection: React.FC = () => {
                 <span className="w-8 h-[1px] bg-swiss-red"></span>
                 Institutionnel
               </span>
-              <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-swiss-navy leading-tight mb-8">
-                L'Excellence <br />Suisse.
+              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-swiss-navy leading-tight mb-8">
+                Bem-vindo à LA GLOBAL <br />sua parceira em soluções
               </h2>
-              <p className="text-swiss-text font-light text-base leading-relaxed mb-6">
-                Nous ne sommes pas seulement une entreprise de déménagement ; nous sommes les gardiens de votre patrimoine lors de transitions critiques. Notre philosophie repose sur la stabilité de la Confédération Suisse : neutre, sûre et inébranlable.
-              </p>
               <p className="text-swiss-text font-light text-base leading-relaxed mb-10">
-                Depuis 1924, nous servons des familles royales, des entreprises Fortune 500 et des musées internationaux avec une discrétion qui est devenue notre marque de fabrique.
+                Pensar no futuro é parte essencial da nossa filosofia. Acreditamos que inovação, qualidade e responsabilidade caminham juntas para gerar valor real e duradouro aos nossos clientes. Atuamos com uma visão de longo prazo, desenvolvendo soluções reais a necessidade do nossos clientes.
               </p>
 
               <ul className="space-y-4">
@@ -60,7 +57,7 @@ const AboutSection: React.FC = () => {
               className="relative z-10 h-[600px] w-full"
             >
               <Image
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop"
+                src="/images/CEOs.jpeg"
                 alt="White glove service meeting"
                 fill
                 className="object-cover shadow-2xl filter sepia-[0.1]"
@@ -73,14 +70,14 @@ const AboutSection: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="absolute -bottom-12 -left-12 bg-swiss-navy text-white p-12 max-w-sm shadow-xl hidden md:block"
+                className="absolute -bottom-12 -left-12 bg-swiss-navy text-white p-10 max-w-md shadow-xl hidden md:block"
               >
-                <p className="font-serif italic text-xl leading-relaxed opacity-90">
-                  "La véritable élégance réside dans ce que l'on ne voit pas : l'absence de bruit, l'absence d'erreur."
+                <p className="font-serif italic text-base leading-relaxed opacity-90">
+                  "Como prestadores de serviços, nosso compromisso é compreender profundamente suas necessidades e oferecer soluções completas, personalizadas e confiáveis. Para isso, trabalhamos com tecnologias reconhecidas, processos bem definidos e um alto padrão de execução, garantindo resultados consistentes hoje — e preparados para o amanhã.”"
                 </p>
                 <div className="mt-6 flex items-center gap-4">
                   <div className="h-[1px] w-12 bg-swiss-red" />
-                  <span className="text-[10px] uppercase tracking-widest">CEO, Confœderatio</span>
+                  <span className="text-[10px] uppercase tracking-widest">Anderson Dias - Fundador</span>
                 </div>
               </motion.div>
             </motion.div>

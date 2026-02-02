@@ -70,9 +70,7 @@ const Services: React.FC = () => {
             <h2 className="font-serif text-4xl md:text-5xl text-swiss-navy">Services Spécialisés</h2>
           </div>
           <p className="text-swiss-text/70 max-w-md text-sm leading-relaxed mt-6 md:mt-0 text-right md:text-left">
-            Nous transformons la logistique en art pour votre opération. <br />
-            Nous prenons en charge tout — du stockage et montage de mobilier à la gestion des facilities, avec attention au nettoyage et à l’élimination confidentielle. <br />
-            Nous garantissons le cadre idéal pour que votre entreprise fonctionne avec excellence.
+            Nous portons votre opération à un nouveau niveau d’excellence, en soignant chaque détail pour des résultats sophistiqués et performants.
           </p>
         </motion.div>
 
