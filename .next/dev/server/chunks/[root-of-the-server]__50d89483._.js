@@ -119,7 +119,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$email$2f$preview$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Preview"], {
                 children: [
-                    "Novo contato de ",
+                    "Nouveau contact de ",
                     name,
                     " - Confœderatio Logistica"
                 ]
@@ -136,7 +136,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$email$2f$heading$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Heading"], {
                                 className: "text-black text-[24px] font-normal text-center p-0 my-[30px] mx-0",
-                                children: "Nova Solicitação de Contato"
+                                children: "Nouvelle Demande de Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/email/ContactEmail.tsx",
                                 lineNumber: 39,
@@ -146,7 +146,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Nome:"
+                                        children: "Nom :"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/email/ContactEmail.tsx",
                                         lineNumber: 43,
@@ -164,7 +164,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Empresa:"
+                                        children: "Entreprise :"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/email/ContactEmail.tsx",
                                         lineNumber: 46,
@@ -182,7 +182,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Email:"
+                                        children: "Email :"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/email/ContactEmail.tsx",
                                         lineNumber: 49,
@@ -200,7 +200,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Telefone:"
+                                        children: "Téléphone :"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/email/ContactEmail.tsx",
                                         lineNumber: 52,
@@ -218,7 +218,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Serviço de Interesse:"
+                                        children: "Service d'Intérêt :"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/email/ContactEmail.tsx",
                                         lineNumber: 55,
@@ -242,7 +242,7 @@ function ContactEmail({ name, company, email, phone, service, message }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$email$2f$text$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Text"], {
                                 className: "text-black text-[14px] leading-[24px]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    children: "Mensagem:"
+                                    children: "Message :"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/email/ContactEmail.tsx",
                                     lineNumber: 59,
@@ -296,20 +296,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f
 ;
 const contactSchema = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
     name: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(2, {
-        message: "Nome deve ter pelo menos 2 caracteres."
+        message: "Le nom doit comporter au moins 2 caractères."
     }),
     company: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().optional(),
     email: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().email({
-        message: "Email inválido."
+        message: "Adresse email invalide."
     }),
     phone: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(10, {
-        message: "Telefone deve ter pelo menos 10 caracteres."
+        message: "Le numéro de téléphone doit comporter au moins 10 caractères."
     }).optional().or(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].literal('')),
     service: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, {
-        message: "Selecione um serviço."
+        message: "Veuillez sélectionner un service."
     }),
     details: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v4$2f$classic$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(10, {
-        message: "Detalhes do projeto devem ter pelo menos 10 caracteres."
+        message: "Les détails du projet doivent comporter au moins 10 caractères."
     })
 });
 }),
@@ -348,9 +348,9 @@ async function POST(request) {
         // The frontend sends 'formData' which has 'details'.
         // So 'body' will have 'details'. We need to pass 'body.details' to ContactEmail 'message' prop.
         const data = await resend.emails.send({
-            from: 'Confœderatio Logistica <onboarding@resend.dev>',
+            from: 'Confœderatio Logistica <contact@laglobal.ch>',
             to: [
-                'contact@laglobal.ch'
+                'la.global.demenagement@gmail.com'
             ],
             subject: `Novo Contato: ${result.data.name} - ${result.data.service}`,
             react: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$email$2f$ContactEmail$2e$tsx__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"])({

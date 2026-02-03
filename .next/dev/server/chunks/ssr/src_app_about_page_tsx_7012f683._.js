@@ -473,12 +473,14 @@ function AboutPage() {
                                 {
                                     role: "Directeur des Opérations",
                                     desc: "20 ans d'expérience dans la logistique de foires d'art internationales.",
-                                    bg: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop"
+                                    bg: "/images/team/director_ops.jpg",
+                                    className: "object-cover object-top grayscale"
                                 },
                                 {
                                     role: "Conservatrice des Beaux-Arts",
                                     desc: "Spécialiste en conservation préventive et emballages climatisés.",
-                                    bg: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop"
+                                    bg: "/images/team/curator_arts.jpg",
+                                    className: "object-cover object-top grayscale"
                                 },
                                 {
                                     role: "Gestionnaire de Flotte",
@@ -486,7 +488,7 @@ function AboutPage() {
                                     bg: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop"
                                 }
                             ].map((member, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    className: "group relative aspect-[3/4] overflow-hidden",
+                                    className: "group relative aspect-[3/4] overflow-hidden bg-swiss-navy",
                                     initial: {
                                         opacity: 0
                                     },
@@ -501,7 +503,7 @@ function AboutPage() {
                                             src: member.bg,
                                             alt: member.role,
                                             fill: true,
-                                            className: "object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0",
+                                            className: `transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 ${member.className || "object-cover grayscale"}`,
                                             sizes: "(max-width: 768px) 100vw, 33vw"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",

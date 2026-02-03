@@ -23,7 +23,10 @@ const detailedServices = [
             'Gestion des Risques ISO 31000',
             'Logistique de Serveurs Critiques',
             'Élimination Certifiée d\'Actifs',
-            'Mise en Place Opérationnelle "Clé en Main"'
+            'Mise en Place Opérationnelle "Clé en Main"',
+            'Transport Spécialisé',
+            'Planification',
+            'Coordination du Déménagement'
         ],
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
@@ -36,7 +39,10 @@ const detailedServices = [
             'Emballage Haute Couture',
             'Transport de Véhicules de Collection',
             'Catalogage de Bibliothèques',
-            'Design d\'Intérieur Temporaire'
+            'Design d\'Intérieur Temporaire',
+            'Installation Personnalisée',
+            'Gestion d\'Œuvres d\'Art et Antiquités',
+            'Services Administratifs et Conciergerie'
         ],
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
@@ -49,7 +55,9 @@ const detailedServices = [
             'Caisses Climatisées (ISPM 15)',
             'Formalités Douanières CITES',
             'Installation Spécialisée',
-            'Assurance "Clou à Clou"'
+            'Assurance "Clou à Clou"',
+            'Transport de Véhicules de Collection',
+            'Emballage et Protection'
         ],
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
@@ -62,7 +70,9 @@ const detailedServices = [
             'Nettoyage Certifié',
             'Équipe Discrète',
             'Produits Écologiques',
-            'Horaires Flexibles'
+            'Horaires Flexibles',
+            'Personnel de Service',
+            'Gestion de Documents'
         ],
         image: '/images/cleaning-service.jpg'
     },
@@ -75,7 +85,9 @@ const detailedServices = [
             'Sécurité Biométrique Niveau 5',
             'Contrôle Climatique Redondant',
             'Exonération Fiscale (Entrepôt Douanier)',
-            'Salons de Visionnage Privés'
+            'Salons de Visionnage Privés',
+            'Contrôle Environnemental',
+            'Réception de Marchandises'
         ],
         image: '/images/secure-storage.png'
     },
@@ -88,7 +100,9 @@ const detailedServices = [
             'Logistique "Juste-à-Temps"',
             'Manipulation d\'Équipement Sensible',
             'Équipes de Montage 24/7',
-            'Gestion de Carnet ATA'
+            'Gestion de Carnet ATA',
+            'Audiovisuel et Multimédia',
+            'Habillage et Signalétique'
         ],
         image: '/images/event-logistics.png'
     }

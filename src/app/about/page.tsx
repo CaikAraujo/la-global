@@ -155,13 +155,13 @@ export default function AboutPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
-                            { role: "Directeur des Opérations", desc: "20 ans d'expérience dans la logistique de foires d'art internationales.", bg: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop" },
-                            { role: "Conservatrice des Beaux-Arts", desc: "Spécialiste en conservation préventive et emballages climatisés.", bg: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop" },
+                            { role: "Directeur des Opérations", desc: "20 ans d'expérience dans la logistique de foires d'art internationales.", bg: "/images/team/director_ops.jpg", className: "object-cover object-top grayscale" },
+                            { role: "Conservatrice des Beaux-Arts", desc: "Spécialiste en conservation préventive et emballages climatisés.", bg: "/images/team/curator_arts.jpg", className: "object-cover object-top grayscale" },
                             { role: "Gestionnaire de Flotte", desc: "Ingénieur mécanique concentré sur le transport de précision sans vibration.", bg: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop" }
                         ].map((member, i) => (
                             <motion.div
                                 key={i}
-                                className="group relative aspect-[3/4] overflow-hidden"
+                                className="group relative aspect-[3/4] overflow-hidden bg-swiss-navy"
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ delay: i * 0.1 }}
@@ -170,7 +170,7 @@ export default function AboutPage() {
                                     src={member.bg}
                                     alt={member.role}
                                     fill
-                                    className="object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0"
+                                    className={`transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 ${member.className || "object-cover grayscale"}`}
                                     sizes="(max-width: 768px) 100vw, 33vw"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-swiss-navy/90 via-swiss-navy/20 to-transparent opacity-90 transition-opacity duration-500" />

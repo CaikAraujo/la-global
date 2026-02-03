@@ -735,10 +735,13 @@ const AboutSection = ()=>{
                                 className: "relative z-10 h-[600px] w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/images/CEOs.jpeg",
+                                        src: "/images/founder-meeting.jpg",
                                         alt: "White glove service meeting",
                                         fill: true,
-                                        className: "object-cover shadow-2xl filter sepia-[0.1]",
+                                        priority: true,
+                                        quality: 100,
+                                        unoptimized: true,
+                                        className: "object-cover shadow-2xl",
                                         sizes: "(max-width: 1024px) 100vw, 50vw"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
@@ -761,24 +764,24 @@ const AboutSection = ()=>{
                                             delay: 0.5,
                                             duration: 0.8
                                         },
-                                        className: "absolute -bottom-12 -left-12 bg-swiss-navy text-white p-10 max-w-md shadow-xl hidden md:block",
+                                        className: "absolute -bottom-8 -left-8 bg-swiss-navy text-white p-6 max-w-sm shadow-xl hidden md:block",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "font-serif italic text-base leading-relaxed opacity-90",
+                                                className: "font-serif italic text-sm leading-relaxed opacity-90",
                                                 children: "\"En tant que prestataires de services, notre engagement est de comprendre profondément vos besoins et d'offrir des solutions complètes, personnalisées et fiables. Pour cela, nous travaillons avec des technologies reconnues, des processus bien définis et un haut standard d'exécution, garantissant des résultats constants aujourd'hui — et préparés pour demain.\""
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 78,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mt-6 flex items-center gap-4",
+                                                className: "mt-4 flex items-center gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "h-[1px] w-12 bg-swiss-red"
+                                                        className: "h-[1px] w-8 bg-swiss-red"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 82,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -786,19 +789,19 @@ const AboutSection = ()=>{
                                                         children: "Anderson Dias - Fondateur"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 83,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
@@ -811,7 +814,7 @@ const AboutSection = ()=>{
                                 className: "absolute top-12 right-12 w-full h-full border border-swiss-navy/10 -z-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/AboutSection.tsx",
-                                lineNumber: 86,
+                                lineNumber: 89,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]

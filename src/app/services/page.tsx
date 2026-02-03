@@ -10,7 +10,7 @@ const detailedServices = [
         title: 'Relocalisation d\'Entreprise',
         subtitle: 'Continuité des Affaires',
         description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
-        features: ['Gestion des Risques ISO 31000', 'Logistique de Serveurs Critiques', 'Élimination Certifiée d\'Actifs', 'Mise en Place Opérationnelle "Clé en Main"'],
+        features: ['Gestion des Risques ISO 31000', 'Logistique de Serveurs Critiques', 'Élimination Certifiée d\'Actifs', 'Mise en Place Opérationnelle "Clé en Main"', 'Transport Spécialisé', 'Planification', 'Coordination du Déménagement'],
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
@@ -18,7 +18,7 @@ const detailedServices = [
         title: 'Logistique de Résidence Privée',
         subtitle: 'Résidences & Propriétés',
         description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
-        features: ['Emballage Haute Couture', 'Transport de Véhicules de Collection', 'Catalogage de Bibliothèques', 'Design d\'Intérieur Temporaire'],
+        features: ['Emballage Haute Couture', 'Transport de Véhicules de Collection', 'Catalogage de Bibliothèques', 'Design d\'Intérieur Temporaire', 'Installation Personnalisée', 'Gestion d\'Œuvres d\'Art et Antiquités', 'Services Administratifs et Conciergerie'],
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
@@ -26,7 +26,7 @@ const detailedServices = [
         title: 'Beaux-Arts & Antiquités',
         subtitle: 'Standard Muséal',
         description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
-        features: ['Caisses Climatisées (ISPM 15)', 'Formalités Douanières CITES', 'Installation Spécialisée', 'Assurance "Clou à Clou"'],
+        features: ['Caisses Climatisées (ISPM 15)', 'Formalités Douanières CITES', 'Installation Spécialisée', 'Assurance "Clou à Clou"', 'Transport de Véhicules de Collection', 'Emballage et Protection'],
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
@@ -34,7 +34,7 @@ const detailedServices = [
         title: 'Service de Bureaux',
         subtitle: 'Hygiène et Confort',
         description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
-        features: ['Nettoyage Certifié', 'Équipe Discrète', 'Produits Écologiques', 'Horaires Flexibles'],
+        features: ['Nettoyage Certifié', 'Équipe Discrète', 'Produits Écologiques', 'Horaires Flexibles', 'Personnel de Service', 'Gestion de Documents'],
         image: '/images/cleaning-service.jpg'
     },
     {
@@ -42,7 +42,7 @@ const detailedServices = [
         title: 'Stockage Sécurisé',
         subtitle: 'Coffre-fort & Protection d\'Actifs',
         description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
-        features: ['Sécurité Biométrique Niveau 5', 'Contrôle Climatique Redondant', 'Exonération Fiscale (Entrepôt Douanier)', 'Salons de Visionnage Privés'],
+        features: ['Sécurité Biométrique Niveau 5', 'Contrôle Climatique Redondant', 'Exonération Fiscale (Entrepôt Douanier)', 'Salons de Visionnage Privés', 'Contrôle Environnemental', 'Réception de Marchandises'],
         image: '/images/secure-storage.png'
     },
     {
@@ -50,7 +50,7 @@ const detailedServices = [
         title: 'Montage de Stands pour Foires et Événements',
         subtitle: 'Coordination & Précision',
         description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
-        features: ['Logistique "Juste-à-Temps"', 'Manipulation d\'Équipement Sensible', 'Équipes de Montage 24/7', 'Gestion de Carnet ATA'],
+        features: ['Logistique "Juste-à-Temps"', 'Manipulation d\'Équipement Sensible', 'Équipes de Montage 24/7', 'Gestion de Carnet ATA', 'Audiovisuel et Multimédia', 'Habillage et Signalétique'],
         image: '/images/event-logistics.png'
     }
 ];

@@ -23,8 +23,8 @@ export async function POST(request: Request) {
         // So 'body' will have 'details'. We need to pass 'body.details' to ContactEmail 'message' prop.
 
         const data = await resend.emails.send({
-            from: 'Confœderatio Logistica <onboarding@resend.dev>',
-            to: ['contact@laglobal.ch'],
+            from: 'Confœderatio Logistica <contact@laglobal.ch>',
+            to: ['la.global.demenagement@gmail.com'],
             subject: `Novo Contato: ${result.data.name} - ${result.data.service}`,
             react: ContactEmail({
                 name: result.data.name,

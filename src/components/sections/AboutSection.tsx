@@ -57,10 +57,13 @@ const AboutSection: React.FC = () => {
               className="relative z-10 h-[600px] w-full"
             >
               <Image
-                src="/images/CEOs.jpeg"
+                src="/images/founder-meeting.jpg"
                 alt="White glove service meeting"
                 fill
-                className="object-cover shadow-2xl filter sepia-[0.1]"
+                priority
+                quality={100}
+                unoptimized
+                className="object-cover shadow-2xl"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
 
@@ -70,13 +73,13 @@ const AboutSection: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.5, duration: 0.8 }}
-                className="absolute -bottom-12 -left-12 bg-swiss-navy text-white p-10 max-w-md shadow-xl hidden md:block"
+                className="absolute -bottom-8 -left-8 bg-swiss-navy text-white p-6 max-w-sm shadow-xl hidden md:block"
               >
-                <p className="font-serif italic text-base leading-relaxed opacity-90">
+                <p className="font-serif italic text-sm leading-relaxed opacity-90">
                   "En tant que prestataires de services, notre engagement est de comprendre profondément vos besoins et d'offrir des solutions complètes, personnalisées et fiables. Pour cela, nous travaillons avec des technologies reconnues, des processus bien définis et un haut standard d'exécution, garantissant des résultats constants aujourd'hui — et préparés pour demain."
                 </p>
-                <div className="mt-6 flex items-center gap-4">
-                  <div className="h-[1px] w-12 bg-swiss-red" />
+                <div className="mt-4 flex items-center gap-4">
+                  <div className="h-[1px] w-8 bg-swiss-red" />
                   <span className="text-[10px] uppercase tracking-widest">Anderson Dias - Fondateur</span>
                 </div>
               </motion.div>
