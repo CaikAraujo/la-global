@@ -11,7 +11,7 @@ const partners: string[] = [
   "Compass Finance",
   "Kassoe Housing",
   "Itten+Brechbühl SA",
-  "Gelog",
+  "Fondation Gelog",
 ];
 
 const TrustMarquee: React.FC = () => {
