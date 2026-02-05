@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 const detailedServices = [
@@ -10,7 +10,14 @@ const detailedServices = [
         title: 'Relocalisation d\'Entreprise',
         subtitle: 'Continuité des Affaires',
         description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
-        features: ['Gestion des Risques ISO 31000', 'Logistique de Serveurs Critiques', 'Élimination Certifiée d\'Actifs', 'Mise en Place Opérationnelle "Clé en Main"', 'Transport Spécialisé', 'Planification', 'Coordination du Déménagement'],
+        features: [
+            { name: 'Gestion des Risques ISO 31000', description: 'Protocoles rigoureux d\'identification et d\'atténuation des risques pour garantir la sécurité absolue de vos actifs lors de chaque étape.' },
+            { name: 'Élimination Certifiée d\'Actifs', description: 'Processus sécurisé et écologique de destruction de données et de recyclage matériel, avec certificats de conformité complets.' },
+            { name: 'Mise en Place Opérationnelle "Clé en Main"', description: 'Installation complète et configuration fonctionnelle de vos nouveaux espaces de travail, prêts à l\'emploi dès le premier jour.' },
+            { name: 'Transport Spécialisé', description: 'Flotte de véhicules adaptés aux équipements sensibles, avec suspension pneumatique et contrôle climatique.' },
+            { name: 'Planification', description: 'Stratégie détaillée et séquençage précis des opérations pour minimiser l\'impact sur votre activité.' },
+            { name: 'Coordination du Déménagement', description: 'Pilotage centralisé par un chef de projet dédié, assurant une communication fluide et une exécution sans faille.' }
+        ],
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
     },
     {
@@ -18,7 +25,14 @@ const detailedServices = [
         title: 'Logistique de Résidence Privée',
         subtitle: 'Résidences & Propriétés',
         description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
-        features: ['Emballage Haute Couture', 'Transport de Véhicules de Collection', 'Catalogage de Bibliothèques', 'Design d\'Intérieur Temporaire', 'Installation Personnalisée', 'Gestion d\'Œuvres d\'Art et Antiquités', 'Services Administratifs et Conciergerie'],
+        features: [
+            { name: 'Emballage Haute Couture', description: 'Matériaux de protection sur mesure et techniques d\'emballage d\'art pour vos biens les plus précieux et délicats.' },
+            { name: 'Catalogage de Bibliothèques', description: 'Inventaire photographique et classement méthodique de vos ouvrages, respectant leur organisation d\'origine.' },
+            { name: 'Design d\'Intérieur Temporaire', description: 'Aménagement provisoire esthétique pour maintenir votre confort durant les phases de transition.' },
+            { name: 'Installation Personnalisée', description: 'Agencement méticuleux de votre mobilier et de vos objets personnels selon vos préférences exactes.' },
+            { name: 'Gestion d\'Œuvres d\'Art et Antiquités', description: 'Expertise spécialisée dans la manipulation et la préservation de pièces de collection inestimables.' },
+            { name: 'Services Administratifs et Conciergerie', description: 'Assistance complète pour les démarches administratives et services de confort liés à votre changement de résidence.' }
+        ],
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
     },
     {
@@ -26,7 +40,13 @@ const detailedServices = [
         title: 'Beaux-Arts & Antiquités',
         subtitle: 'Standard Muséal',
         description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
-        features: ['Caisses Climatisées (ISPM 15)', 'Formalités Douanières CITES', 'Installation Spécialisée', 'Assurance "Clou à Clou"', 'Transport de Véhicules de Collection', 'Emballage et Protection'],
+        features: [
+            { name: 'Caisses Climatisées (ISPM 15)', description: 'Fabrication sur mesure de caisses de transport conformes aux normes internationales, garantissant une protection optimale.' },
+            { name: 'Formalités Douanières CITES', description: 'Gestion experte des permis et régulations pour le transport international d\'espèces protégées et d\'objets réglementés.' },
+            { name: 'Installation Spécialisée', description: 'Montage et accrochage technique réalisés par des experts en muséographie.' },
+            { name: 'Assurance "Clou à Clou"', description: 'Couverture complète tous risques, depuis le décrochage initial jusqu\'à l\'installation finale.' },
+            { name: 'Emballage et Protection', description: 'Solutions de calage et de tamponnage haute performance pour une stabilité absolue durant le transport.' }
+        ],
         image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
     },
     {
@@ -34,7 +54,14 @@ const detailedServices = [
         title: 'Service de Bureaux',
         subtitle: 'Hygiène et Confort',
         description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
-        features: ['Nettoyage Certifié', 'Équipe Discrète', 'Produits Écologiques', 'Horaires Flexibles', 'Personnel de Service', 'Gestion de Documents'],
+        features: [
+            { name: 'Nettoyage Certifié', description: 'Protocoles d\'hygiène stricts utilisant des méthodes validées pour un environnement de travail sain.' },
+            { name: 'Équipe Discrète', description: 'Personnel formé à la confidentialité et au travail en environnement occupé sans perturber vos opérations.' },
+            { name: 'Produits Écologiques', description: 'Utilisation exclusive de produits de nettoyage respectueux de l\'environnement et de la santé.' },
+            { name: 'Horaires Flexibles', description: 'Intervention adaptée à votre rythme d\'activité, y compris en dehors des heures ouvrables.' },
+            { name: 'Personnel de Service', description: 'Mise à disposition de personnel qualifié pour le service de café, la réception ou l\'entretien continu.' },
+            { name: 'Gestion de Documents', description: 'Archivage, tri et destruction sécurisée de vos documents confidentiels.' }
+        ],
         image: '/images/cleaning-service.jpg'
     },
     {
@@ -42,7 +69,14 @@ const detailedServices = [
         title: 'Stockage Sécurisé',
         subtitle: 'Coffre-fort & Protection d\'Actifs',
         description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
-        features: ['Sécurité Biométrique Niveau 5', 'Contrôle Climatique Redondant', 'Exonération Fiscale (Entrepôt Douanier)', 'Salons de Visionnage Privés', 'Contrôle Environnemental', 'Réception de Marchandises'],
+        features: [
+            { name: 'Sécurité Biométrique Niveau 5', description: 'Accès strictement contrôlé par reconnaissance biométrique et surveillance 24/7 pour une sécurité inviolable.' },
+            { name: 'Contrôle Climatique Redondant', description: 'Systèmes doubles de régulation de température et d\'humidité pour une préservation parfaite.' },
+            { name: 'Exonération Fiscale (Entrepôt Douanier)', description: 'Stockage sous douane permettant de suspendre les droits et taxes jusqu\'à l\'importation définitive.' },
+            { name: 'Salons de Visionnage Privés', description: 'Espaces élégants et sécurisés pour l\'inspection ou la présentation de vos biens stockés.' },
+            { name: 'Contrôle Environnemental', description: 'Surveillance constante de la qualité de l\'air et protection contre les nuisibles.' },
+            { name: 'Réception de Marchandises', description: 'Service logistique complet de réception, vérification et mise en stock de vos livraisons.' }
+        ],
         image: '/images/secure-storage.png'
     },
     {
@@ -50,10 +84,54 @@ const detailedServices = [
         title: 'Montage de Stands pour Foires et Événements',
         subtitle: 'Coordination & Précision',
         description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
-        features: ['Logistique "Juste-à-Temps"', 'Manipulation d\'Équipement Sensible', 'Équipes de Montage 24/7', 'Gestion de Carnet ATA', 'Audiovisuel et Multimédia', 'Habillage et Signalétique'],
+        features: [
+            { name: 'Logistique "Juste-à-Temps"', description: 'Livraison coordonnée à la minute près pour s\'intégrer parfaitement au planning serré de vos événements.' },
+            { name: 'Manipulation d\'Équipement Sensible', description: 'Savoir-faire technique pour le transport et l\'installation de matériel audiovisuel et technologique fragile.' },
+            { name: 'Équipes de Montage 24/7', description: 'Disponibilité totale pour le montage et le démontage, quelles que soient les contraintes horaires.' },
+            { name: 'Gestion de Carnet ATA', description: 'Administration des documents douaniers pour l\'admission temporaire de matériel d\'exposition à l\'étranger.' },
+            { name: 'Audiovisuel et Multimédia', description: 'Installation et configuration de systèmes de présentation et d\'éclairage pour vos stands.' },
+            { name: 'Habillage et Signalétique', description: 'Mise en place soignée de vos éléments visuels et de branding pour un impact maximal.' }
+        ],
         image: '/images/event-logistics.png'
     }
 ];
+
+const FeatureItem = ({ feature }: { feature: { name: string, description: string } }) => {
+    const [isHovered, setIsHovered] = useState(false);
+
+    return (
+        <div
+            className="relative"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
+            <div className="flex items-center gap-3 border-b border-swiss-navy/10 pb-2 cursor-help transition-colors duration-300 hover:border-swiss-red/30">
+                <div className={`w-1 h-1 rounded-full transition-colors duration-300 ${isHovered ? 'bg-swiss-red' : 'bg-swiss-navy'}`} />
+                <span className={`text-sm font-medium uppercase tracking-wide transition-colors duration-300 ${isHovered ? 'text-swiss-red' : 'text-swiss-text'}`}>
+                    {feature.name}
+                </span>
+            </div>
+
+            <AnimatePresence>
+                {isHovered && (
+                    <motion.div
+                        initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                        transition={{ duration: 0.2, ease: "easeOut" }}
+                        className="absolute bottom-full left-0 mb-3 w-72 bg-swiss-navy text-white p-5 rounded-lg shadow-xl z-50 pointer-events-none"
+                    >
+                        <div className="absolute bottom-[-6px] left-4 w-3 h-3 bg-swiss-navy transform rotate-45" />
+                        <h4 className="font-serif text-lg mb-2 text-white">{feature.name}</h4>
+                        <p className="text-white/80 text-sm font-light leading-relaxed">
+                            {feature.description}
+                        </p>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+        </div>
+    );
+};
 
 export default function ServicesPage() {
     return (
@@ -101,12 +179,9 @@ export default function ServicesPage() {
                                 {service.description}
                             </p>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 gap-y-6">
                                 {service.features.map((feature, i) => (
-                                    <div key={i} className="flex items-center gap-3 border-b border-swiss-navy/10 pb-2">
-                                        <div className="w-1 h-1 bg-swiss-navy rounded-full" />
-                                        <span className="text-sm font-medium text-swiss-text uppercase tracking-wide">{feature}</span>
-                                    </div>
+                                    <FeatureItem key={i} feature={feature} />
                                 ))}
                             </div>
                         </div>

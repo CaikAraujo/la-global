@@ -157,7 +157,7 @@ export default function AboutPage() {
                         {[
                             { role: "Directeur des Opérations", desc: "20 ans d'expérience dans la logistique de foires d'art internationales.", bg: "/images/team/director_ops.jpg", className: "object-cover object-top grayscale" },
                             { role: "Conservatrice des Beaux-Arts", desc: "Spécialiste en conservation préventive et emballages climatisés.", bg: "/images/team/curator_arts.jpg", className: "object-cover object-top grayscale" },
-                            { role: "Gestionnaire de Flotte", desc: "Ingénieur mécanique concentré sur le transport de précision sans vibration.", bg: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=2574&auto=format&fit=crop" }
+                            { role: "Gestionnaire de Flotte", desc: "Ingénieur mécanique concentré sur le transport de précision sans vibration.", bg: "/images/team/fleet_manager.jpg", className: "object-cover object-center grayscale" }
                         ].map((member, i) => (
                             <motion.div
                                 key={i}
@@ -171,7 +171,8 @@ export default function AboutPage() {
                                     alt={member.role}
                                     fill
                                     className={`transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0 ${member.className || "object-cover grayscale"}`}
-                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    quality={100}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-swiss-navy/90 via-swiss-navy/20 to-transparent opacity-90 transition-opacity duration-500" />
                                 <div className="absolute bottom-0 left-0 right-0 p-8">
