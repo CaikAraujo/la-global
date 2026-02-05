@@ -486,8 +486,8 @@ const partners = [
     "Sitag",
     "ECA",
     "Côté Magazine",
-    "Compass Financial",
-    "Kassoe",
+    "Compass Finance",
+    "Kassoe Housing",
     "Itten+Brechbühl SA",
     "Gelog"
 ];
