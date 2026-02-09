@@ -22,6 +22,11 @@ export async function POST(request: Request) {
         // The frontend sends 'formData' which has 'details'.
         // So 'body' will have 'details'. We need to pass 'body.details' to ContactEmail 'message' prop.
 
+        const attachments = result.data.attachment ? [{
+            filename: result.data.attachment.filename,
+            content: result.data.attachment.content,
+        }] : [];
+
         const data = await resend.emails.send({
             from: 'Confœderatio Logistica <contact@laglobal.ch>',
             to: ['la.global.demenagement@gmail.com'],
@@ -34,6 +39,7 @@ export async function POST(request: Request) {
                 service: result.data.service,
                 message: result.data.details
             }),
+            attachments: attachments
         });
 
         return NextResponse.json(data);

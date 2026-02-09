@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+
 
 const detailedServices = [
     {
@@ -97,29 +98,45 @@ const detailedServices = [
 ];
 
 const FeatureItem = ({ feature }: { feature: { name: string, description: string } }) => {
-    const [isHovered, setIsHovered] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+    const containerRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
+                setIsOpen(false);
+            }
+        };
+
+        document.addEventListener('click', handleClickOutside);
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
 
     return (
         <div
+            ref={containerRef}
             className="relative"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
         >
-            <div className="flex items-center gap-3 border-b border-swiss-navy/10 pb-2 cursor-help transition-colors duration-300 hover:border-swiss-red/30">
-                <div className={`w-1 h-1 rounded-full transition-colors duration-300 ${isHovered ? 'bg-swiss-red' : 'bg-swiss-navy'}`} />
-                <span className={`text-sm font-medium uppercase tracking-wide transition-colors duration-300 ${isHovered ? 'text-swiss-red' : 'text-swiss-text'}`}>
+            <div
+                onClick={() => setIsOpen(!isOpen)}
+                className="flex items-center gap-3 border-b border-swiss-navy/10 pb-2 cursor-pointer transition-colors duration-300 hover:border-swiss-red/30"
+            >
+                <div className={`w-1 h-1 rounded-full transition-colors duration-300 ${isOpen ? 'bg-swiss-red' : 'bg-swiss-navy'}`} />
+                <span className={`text-sm font-medium uppercase tracking-wide transition-colors duration-300 ${isOpen ? 'text-swiss-red' : 'text-swiss-text hover:text-swiss-red'}`}>
                     {feature.name}
                 </span>
             </div>
 
             <AnimatePresence>
-                {isHovered && (
+                {isOpen && (
                     <motion.div
                         initial={{ opacity: 0, y: 10, scale: 0.95 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute bottom-full left-0 mb-3 w-72 bg-swiss-navy text-white p-5 rounded-lg shadow-xl z-50 pointer-events-none"
+                        className="absolute bottom-full left-0 mb-3 w-72 bg-swiss-navy text-white p-5 rounded-lg shadow-xl z-50"
                     >
                         <div className="absolute bottom-[-6px] left-4 w-3 h-3 bg-swiss-navy transform rotate-45" />
                         <h4 className="font-serif text-lg mb-2 text-white">{feature.name}</h4>

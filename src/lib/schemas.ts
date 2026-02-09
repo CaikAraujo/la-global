@@ -7,6 +7,11 @@ export const contactSchema = z.object({
     phone: z.string().min(10, { message: "Le numéro de téléphone doit comporter au moins 10 caractères." }).optional().or(z.literal('')),
     service: z.string().min(1, { message: "Veuillez sélectionner un service." }),
     details: z.string().min(10, { message: "Les détails du projet doivent comporter au moins 10 caractères." }),
+    attachment: z.object({
+        filename: z.string(),
+        content: z.string(),
+        contentType: z.string().optional()
+    }).optional()
 });
 
 export type ContactFormData = z.infer<typeof contactSchema>;

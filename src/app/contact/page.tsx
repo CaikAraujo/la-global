@@ -28,6 +28,7 @@ export default function ContactPage() {
     });
     const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
     const [errors, setErrors] = useState<Partial<Record<keyof ContactFormData, string>>>({});
+    const [attachment, setAttachment] = useState<{ filename: string, content: string, contentType?: string } | undefined>(undefined);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         if (errors[e.target.name as keyof ContactFormData]) {
@@ -44,6 +45,33 @@ export default function ContactPage() {
         }
     };
 
+    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const file = e.target.files?.[0];
+        if (file) {
+            // Check file size (e.g., 5MB limit)
+            if (file.size > 5 * 1024 * 1024) {
+                alert("Le fichier est trop volumineux (max 5MB).");
+                e.target.value = ""; // Reset input
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                const base64String = reader.result as string;
+                // Extract base64 content
+                const content = base64String.split(',')[1];
+                setAttachment({
+                    filename: file.name,
+                    content: content,
+                    contentType: file.type
+                });
+            };
+            reader.readAsDataURL(file);
+        } else {
+            setAttachment(undefined);
+        }
+    };
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setStatus("loading");
@@ -51,7 +79,8 @@ export default function ContactPage() {
 
         const result = contactSchema.safeParse({
             ...formData,
-            service: selectedService
+            service: selectedService,
+            attachment: attachment
         });
 
         if (!result.success) {
@@ -287,6 +316,29 @@ export default function ContactPage() {
                                             Détails du Projet
                                         </label>
                                         {errors.details && <span className="text-red-500 text-xs absolute -bottom-6 left-0">{errors.details}</span>}
+                                    </div>
+
+                                    {/* File Input */}
+                                    <div className="relative">
+                                        <label className="block text-swiss-text/50 text-sm uppercase tracking-widest mb-2">
+                                            Pièce Jointe (Max 5MB)
+                                        </label>
+                                        <input
+                                            type="file"
+                                            onChange={handleFileChange}
+                                            className="block w-full text-sm text-swiss-navy
+                                                file:mr-4 file:py-2 file:px-4
+                                                file:rounded-full file:border-0
+                                                file:text-xs file:font-semibold
+                                                file:bg-swiss-navy/5 file:text-swiss-navy
+                                                hover:file:bg-swiss-navy/10
+                                                cursor-pointer"
+                                        />
+                                        {attachment && (
+                                            <p className="mt-2 text-xs text-swiss-navy/60">
+                                                Fichier sélectionné: {attachment.filename}
+                                            </p>
+                                        )}
                                     </div>
 
                                     <div className="pt-4">
