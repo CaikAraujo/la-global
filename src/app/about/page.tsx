@@ -51,7 +51,7 @@ export default function AboutPage() {
 
             {/* Chapter 1: The Origin (Grand Hotel Heritage) */}
             <section className="py-32 px-6 md:px-12 max-w-[1800px] mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -64,13 +64,27 @@ export default function AboutPage() {
                         </h2>
                         <div className="space-y-8 text-swiss-text text-lg font-light leading-relaxed text-justify">
                             <p>
-                                À l'apogée des années 20, les familles les plus éminentes d'Europe ne voyageaient pas léger. Elles déménageaient. Entre la saison de l'opéra à Vienne et l'hiver à St. Moritz, des maisons entières étaient transportées : argenterie, garde-robes de haute couture, et même du mobilier spécifique.
+                                <strong>Toute excellence naît d'un parcours.</strong>
                             </p>
                             <p>
-                                La <strong>Confœderatio Logistica</strong> est née au sein de cet écosystème. Fondée par d'anciens responsables logistiques des légendaires "Palace Hôtels" suisses, notre mission originale était de garantir que, lorsqu'un hôte arrivait dans sa suite d'hiver, ses effets personnels soient déjà là — disposés exactement comme dans sa résidence d'été.
+                                LA Global a commencé modestement, agissant directement sur le terrain, apprenant de chaque opération, de chaque défi et de chaque client.
+                                Ce contact constant avec la réalité opérationnelle a permis à l'entreprise d'évoluer de manière cohérente, accumulant de l'expérience dans différents environnements — du résidentiel à la logistique spécialisée — jusqu'à atteindre, naturellement, le marché corporatif.
+                            </p>
+                            <p>
+                                <strong className="text-swiss-navy/80 block mb-2">Une croissance qui engendre la maturité</strong>
+                                Cette évolution, que nous appelons <em>La Grande Migration</em>, ne représente pas une rupture, mais un processus de maturation.
+                                C'est la transition d'une structure agile vers une organisation préparée pour répondre aux opérations corporatives avec précision, responsabilité et vision stratégique.
+                            </p>
+                            <p>
+                                <strong className="text-swiss-navy/80 block mb-2">Une expertise bâtie sur la pratique</strong>
+                                Aujourd'hui, LA Global opère avec des méthodes claires, des processus structurés et une capacité d'anticipation.
+                                Nous comprenons que chaque entreprise a ses propres défis, des niveaux d'exigence distincts et des besoins spécifiques.
+                            </p>
+                            <p>
+                                C'est cette lecture minutieuse du marché qui a conduit à la création de <strong>LA Global Corporate</strong> — une structure dédiée aux projets professionnels de plus grande complexité, où rigueur, confidentialité et performance vont de pair.
                             </p>
                             <p className="border-l-2 border-swiss-navy/20 pl-6 italic text-swiss-dark">
-                                "Nous ne déplacions pas seulement des valises. Nous déplacions la familiarité. Le luxe n'est pas l'objet, mais la sensation d'être chez soi, instantanément."
+                                "L'excellence de LA Global n'est pas un discours. C'est le résultat d'un chemin parcouru."
                             </p>
                         </div>
                     </motion.div>
@@ -80,7 +94,7 @@ export default function AboutPage() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.2 }}
-                        className="relative mt-12 lg:mt-0"
+                        className="relative mt-12 lg:mt-0 h-[600px] w-full"
                     >
                         <Image
                             src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80"
@@ -96,10 +110,10 @@ export default function AboutPage() {
                         </div>
                     </motion.div>
                 </div>
-            </section>
+            </section >
 
             {/* Chapter 2: The Evolution (Methodology) */}
-            <section className="bg-swiss-navy text-white py-40 relative overflow-hidden">
+            < section className="bg-swiss-navy text-white py-40 relative overflow-hidden" >
                 <div className="max-w-7xl mx-auto px-6 relative z-10">
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
@@ -136,10 +150,10 @@ export default function AboutPage() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Chapter 3: Leadership */}
-            <section className="py-32 bg-swiss-surface">
+            < section className="py-32 bg-swiss-surface" >
                 <div className="max-w-[1800px] mx-auto px-6 md:px-12">
                     <div className="flex flex-col md:flex-row gap-16 items-end mb-24">
                         <div className="md:w-1/2">
@@ -183,7 +197,7 @@ export default function AboutPage() {
                         ))}
                     </div>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 }
