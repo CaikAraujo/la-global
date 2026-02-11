@@ -46,6 +46,12 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
+      "page": "/api/send",
+      "regex": "^/api/send(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/send(?:/)?$"
+    },
+    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},

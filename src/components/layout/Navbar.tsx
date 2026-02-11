@@ -118,7 +118,7 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden md:block">
             <h1 className="font-bold tracking-widest text-sm uppercase transition-colors duration-300 text-[var(--nav-primary)]">LA Global</h1>
-            <h2 className="font-bold tracking-[0.2em] text-[10px] uppercase transition-colors duration-300 text-[var(--nav-secondary)]">Corporation</h2>
+            <h2 className="font-bold tracking-[0.2em] text-[10px] uppercase transition-colors duration-300 text-[var(--nav-secondary)]">CORPORATE SOLUTIONS</h2>
           </div>
         </Link>
 
