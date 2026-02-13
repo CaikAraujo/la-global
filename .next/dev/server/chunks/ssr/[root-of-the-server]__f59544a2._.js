@@ -160,7 +160,9 @@ const Footer = ()=>{
                                         className: "flex gap-4 mt-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.instagram.com/laglobalcorporatesolutions?igsh=MTlkdzVtaWNidTc4eg%3D%3D&utm_source=qr",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
                                                 className: "text-white/40 hover:text-white transition-colors duration-300",
                                                 "aria-label": "Instagram",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -246,7 +248,9 @@ const Footer = ()=>{
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.linkedin.com/in/general-310436312",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
                                                 className: "text-white/40 hover:text-white transition-colors duration-300",
                                                 "aria-label": "LinkedIn",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -446,205 +450,233 @@ const Footer = ()=>{
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-2 text-white/30",
+                                className: "flex items-center gap-4 text-white/30",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default",
-                                        children: "Made Suisse"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "https://github.com/CaikAraujo",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        className: "text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300",
+                                        children: "Developed by Caik Araujo"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
                                         lineNumber: 91,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-white/10",
+                                        children: "|"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/layout/Footer.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-2 h-2",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            width: "100%",
-                                            height: "100%",
-                                            viewBox: "0 0 86 83",
-                                            fill: "none",
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    y: "49.8",
-                                                    width: "7.11429",
-                                                    height: "33.2",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 94,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "7.11426",
-                                                    y: "75.8857",
-                                                    width: "28.4571",
-                                                    height: "7.11429",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 95,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "11.8572",
-                                                    y: "49.8",
-                                                    width: "23.7143",
-                                                    height: "7.11429",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 96,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "28.4572",
-                                                    y: "56.9143",
-                                                    width: "7.11429",
-                                                    height: "16.6",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 97,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "7.11429",
-                                                    height: "33.2",
-                                                    transform: "matrix(1 0 0 -1 0 33.2)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
+                                        className: "flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default",
+                                                children: "Made Suisse"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 15
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-2 h-2",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                    width: "100%",
+                                                    height: "100%",
+                                                    viewBox: "0 0 86 83",
+                                                    fill: "none",
+                                                    xmlns: "http://www.w3.org/2000/svg",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            y: "49.8",
+                                                            width: "7.11429",
+                                                            height: "33.2",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 99,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "7.11426",
+                                                            y: "75.8857",
+                                                            width: "28.4571",
+                                                            height: "7.11429",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 100,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "11.8572",
+                                                            y: "49.8",
+                                                            width: "23.7143",
+                                                            height: "7.11429",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 101,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "28.4572",
+                                                            y: "56.9143",
+                                                            width: "7.11429",
+                                                            height: "16.6",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 102,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "7.11429",
+                                                            height: "33.2",
+                                                            transform: "matrix(1 0 0 -1 0 33.2)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 103,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "28.4571",
+                                                            height: "7.11429",
+                                                            transform: "matrix(1 0 0 -1 7.11426 7.11429)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 104,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "23.7143",
+                                                            height: "7.11429",
+                                                            transform: "matrix(1 0 0 -1 11.8572 33.2)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 105,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "7.11429",
+                                                            height: "16.6",
+                                                            transform: "matrix(1 0 0 -1 28.4572 26.0857)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 106,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "85.3715",
+                                                            y: "33.2",
+                                                            width: "7.11429",
+                                                            height: "33.2",
+                                                            transform: "rotate(180 85.3715 33.2)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 107,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "78.2571",
+                                                            y: "7.11429",
+                                                            width: "28.4571",
+                                                            height: "7.11429",
+                                                            transform: "rotate(180 78.2571 7.11429)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 108,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "73.5143",
+                                                            y: "33.2",
+                                                            width: "23.7143",
+                                                            height: "7.11429",
+                                                            transform: "rotate(180 73.5143 33.2)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 109,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            x: "56.9143",
+                                                            y: "26.0857",
+                                                            width: "7.11429",
+                                                            height: "16.6",
+                                                            transform: "rotate(180 56.9143 26.0857)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 110,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "7.11429",
+                                                            height: "33.2",
+                                                            transform: "matrix(-1 0 0 1 85.3715 49.8)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 111,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "28.4571",
+                                                            height: "7.11429",
+                                                            transform: "matrix(-1 0 0 1 78.2571 75.8857)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 112,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "23.7143",
+                                                            height: "7.11429",
+                                                            transform: "matrix(-1 0 0 1 73.5143 49.8)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 113,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                                            width: "7.11429",
+                                                            height: "16.6",
+                                                            transform: "matrix(-1 0 0 1 56.9143 56.9143)",
+                                                            fill: "#CB0001"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/layout/Footer.tsx",
+                                                            lineNumber: 114,
+                                                            columnNumber: 19
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/components/layout/Footer.tsx",
                                                     lineNumber: 98,
                                                     columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "28.4571",
-                                                    height: "7.11429",
-                                                    transform: "matrix(1 0 0 -1 7.11426 7.11429)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 99,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "23.7143",
-                                                    height: "7.11429",
-                                                    transform: "matrix(1 0 0 -1 11.8572 33.2)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 100,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "7.11429",
-                                                    height: "16.6",
-                                                    transform: "matrix(1 0 0 -1 28.4572 26.0857)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 101,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "85.3715",
-                                                    y: "33.2",
-                                                    width: "7.11429",
-                                                    height: "33.2",
-                                                    transform: "rotate(180 85.3715 33.2)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 102,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "78.2571",
-                                                    y: "7.11429",
-                                                    width: "28.4571",
-                                                    height: "7.11429",
-                                                    transform: "rotate(180 78.2571 7.11429)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 103,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "73.5143",
-                                                    y: "33.2",
-                                                    width: "23.7143",
-                                                    height: "7.11429",
-                                                    transform: "rotate(180 73.5143 33.2)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 104,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    x: "56.9143",
-                                                    y: "26.0857",
-                                                    width: "7.11429",
-                                                    height: "16.6",
-                                                    transform: "rotate(180 56.9143 26.0857)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 105,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "7.11429",
-                                                    height: "33.2",
-                                                    transform: "matrix(-1 0 0 1 85.3715 49.8)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 106,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "28.4571",
-                                                    height: "7.11429",
-                                                    transform: "matrix(-1 0 0 1 78.2571 75.8857)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 107,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "23.7143",
-                                                    height: "7.11429",
-                                                    transform: "matrix(-1 0 0 1 73.5143 49.8)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                    width: "7.11429",
-                                                    height: "16.6",
-                                                    transform: "matrix(-1 0 0 1 56.9143 56.9143)",
-                                                    fill: "#CB0001"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/layout/Footer.tsx",
-                                                    lineNumber: 109,
-                                                    columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/layout/Footer.tsx",
-                                            lineNumber: 93,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    }, void 0, false, {
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/layout/Footer.tsx",
+                                                lineNumber: 97,
+                                                columnNumber: 15
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/layout/Footer.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]

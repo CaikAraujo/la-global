@@ -113,8 +113,23 @@ export default function AboutPage() {
             </section >
 
             {/* Chapter 2: The Evolution (Methodology) */}
-            < section className="bg-swiss-navy text-white py-40 relative overflow-hidden" >
-                <div className="max-w-7xl mx-auto px-6 relative z-10">
+            <section className="relative py-40 overflow-hidden">
+                {/* Background Video */}
+                <div className="absolute inset-0 w-full h-full z-0">
+                    <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="object-cover w-full h-full"
+                    >
+                        <source src="/Bg_video.mp4" type="video/mp4" />
+                    </video>
+                    {/* Overlay for better text readability */}
+                    <div className="absolute inset-0 bg-swiss-navy/90 mix-blend-multiply" />
+                </div>
+
+                <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -142,7 +157,7 @@ export default function AboutPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: i * 0.2 }}
-                                className="bg-white/5 p-8 border border-white/10 hover:bg-white/10 transition-colors duration-500"
+                                className="bg-swiss-navy/80 backdrop-blur-md p-8 border border-white/10 hover:bg-swiss-navy/90 transition-all duration-500"
                             >
                                 <h3 className="font-serif text-2xl mb-4 text-white">{item.title}</h3>
                                 <p className="text-white/50 font-light leading-relaxed">{item.desc}</p>

@@ -882,10 +882,6 @@
     align-items: flex-end;
   }
 
-  .items-start {
-    align-items: flex-start;
-  }
-
   .justify-between {
     justify-content: space-between;
   }
@@ -1155,6 +1151,26 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-swiss-navy\/30 {
       background-color: color-mix(in oklab, var(--color-swiss-navy) 30%, transparent);
+    }
+  }
+
+  .bg-swiss-navy\/80 {
+    background-color: #0f172acc;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-swiss-navy\/80 {
+      background-color: color-mix(in oklab, var(--color-swiss-navy) 80%, transparent);
+    }
+  }
+
+  .bg-swiss-navy\/90 {
+    background-color: #0f172ae6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-swiss-navy\/90 {
+      background-color: color-mix(in oklab, var(--color-swiss-navy) 90%, transparent);
     }
   }
 
@@ -1699,6 +1715,16 @@
     color: var(--color-white);
   }
 
+  .text-white\/10 {
+    color: #ffffff1a;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .text-white\/10 {
+      color: color-mix(in oklab, var(--color-white) 10%, transparent);
+    }
+  }
+
   .text-white\/30 {
     color: #ffffff4d;
   }
@@ -2139,6 +2165,18 @@
   @media (hover: hover) {
     .hover\:bg-\[var\(--nav-primary\)\]:hover {
       background-color: var(--nav-primary);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-swiss-navy\/90:hover {
+      background-color: #0f172ae6;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-swiss-navy\/90:hover {
+        background-color: color-mix(in oklab, var(--color-swiss-navy) 90%, transparent);
+      }
     }
   }
 

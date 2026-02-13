@@ -342,120 +342,157 @@ function AboutPage() {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-swiss-navy text-white py-40 relative overflow-hidden",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-6 relative z-10",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                            initial: {
-                                opacity: 0,
-                                y: 40
-                            },
-                            whileInView: {
-                                opacity: 1,
-                                y: 0
-                            },
-                            viewport: {
-                                once: true
-                            },
-                            className: "text-center mb-24",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "border border-white/20 px-4 py-2 text-[10px] tracking-[0.3em] uppercase rounded-full backdrop-blur-md",
-                                    children: "Méthodologie Propriétaire"
+                className: "relative py-40 overflow-hidden",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 w-full h-full z-0",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                autoPlay: true,
+                                loop: true,
+                                muted: true,
+                                playsInline: true,
+                                className: "object-cover w-full h-full",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                    src: "/Bg_video.mp4",
+                                    type: "video/mp4"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 124,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "font-serif text-5xl md:text-7xl mt-12 mb-6",
-                                    children: "Le Protocole Vontobel"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 127,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-white/60 max-w-2xl mx-auto text-lg font-light",
-                                    children: "Nous adaptons la précision de l'hôtellerie de luxe à la complexité de la logistique moderne."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 126,
                                     columnNumber: 25
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 118,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-3 gap-12",
-                            children: [
-                                {
-                                    title: "Cartographie Visuelle",
-                                    desc: "Avant de toucher un objet, nous photographions et cartographions la disposition originale. Chaque livre, chaque stylo retrouve sa place exacte."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 119,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute inset-0 bg-swiss-navy/90 mix-blend-multiply"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 129,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/about/page.tsx",
+                        lineNumber: 118,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative z-10 max-w-7xl mx-auto px-6 text-white",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    y: 40
                                 },
-                                {
-                                    title: "Chaîne de Responsabilité",
-                                    desc: "Inspirés par la diplomatie, nos processus garantissent que la responsabilité n'est jamais transférée à des tiers. Contrôle absolu."
+                                whileInView: {
+                                    opacity: 1,
+                                    y: 0
                                 },
-                                {
-                                    title: "Silence Opérationnel",
-                                    desc: "Nos équipes sont formées pour opérer dans des environnements occupés sans causer de bruit ou de distraction. Nous sommes invisibles."
-                                }
-                            ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    initial: {
-                                        opacity: 0,
-                                        y: 20
+                                viewport: {
+                                    once: true
+                                },
+                                className: "text-center mb-24",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "border border-white/20 px-4 py-2 text-[10px] tracking-[0.3em] uppercase rounded-full backdrop-blur-md",
+                                        children: "Méthodologie Propriétaire"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/about/page.tsx",
+                                        lineNumber: 139,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "font-serif text-5xl md:text-7xl mt-12 mb-6",
+                                        children: "Le Protocole Vontobel"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/about/page.tsx",
+                                        lineNumber: 142,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-white/60 max-w-2xl mx-auto text-lg font-light",
+                                        children: "Nous adaptons la précision de l'hôtellerie de luxe à la complexité de la logistique moderne."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/about/page.tsx",
+                                        lineNumber: 143,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 133,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-1 md:grid-cols-3 gap-12",
+                                children: [
+                                    {
+                                        title: "Cartographie Visuelle",
+                                        desc: "Avant de toucher un objet, nous photographions et cartographions la disposition originale. Chaque livre, chaque stylo retrouve sa place exacte."
                                     },
-                                    whileInView: {
-                                        opacity: 1,
-                                        y: 0
+                                    {
+                                        title: "Chaîne de Responsabilité",
+                                        desc: "Inspirés par la diplomatie, nos processus garantissent que la responsabilité n'est jamais transférée à des tiers. Contrôle absolu."
                                     },
-                                    viewport: {
-                                        once: true
-                                    },
-                                    transition: {
-                                        delay: i * 0.2
-                                    },
-                                    className: "bg-white/5 p-8 border border-white/10 hover:bg-white/10 transition-colors duration-500",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "font-serif text-2xl mb-4 text-white",
-                                            children: item.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 147,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-white/50 font-light leading-relaxed",
-                                            children: item.desc
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 148,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, i, true, {
-                                    fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 139,
-                                    columnNumber: 29
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 133,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 117,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+                                    {
+                                        title: "Silence Opérationnel",
+                                        desc: "Nos équipes sont formées pour opérer dans des environnements occupés sans causer de bruit ou de distraction. Nous sommes invisibles."
+                                    }
+                                ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                        initial: {
+                                            opacity: 0,
+                                            y: 20
+                                        },
+                                        whileInView: {
+                                            opacity: 1,
+                                            y: 0
+                                        },
+                                        viewport: {
+                                            once: true
+                                        },
+                                        transition: {
+                                            delay: i * 0.2
+                                        },
+                                        className: "bg-swiss-navy/80 backdrop-blur-md p-8 border border-white/10 hover:bg-swiss-navy/90 transition-all duration-500",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-serif text-2xl mb-4 text-white",
+                                                children: item.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/about/page.tsx",
+                                                lineNumber: 162,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-white/50 font-light leading-relaxed",
+                                                children: item.desc
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/about/page.tsx",
+                                                lineNumber: 163,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, i, true, {
+                                        fileName: "[project]/src/app/about/page.tsx",
+                                        lineNumber: 154,
+                                        columnNumber: 29
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 148,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/about/page.tsx",
+                        lineNumber: 132,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/app/about/page.tsx",
                 lineNumber: 116,
                 columnNumber: 13
@@ -476,7 +513,7 @@ function AboutPage() {
                                             children: "Leadership"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 160,
+                                            lineNumber: 175,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -485,20 +522,20 @@ function AboutPage() {
                                                 "Maîtres de la",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 176,
                                                     columnNumber: 94
                                                 }, this),
                                                 "Coordination."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 176,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 174,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,18 +545,18 @@ function AboutPage() {
                                         children: "Notre direction maintient vivant l'esprit des fondateurs. Nous combinons la discipline de l'ingénierie suisse avec la sensibilité culturelle nécessaire pour traiter des artefacts historiques et des sièges sociaux."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/page.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 179,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 178,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 158,
+                            lineNumber: 173,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -564,14 +601,14 @@ function AboutPage() {
                                             quality: 100
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 198,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-swiss-navy/90 via-swiss-navy/20 to-transparent opacity-90 transition-opacity duration-500"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 206,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -582,7 +619,7 @@ function AboutPage() {
                                                     children: member.role
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 208,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -590,35 +627,35 @@ function AboutPage() {
                                                     children: member.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 209,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 192,
+                                            lineNumber: 207,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 176,
+                                    lineNumber: 191,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 170,
+                            lineNumber: 185,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 157,
+                    lineNumber: 172,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.tsx",
-                lineNumber: 156,
+                lineNumber: 171,
                 columnNumber: 13
             }, this)
         ]

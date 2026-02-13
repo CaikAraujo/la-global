@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
 
             <div className="flex gap-4 mt-8">
               {/* Instagram */}
-              <a href="#" className="text-white/40 hover:text-white transition-colors duration-300" aria-label="Instagram">
+              <a href="https://www.instagram.com/laglobalcorporatesolutions?igsh=MTlkdzVtaWNidTc4eg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors duration-300" aria-label="Instagram">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
               {/* LinkedIn */}
-              <a href="#" className="text-white/40 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/general-310436312" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                   <rect x="2" y="9" width="4" height="12"></rect>
@@ -87,27 +87,33 @@ const Footer: React.FC = () => {
           <p className="text-white/30 text-[10px] tracking-widest uppercase">
             © {new Date().getFullYear()} L.A Global Corporation - Logistique Avancée. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 text-white/30">
-            <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Made Suisse</span>
-            <div className="w-2 h-2">
-              <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />
-                <rect x="7.11426" y="75.8857" width="28.4571" height="7.11429" fill="#CB0001" />
-                <rect x="11.8572" y="49.8" width="23.7143" height="7.11429" fill="#CB0001" />
-                <rect x="28.4572" y="56.9143" width="7.11429" height="16.6" fill="#CB0001" />
-                <rect width="7.11429" height="33.2" transform="matrix(1 0 0 -1 0 33.2)" fill="#CB0001" />
-                <rect width="28.4571" height="7.11429" transform="matrix(1 0 0 -1 7.11426 7.11429)" fill="#CB0001" />
-                <rect width="23.7143" height="7.11429" transform="matrix(1 0 0 -1 11.8572 33.2)" fill="#CB0001" />
-                <rect width="7.11429" height="16.6" transform="matrix(1 0 0 -1 28.4572 26.0857)" fill="#CB0001" />
-                <rect x="85.3715" y="33.2" width="7.11429" height="33.2" transform="rotate(180 85.3715 33.2)" fill="#CB0001" />
-                <rect x="78.2571" y="7.11429" width="28.4571" height="7.11429" transform="rotate(180 78.2571 7.11429)" fill="#CB0001" />
-                <rect x="73.5143" y="33.2" width="23.7143" height="7.11429" transform="rotate(180 73.5143 33.2)" fill="#CB0001" />
-                <rect x="56.9143" y="26.0857" width="7.11429" height="16.6" transform="rotate(180 56.9143 26.0857)" fill="#CB0001" />
-                <rect width="7.11429" height="33.2" transform="matrix(-1 0 0 1 85.3715 49.8)" fill="#CB0001" />
-                <rect width="28.4571" height="7.11429" transform="matrix(-1 0 0 1 78.2571 75.8857)" fill="#CB0001" />
-                <rect width="23.7143" height="7.11429" transform="matrix(-1 0 0 1 73.5143 49.8)" fill="#CB0001" />
-                <rect width="7.11429" height="16.6" transform="matrix(-1 0 0 1 56.9143 56.9143)" fill="#CB0001" />
-              </svg>
+          <div className="flex items-center gap-4 text-white/30">
+            <a href="https://github.com/CaikAraujo" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300">
+              Developed by Caik Araujo
+            </a>
+            <span className="text-white/10">|</span>
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Made Suisse</span>
+              <div className="w-2 h-2">
+                <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />
+                  <rect x="7.11426" y="75.8857" width="28.4571" height="7.11429" fill="#CB0001" />
+                  <rect x="11.8572" y="49.8" width="23.7143" height="7.11429" fill="#CB0001" />
+                  <rect x="28.4572" y="56.9143" width="7.11429" height="16.6" fill="#CB0001" />
+                  <rect width="7.11429" height="33.2" transform="matrix(1 0 0 -1 0 33.2)" fill="#CB0001" />
+                  <rect width="28.4571" height="7.11429" transform="matrix(1 0 0 -1 7.11426 7.11429)" fill="#CB0001" />
+                  <rect width="23.7143" height="7.11429" transform="matrix(1 0 0 -1 11.8572 33.2)" fill="#CB0001" />
+                  <rect width="7.11429" height="16.6" transform="matrix(1 0 0 -1 28.4572 26.0857)" fill="#CB0001" />
+                  <rect x="85.3715" y="33.2" width="7.11429" height="33.2" transform="rotate(180 85.3715 33.2)" fill="#CB0001" />
+                  <rect x="78.2571" y="7.11429" width="28.4571" height="7.11429" transform="rotate(180 78.2571 7.11429)" fill="#CB0001" />
+                  <rect x="73.5143" y="33.2" width="23.7143" height="7.11429" transform="rotate(180 73.5143 33.2)" fill="#CB0001" />
+                  <rect x="56.9143" y="26.0857" width="7.11429" height="16.6" transform="rotate(180 56.9143 26.0857)" fill="#CB0001" />
+                  <rect width="7.11429" height="33.2" transform="matrix(-1 0 0 1 85.3715 49.8)" fill="#CB0001" />
+                  <rect width="28.4571" height="7.11429" transform="matrix(-1 0 0 1 78.2571 75.8857)" fill="#CB0001" />
+                  <rect width="23.7143" height="7.11429" transform="matrix(-1 0 0 1 73.5143 49.8)" fill="#CB0001" />
+                  <rect width="7.11429" height="16.6" transform="matrix(-1 0 0 1 56.9143 56.9143)" fill="#CB0001" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
