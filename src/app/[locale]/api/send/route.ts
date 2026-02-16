@@ -6,10 +6,11 @@ import { getTranslations } from 'next-intl/server';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(request: Request, { params }: { params: { locale: string } }) {
+export async function POST(request: Request, { params }: { params: Promise<{ locale: string }> }) {
     try {
+        const { locale } = await params;
         const body = await request.json();
-        const t = await getTranslations({ locale: params.locale, namespace: 'Schema' });
+        const t = await getTranslations({ locale, namespace: 'Schema' });
         const contactSchema = createContactSchema((key) => t(key));
 
         // Server-side validation
