@@ -3,8 +3,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const Hero: React.FC = () => {
+  const t = useTranslations('Hero');
+
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       {/* Cinematic Background Image with Ken Burns Effect */}
@@ -38,8 +41,8 @@ const Hero: React.FC = () => {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="font-serif text-4xl md:text-6xl lg:text-7xl text-white font-medium leading-[1.1] mb-8"
         >
-          L’art de la logistique <br />
-          <span className="italic font-normal opacity-90">au service de votre infrastructure</span>
+          {t('title')} <br />
+          <span className="italic font-normal opacity-90">{t('subtitle')}</span>
         </motion.h1>
 
         <motion.p
@@ -48,7 +51,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1.5, delay: 0.8 }}
           className="text-white/80 font-light text-lg md:text-xl max-w-2xl mx-auto tracking-wide leading-relaxed"
         >
-          Logistique avancée et résidences de prestige, avec un soin absolu pour votre entreprise.
+          {t('description')}
         </motion.p>
       </div>
 
@@ -59,7 +62,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
       >
-        <span className="text-white/60 text-[10px] uppercase tracking-widest">Découvrir</span>
+        <span className="text-white/60 text-[10px] uppercase tracking-widest">{t('scroll')}</span>
         <div className="w-[1px] h-12 bg-white/20 overflow-hidden relative">
           <motion.div
             className="w-full h-1/2 bg-white absolute top-0"

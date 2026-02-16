@@ -1,7 +1,11 @@
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@/navigation';
+import { useTranslations } from 'next-intl';
 
 const Footer: React.FC = () => {
+  const t = useTranslations('Footer');
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer id="contact" className="bg-swiss-navy text-white pt-16 pb-6 relative overflow-hidden">
       {/* Decorative Swiss Cross faint background */}
@@ -16,13 +20,13 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
 
           <div className="md:col-span-2">
-            <h2 className="font-serif text-3xl mb-8">Demander une Consultation</h2>
+            <h2 className="font-serif text-3xl mb-8">{t('consultation.title')}</h2>
             <p className="text-white/60 font-light mb-8 max-w-md leading-relaxed">
-              Pour discuter de vos besoins logistiques en toute discrétion, contactez notre équipe. Les projets complexes sont notre spécialité.
+              {t('consultation.description')}
             </p>
             <Link href="/contact">
               <button className="bg-white text-swiss-navy px-8 py-4 text-xs font-bold tracking-swiss uppercase hover:bg-swiss-red hover:text-white transition-colors duration-300">
-                Nous Contacter
+                {t('consultation.cta')}
               </button>
             </Link>
 
@@ -53,11 +57,11 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Siège Social</h3>
+            <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">{t('headquarters.title')}</h3>
             <address className="text-white/80 font-light not-italic leading-7">
-              Av. des Communes-Réunies 43<br />
-              1212 Grand-Lancy<br />
-              Suisse<br />
+              {t.rich('headquarters.address', {
+                br: () => <br />
+              })}<br />
               <br />
               +41 22 535 6333<br />
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">contact@laglobal.ch</a>
@@ -68,12 +72,17 @@ const Footer: React.FC = () => {
 
           <div className="flex flex-col justify-between">
             <div>
-              <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">Mentions Légales</h3>
+              <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">{t('legal.title')}</h3>
               <ul className="space-y-4">
-                {['Politique de Confidentialité', 'Conditions Générales', 'Assurances & Garanties', 'Portail Client'].map(link => (
-                  <li key={link}>
-                    <a href="#" className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">
-                      {link}
+                {[
+                  { label: t('legal.privacy'), href: '#' },
+                  { label: t('legal.terms'), href: '#' },
+                  { label: t('legal.insurance'), href: '#' },
+                  { label: t('legal.portal'), href: '#' }
+                ].map(link => (
+                  <li key={link.label}>
+                    <a href={link.href} className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">
+                      {link.label}
                     </a>
                   </li>
                 ))}
@@ -85,15 +94,15 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/30 text-[10px] tracking-widest uppercase">
-            © {new Date().getFullYear()} L.A Global Corporation - Logistique Avancée. All rights reserved.
+            {t('copyright', { year: currentYear })}
           </p>
           <div className="flex items-center gap-4 text-white/30">
             <a href="https://github.com/CaikAraujo" target="_blank" rel="noopener noreferrer" className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300">
-              Developed by Caik Araujo
+              {t('developer')}
             </a>
             <span className="text-white/10">|</span>
             <div className="flex items-center gap-2">
-              <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">Made Suisse</span>
+              <span className="text-[10px] uppercase tracking-widest text-white/30 hover:text-white transition-colors duration-300 cursor-default">{t('made_in')}</span>
               <div className="w-2 h-2">
                 <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />

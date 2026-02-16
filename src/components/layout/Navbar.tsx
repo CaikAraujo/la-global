@@ -2,19 +2,21 @@
 
 import React, { useState } from 'react';
 import { motion, useScroll, useTransform, useSpring, AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import type { NavLink } from '@/types';
-
-const links: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "Services", href: "/services" },
-  { label: "L'Excellence", href: "/about" },
-  { label: "Contact", href: "/contact" },
-] as const;
+import { Link, usePathname } from '@/navigation';
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from '../LanguageSwitcher';
+import { Logo } from '../Logo';
 
 const Navbar: React.FC = () => {
+  const t = useTranslations('Navbar');
   const { scrollY } = useScroll();
+
+  const links = [
+    { label: t('links.home'), href: "/" },
+    { label: t('links.services'), href: "/services" },
+    { label: t('links.excellence'), href: "/about" },
+    { label: t('links.contact'), href: "/contact" },
+  ] as const;
 
   // Add physics-based smoothing to the scroll value
   // "River current" feel: Low stiffness, higher damping for smooth, inertial flow
@@ -55,6 +57,9 @@ const Navbar: React.FC = () => {
 
   // Inverse (Logo Text, Button Hover Text): Swiss Navy -> White
   const inverseColor = useTransform(smoothScrollY, colorRange, ["#0F172A", "#FFFFFF"]);
+
+  // Switcher Background: Transparent/White Tint -> Swiss Navy
+  const switcherBgColor = useTransform(smoothScrollY, colorRange, ["rgba(255, 255, 255, 0.05)", "#0F172A"]);
 
   // --- Computed Styles based on Route ---
   // If not Home, we provide static values (simulating the "scrolled" end state)
@@ -99,28 +104,11 @@ const Navbar: React.FC = () => {
             <div
               className="w-10 h-10 flex items-center justify-center transition-all duration-500 group-hover:rotate-180"
             >
-              <svg width="100%" height="100%" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="49.8" width="7.11429" height="33.2" fill="#CB0001" />
-                <rect x="7.11426" y="75.8857" width="28.4571" height="7.11429" fill="#CB0001" />
-                <rect x="11.8572" y="49.8" width="23.7143" height="7.11429" fill="#CB0001" />
-                <rect x="28.4572" y="56.9143" width="7.11429" height="16.6" fill="#CB0001" />
-                <rect width="7.11429" height="33.2" transform="matrix(1 0 0 -1 0 33.2)" fill="#CB0001" />
-                <rect width="28.4571" height="7.11429" transform="matrix(1 0 0 -1 7.11426 7.11429)" fill="#CB0001" />
-                <rect width="23.7143" height="7.11429" transform="matrix(1 0 0 -1 11.8572 33.2)" fill="#CB0001" />
-                <rect width="7.11429" height="16.6" transform="matrix(1 0 0 -1 28.4572 26.0857)" fill="#CB0001" />
-                <rect x="85.3715" y="33.2" width="7.11429" height="33.2" transform="rotate(180 85.3715 33.2)" fill="#CB0001" />
-                <rect x="78.2571" y="7.11429" width="28.4571" height="7.11429" transform="rotate(180 78.2571 7.11429)" fill="#CB0001" />
-                <rect x="73.5143" y="33.2" width="23.7143" height="7.11429" transform="rotate(180 73.5143 33.2)" fill="#CB0001" />
-                <rect x="56.9143" y="26.0857" width="7.11429" height="16.6" transform="rotate(180 56.9143 26.0857)" fill="#CB0001" />
-                <rect width="7.11429" height="33.2" transform="matrix(-1 0 0 1 85.3715 49.8)" fill="#CB0001" />
-                <rect width="28.4571" height="7.11429" transform="matrix(-1 0 0 1 78.2571 75.8857)" fill="#CB0001" />
-                <rect width="23.7143" height="7.11429" transform="matrix(-1 0 0 1 73.5143 49.8)" fill="#CB0001" />
-                <rect width="7.11429" height="16.6" transform="matrix(-1 0 0 1 56.9143 56.9143)" fill="#CB0001" />
-              </svg>
+              <Logo />
             </div>
             <div className="hidden md:block">
               <h1 className="font-bold tracking-widest text-sm uppercase transition-colors duration-300 text-[var(--nav-primary)]">LA Global</h1>
-              <h2 className="font-bold tracking-[0.2em] text-[10px] uppercase transition-colors duration-300 text-[var(--nav-secondary)]">CORPORATE SOLUTIONS</h2>
+              <h2 className="font-bold tracking-[0.2em] text-[10px] uppercase transition-colors duration-300 text-[var(--nav-secondary)]">{t('logo_subtitle')}</h2>
             </div>
           </Link>
 
@@ -140,16 +128,23 @@ const Navbar: React.FC = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          {/* CTA Button & Hamburger */}
+          {/* CTA Button & Language Switcher */}
           <div className="flex items-center gap-4">
+            <div className="hidden md:block">
+              <LanguageSwitcher
+                textColor="#FFFFFF"
+                borderColor={isHome ? "rgba(255, 255, 255, 0.2)" : "rgba(15, 23, 42, 0)"}
+                backgroundColor={isHome ? switcherBgColor : "#0F172A"}
+              />
+            </div>
+
             <Link href="/contact" className="hidden md:block">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-3 text-xs font-semibold tracking-swiss uppercase border transition-all duration-500 ease-out border-[var(--nav-primary)] text-[var(--nav-primary)] hover:bg-[var(--nav-primary)] hover:text-[var(--nav-inverse)]"
               >
-                Nous Contacter
+                {t('cta')}
               </motion.button>
             </Link>
 
@@ -202,9 +197,12 @@ const Navbar: React.FC = () => {
                 </Link>
               ))}
               <div className="w-12 h-[1px] bg-white/20 my-4" />
+
+              <LanguageSwitcher />
+
               <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
                 <button className="px-8 py-3 text-sm font-bold tracking-swiss uppercase border border-white text-white hover:bg-white hover:text-swiss-navy transition-colors duration-300">
-                  Nous Contacter
+                  {t('cta')}
                 </button>
               </Link>
             </nav>

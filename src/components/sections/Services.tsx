@@ -3,55 +3,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import { ServiceItem } from '../../types';
+import { useTranslations } from 'next-intl';
 
-const services: ServiceItem[] = [
-  {
-    id: 'corporate',
-    title: 'Relocalisation d\'Entreprise',
-    subtitle: 'Continuité des Affaires',
-    description: 'Transition parfaite pour les sièges sociaux. Gestion complète du déménagement, minimisant l\'inactivité et avec des protocoles de confidentialité rigoureux.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop'
-  },
-  {
-    id: 'private',
-    title: 'Logistique de Résidence Privée',
-    subtitle: 'Résidences & Propriétés',
-    description: 'Service "gants blancs" pour résidences et propriétés. Gestion complète de l\'inventaire et recréation de l\'atmosphère domestique à destination.',
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop'
-  },
-  {
-    id: 'art',
-    title: 'Beaux-Arts & Antiquités',
-    subtitle: 'Standard Muséal',
-    description: 'Caisses climatisées personnalisées, transport aérien sécurisé et installation professionnelle pour des œuvres inestimables.',
-    image: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop'
-  },
-  {
-    id: 'cleaning',
-    title: 'Service de Bureaux',
-    subtitle: 'Hygiène et Confort',
-    description: 'Environnements impeccables, avec attention aux détails et discrétion totale, garantissant confort et productivité pour votre équipe.',
-    image: '/images/cleaning-service.jpg'
-  },
-  {
-    id: 'storage',
-    title: 'Stockage Sécurisé',
-    subtitle: 'Coffre-fort & Protection d\'Actifs',
-    description: 'Stockage de sécurité maximale en zones franches. Contrôle climatique de précision pour actifs précieux et exonération fiscale temporaire.',
-    image: '/images/secure-storage.png'
-  },
-  {
-    id: 'events',
-    title: 'Montage de Stands pour Foires et Événements',
-    subtitle: 'Coordination & Précision',
-    description: 'Exécution impeccable, soignant chaque détail pour garantir impact visuel, fonctionnalité et ponctualité.',
-    image: '/images/event-logistics.png'
-  }
-];
+const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'events'];
+
+const serviceImages: Record<string, string> = {
+  corporate: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
+  private: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop',
+  art: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop',
+  cleaning: '/images/cleaning-service.jpg',
+  storage: '/images/secure-storage.png',
+  events: '/images/event-logistics.png'
+};
 
 const Services: React.FC = () => {
+  const t = useTranslations('ServicesSection');
+
   return (
     <section id="services" className="py-12 bg-swiss-surface relative">
       {/* Subtle decorative grid line */}
@@ -67,17 +36,17 @@ const Services: React.FC = () => {
           className="mb-10 flex flex-col md:flex-row justify-between items-end border-b border-swiss-navy/10 pb-4"
         >
           <div>
-            <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-2 block">Expertise</span>
-            <h2 className="font-serif text-4xl md:text-5xl text-swiss-navy">Services Spécialisés</h2>
+            <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-2 block">{t('label')}</span>
+            <h2 className="font-serif text-4xl md:text-5xl text-swiss-navy">{t('title')}</h2>
           </div>
           <p className="text-swiss-text/70 max-w-md text-sm leading-relaxed mt-6 md:mt-0 text-right md:text-left">
-            Nous portons votre opération à un nouveau niveau d’excellence, en soignant chaque détail pour des résultats sophistiqués et performants.
+            {t('description')}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-8">
-          {services.map((service, index) => (
-            <Link href={`/services#${service.id}`} key={service.id} className="block group cursor-pointer">
+          {serviceKeys.map((key, index) => (
+            <Link href={`/services#${key}`} key={key} className="block group cursor-pointer">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -91,8 +60,8 @@ const Services: React.FC = () => {
                     className="w-full h-full"
                   >
                     <Image
-                      src={service.image}
-                      alt={service.title}
+                      src={serviceImages[key]}
+                      alt={t(`items.${key}.title`)}
                       fill
                       className="object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0"
                       sizes="(max-width: 1024px) 100vw, 33vw"
@@ -103,13 +72,13 @@ const Services: React.FC = () => {
 
                 <div className="pr-8">
                   <span className="text-[10px] tracking-widest uppercase text-swiss-text/50 mb-2 block group-hover:text-swiss-red transition-colors duration-500">
-                    {service.subtitle}
+                    {t(`items.${key}.subtitle`)}
                   </span>
                   <h3 className="font-serif text-2xl text-swiss-dark mb-4 group-hover:translate-x-2 transition-transform duration-500 ease-out">
-                    {service.title}
+                    {t(`items.${key}.title`)}
                   </h3>
                   <p className="text-swiss-text/70 font-light text-sm leading-7 border-l border-swiss-navy/10 pl-4 group-hover:border-swiss-navy/40 transition-colors duration-500">
-                    {service.description}
+                    {t(`items.${key}.description`)}
                   </p>
                 </div>
               </motion.div>

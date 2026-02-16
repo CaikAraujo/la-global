@@ -3,8 +3,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const AboutSection: React.FC = () => {
+  const t = useTranslations('AboutSection');
+
+  const certifications = ['iso', 'insurance', 'team'];
+
   return (
     <section id="about" className="py-32 bg-swiss-surface">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -20,19 +25,21 @@ const AboutSection: React.FC = () => {
             >
               <span className="text-swiss-red font-bold text-xs tracking-widest uppercase mb-6 block flex items-center gap-2">
                 <span className="w-8 h-[1px] bg-swiss-red"></span>
-                Institutionnel
+                {t('label')}
               </span>
               <h2 className="font-serif text-xl md:text-2xl lg:text-3xl text-swiss-navy leading-tight mb-8">
-                Bienvenue chez LA GLOBAL <br />votre partenaire en solutions
+                {t.rich('title', {
+                  br: () => <br />
+                })}
               </h2>
               <p className="text-swiss-text font-light text-base leading-relaxed mb-10">
-                Penser à l'avenir est une partie essentielle de notre philosophie. Nous croyons que l'innovation, la qualité et la responsabilité vont de pair pour générer une valeur réelle et durable pour nos clients. Nous agissons avec une vision à long terme, en développant des solutions réelles aux besoins de nos clients.
+                {t('description')}
               </p>
 
               <ul className="space-y-4">
-                {['Certification ISO 27001', 'Assurance Intégrale "All-Risk"', 'Équipe Multilingue (EN, FR, DE, PT)'].map((item, i) => (
+                {certifications.map((key, i) => (
                   <motion.li
-                    key={i}
+                    key={key}
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -40,7 +47,7 @@ const AboutSection: React.FC = () => {
                     className="flex items-center gap-3 text-sm font-medium text-swiss-navy uppercase tracking-wide"
                   >
                     <div className="w-1.5 h-1.5 bg-swiss-red" />
-                    {item}
+                    {t(`certifications.${key}`)}
                   </motion.li>
                 ))}
               </ul>
@@ -76,11 +83,11 @@ const AboutSection: React.FC = () => {
                 className="absolute -bottom-8 -left-8 bg-swiss-navy text-white p-6 max-w-sm shadow-xl hidden md:block"
               >
                 <p className="font-serif italic text-sm leading-relaxed opacity-90">
-                  "En tant que prestataires de services, notre engagement est de comprendre profondément vos besoins et d'offrir des solutions complètes, personnalisées et fiables. Pour cela, nous travaillons avec des technologies reconnues, des processus bien définis et un haut standard d'exécution, garantissant des résultats constants aujourd'hui — et préparés pour demain."
+                  "{t('quote')}"
                 </p>
                 <div className="mt-4 flex items-center gap-4">
                   <div className="h-[1px] w-8 bg-swiss-red" />
-                  <span className="text-[10px] uppercase tracking-widest">Anderson Dias - Fondateur</span>
+                  <span className="text-[10px] uppercase tracking-widest">{t('founder')}</span>
                 </div>
               </motion.div>
             </motion.div>
