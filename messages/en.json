@@ -142,16 +142,16 @@
             "description": "Our management keeps the founders' spirit alive. We combine the discipline of Swiss engineering with the cultural sensitivity required to handle historical artefacts and corporate headquarters.",
             "roles": {
                 "ops_director": {
-                    "role": "Director of Operations",
-                    "desc": "20 years of experience in international art fair logistics."
+                    "role": "Anderson Dias Founder & CEO",
+                    "desc": "Creator of the vision that gave rise to the company, he leads with purpose, strategy, and a focus on real impact. He believes that strong businesses are built with innovation, dedication, and people committed to excellence."
                 },
                 "curator": {
-                    "role": "Fine Arts Curator",
-                    "desc": "Specialist in preventive conservation and climate-controlled packaging."
+                    "role": "Aline Camargo - Logistics Manager",
+                    "desc": "Responsible for planning, coordinating, and optimizing the company's logistics operations. She manages transport, warehousing, distribution, and inventory control, ensuring operational efficiency, cost reduction, and adherence to deadlines."
                 },
                 "fleet_manager": {
-                    "role": "Fleet Manager",
-                    "desc": "Mechanical engineer focused on precision vibration-free transport."
+                    "role": "Emerson Santos – Operations Manager",
+                    "desc": "Responsible for process management and optimization, ensuring efficiency, organization, and operational excellence. He acts strategically to ensure that planning, execution, and results are always in perfect harmony."
                 }
             }
         }

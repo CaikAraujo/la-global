@@ -204,38 +204,6 @@ function ServicesPage() {
     _s1();
     const t = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2d$client$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslations"])('ServicesPage');
     // Construct services with features dynamically from translations
-    const detailedServices = serviceKeys.map((key)=>({
-            id: key,
-            title: t(`items.${key}.title`, {
-                fallback: t(`items.${key}.title`) || key
-            }),
-            // Actually, for ServicePage items, I need to check where they come from.
-            // Wait, 'ServicesPage.items' in fr.json contains feature definitions?
-            // Let's re-verify fr.json structure for ServicesPage.
-            // ServicesPage (root key) -> items -> corporate -> features -> f1 -> name/desc
-            // Also ServicesPage -> items -> corporate -> title / subtitle / description?
-            // No, ServicesPage items in JSON seem to have title/subtitle/description AND features.
-            // Let's assume so.
-            subtitle: t(`items.${key}.subtitle`),
-            // In ServicesSection, it was items.corporate.title etc.
-            // In fr.json: ServicesPage.items.corporate has features, but does it have title?
-            // Checking fr.json again...
-            // ServicesPage: { header: {...}, items: { corporate: { features: {...} }, private: ... } }
-            // It seems ServicesPage items ONLY have features in the JSON I read previously?
-            // Wait, looking at Step 491 output:
-            // ServicesPage -> items -> corporate -> features.
-            // It DOES NOT seem to have title/subtitle/description for the service itself on the ServicesPage object in JSON?
-            // Ah, ServicesSection has title/subtitle/description.
-            // ServicesPage items seem to only have features.
-            // But the page design needs title, subtitle, description.
-            // I should probably reuse `ServicesSection` translations for the main service info!
-            // ServicesSection.items.corporate.title
-            // ServicesSection.items.corporate.subtitle
-            // ServicesSection.items.corporate.description
-            // AND ServicesPage.items.corporate.features
-            // I need TWO translators then? Or just use dot notation.
-            image: serviceImages[key]
-        }));
     // I need to use `useTranslations` properly.
     const tServicesSection = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2d$client$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslations"])('ServicesSection');
     const tServicesPage = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2d$client$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslations"])('ServicesPage');
@@ -262,7 +230,7 @@ function ServicesPage() {
                             children: tServicesPage('header.title')
                         }, void 0, false, {
                             fileName: "[project]/src/app/[locale]/services/page.tsx",
-                            lineNumber: 130,
+                            lineNumber: 98,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -270,18 +238,18 @@ function ServicesPage() {
                             children: tServicesPage('header.description')
                         }, void 0, false, {
                             fileName: "[project]/src/app/[locale]/services/page.tsx",
-                            lineNumber: 131,
+                            lineNumber: 99,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/[locale]/services/page.tsx",
-                    lineNumber: 125,
+                    lineNumber: 93,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/[locale]/services/page.tsx",
-                lineNumber: 124,
+                lineNumber: 92,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -299,7 +267,7 @@ function ServicesPage() {
                                         className: "absolute inset-0 bg-swiss-navy/10 z-10 transition-opacity duration-700 group-hover:opacity-0"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 118,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -310,13 +278,13 @@ function ServicesPage() {
                                         sizes: "(max-width: 1024px) 100vw, 50vw"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 119,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                lineNumber: 149,
+                                lineNumber: 117,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -327,7 +295,7 @@ function ServicesPage() {
                                         children: tServicesSection(`items.${key}.subtitle`)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 130,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -335,7 +303,7 @@ function ServicesPage() {
                                         children: tServicesSection(`items.${key}.title`)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 163,
+                                        lineNumber: 131,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -343,7 +311,7 @@ function ServicesPage() {
                                         children: tServicesSection(`items.${key}.description`)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 132,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -355,36 +323,36 @@ function ServicesPage() {
                                                 }
                                             }, i, false, {
                                                 fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                                lineNumber: 170,
+                                                lineNumber: 138,
                                                 columnNumber: 41
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 136,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/[locale]/services/page.tsx",
-                                lineNumber: 161,
+                                lineNumber: 129,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, key, true, {
                         fileName: "[project]/src/app/[locale]/services/page.tsx",
-                        lineNumber: 143,
+                        lineNumber: 111,
                         columnNumber: 25
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/src/app/[locale]/services/page.tsx",
-                lineNumber: 138,
+                lineNumber: 106,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/[locale]/services/page.tsx",
-        lineNumber: 121,
+        lineNumber: 89,
         columnNumber: 9
     }, this);
 }

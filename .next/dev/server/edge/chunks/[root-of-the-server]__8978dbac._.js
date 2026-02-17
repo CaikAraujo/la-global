@@ -26,7 +26,8 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
     // A list of all locales that are supported
     locales: [
         'en',
-        'fr'
+        'fr',
+        'de'
     ],
     // Used when no locale matches
     defaultLocale: 'fr'
@@ -35,7 +36,7 @@ const config = {
     // Match only internationalized pathnames
     matcher: [
         '/',
-        '/(fr|en)/:path*'
+        '/(fr|en|de)/:path*'
     ]
 };
 }),

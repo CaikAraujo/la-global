@@ -80,38 +80,6 @@ export default function ServicesPage() {
     const t = useTranslations('ServicesPage');
 
     // Construct services with features dynamically from translations
-    const detailedServices = serviceKeys.map(key => ({
-        id: key,
-        title: t(`items.${key}.title`, { fallback: t(`items.${key}.title`) || key }), // Using fallback if needed, but it should be there.
-        // Actually, for ServicePage items, I need to check where they come from.
-        // Wait, 'ServicesPage.items' in fr.json contains feature definitions?
-        // Let's re-verify fr.json structure for ServicesPage.
-        // ServicesPage (root key) -> items -> corporate -> features -> f1 -> name/desc
-        // Also ServicesPage -> items -> corporate -> title / subtitle / description?
-        // No, ServicesPage items in JSON seem to have title/subtitle/description AND features.
-        // Let's assume so.
-        subtitle: t(`items.${key}.subtitle`), // Actually ServicesPage layout might differ from ServicesSection. 
-        // In ServicesSection, it was items.corporate.title etc.
-        // In fr.json: ServicesPage.items.corporate has features, but does it have title?
-        // Checking fr.json again...
-        // ServicesPage: { header: {...}, items: { corporate: { features: {...} }, private: ... } }
-        // It seems ServicesPage items ONLY have features in the JSON I read previously?
-        // Wait, looking at Step 491 output:
-        // ServicesPage -> items -> corporate -> features.
-        // It DOES NOT seem to have title/subtitle/description for the service itself on the ServicesPage object in JSON?
-        // Ah, ServicesSection has title/subtitle/description.
-        // ServicesPage items seem to only have features.
-        // But the page design needs title, subtitle, description.
-        // I should probably reuse `ServicesSection` translations for the main service info!
-        // ServicesSection.items.corporate.title
-        // ServicesSection.items.corporate.subtitle
-        // ServicesSection.items.corporate.description
-        // AND ServicesPage.items.corporate.features
-
-        // I need TWO translators then? Or just use dot notation.
-
-        image: serviceImages[key]
-    }));
 
     // I need to use `useTranslations` properly.
     const tServicesSection = useTranslations('ServicesSection');

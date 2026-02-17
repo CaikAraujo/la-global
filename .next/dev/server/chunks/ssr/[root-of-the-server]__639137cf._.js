@@ -11,7 +11,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl
 // Can be imported from a shared config
 const locales = [
     'en',
-    'fr'
+    'fr',
+    'de'
 ];
 const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$server$2f$react$2d$server$2f$getRequestConfig$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__getRequestConfig$3e$__["getRequestConfig"])(async ({ requestLocale })=>{
     // This typically corresponds to the `[locale]` segment
@@ -23,6 +24,10 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
     return {
         locale,
         messages: (await __turbopack_context__.f({
+            "../../messages/de.json": {
+                id: ()=>"[project]/messages/de.json (json, async loader)",
+                module: ()=>__turbopack_context__.A("[project]/messages/de.json (json, async loader)")
+            },
             "../../messages/en.json": {
                 id: ()=>"[project]/messages/en.json (json, async loader)",
                 module: ()=>__turbopack_context__.A("[project]/messages/en.json (json, async loader)")
@@ -150,7 +155,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl
 ;
 const locales = [
     'en',
-    'fr'
+    'fr',
+    'de'
 ];
 const localePrefix = 'always'; // Default
 const { Link, redirect, usePathname, useRouter, getPathname } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$navigation$2f$react$2d$server$2f$createNavigation$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__createNavigation$3e$__["createNavigation"])({
@@ -288,7 +294,9 @@ const Footer = ()=>{
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "#",
+                                                href: "https://www.facebook.com/share/17w1Mv9RTb/?mibextid=wwXIfr",
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
                                                 className: "text-white/40 hover:text-white transition-colors duration-300",
                                                 "aria-label": "Facebook",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {

@@ -1,0 +1,374 @@
+{
+    "Navbar": {
+        "links": {
+            "home": "Startseite",
+            "services": "Dienstleistungen",
+            "excellence": "L'Excellence",
+            "contact": "Kontakt"
+        },
+        "logo_subtitle": "CORPORATE SOLUTIONS",
+        "cta": "Kontaktieren Sie uns"
+    },
+    "Footer": {
+        "consultation": {
+            "title": "Beratung anfordern",
+            "description": "Um Ihre logistischen Anforderungen diskret zu besprechen, kontaktieren Sie unser Team. Komplexe Projekte sind unsere Spezialität.",
+            "cta": "Kontaktieren Sie uns"
+        },
+        "headquarters": {
+            "title": "Hauptsitz",
+            "address": "Av. des Communes-Réunies 43\n1212 Grand-Lancy\nSchweiz"
+        },
+        "legal": {
+            "title": "Rechtliches",
+            "privacy": "Datenschutzrichtlinie",
+            "terms": "Allgemeine Geschäftsbedingungen",
+            "insurance": "Versicherungen & Garantien",
+            "portal": "Kundenportal"
+        },
+        "copyright": "© {year} L.A Global Corporation - Logistique Avancée. Alle Rechte vorbehalten.",
+        "developer": "Entwickelt von Caik Araujo",
+        "made_in": "Made in Suisse"
+    },
+    "TrustMarquee": {
+        "partners": {
+            "alinghi": "Alinghi Red Bull Racing",
+            "sitag": "Sitag",
+            "eca": "ECA",
+            "cote": "Côté Magazine",
+            "compass": "Compass Finance",
+            "kassoe": "Kassoe Housing",
+            "itten": "Itten+Brechbühl SA",
+            "gelog": "Fondation Gelog"
+        }
+    },
+    "Hero": {
+        "title": "Die Kunst der Logistik",
+        "subtitle": "im Dienste Ihrer Infrastruktur",
+        "description": "Fortschrittliche Logistik und erstklassige Residenzen, mit absoluter Sorgfalt für Ihr Unternehmen.",
+        "scroll": "Entdecken"
+    },
+    "AboutSection": {
+        "label": "Institutionell",
+        "title": "Willkommen bei LA GLOBAL \nIhrem Partner für Lösungen",
+        "description": "An die Zukunft zu denken, ist ein wesentlicher Bestandteil unserer Philosophie. Wir glauben, dass Innovation, Qualität und Verantwortung Hand in Hand gehen, um einen echten und nachhaltigen Wert für unsere Kunden zu schaffen. Wir handeln mit einer langfristigen Vision und entwickeln reale Lösungen für die Bedürfnisse unserer Kunden.",
+        "certifications": {
+            "iso": "ISO 27001 Zertifizierung",
+            "insurance": "Vollkaskoversicherung \"All-Risk\"",
+            "team": "Mehrsprachiges Team (EN, FR, DE, PT)"
+        },
+        "quote": "Als Dienstleister ist es unser Anspruch, Ihre Bedürfnisse tiefgreifend zu verstehen und umfassende, maßgeschneiderte und zuverlässige Lösungen anzubieten. Dafür arbeiten wir mit anerkannten Technologien, klar definierten Prozessen und einem hohen Ausführungsstandard, um konstante Ergebnisse für heute — und vorbereitet für morgen — zu garantieren.",
+        "founder": "Anderson Dias - Gründer"
+    },
+    "ServicesSection": {
+        "label": "Expertise",
+        "title": "Spezialisierte Dienstleistungen",
+        "description": "Wir heben Ihren Betrieb auf ein neues Exzellenzniveau und achten auf jedes Detail für anspruchsvolle und effiziente Ergebnisse.",
+        "items": {
+            "corporate": {
+                "title": "Unternehmensumzug",
+                "subtitle": "Business Continuity",
+                "description": "Perfekter Übergang für Hauptsitze. Vollständiges Umzugsmanagement zur Minimierung von Ausfallzeiten unter Einhaltung strengster Vertraulichkeitsprotokolle."
+            },
+            "private": {
+                "title": "Logistik für Privatresidenzen",
+                "subtitle": "Residenzen & Immobilien",
+                "description": "\"White-Glove\"-Service für Residenzen und Anwesen. Vollständige Inventarverwaltung und Wiederherstellung der wohnlichen Atmosphäre am Zielort."
+            },
+            "art": {
+                "title": "Kunst & Antiquitäten",
+                "subtitle": "Museumsstandard",
+                "description": "Maßgeschneiderte klimatisierte Kisten, gesicherter Lufttransport und professionelle Installation für unschätzbare Kunstwerke."
+            },
+            "cleaning": {
+                "title": "Büroservice",
+                "subtitle": "Hygiene und Komfort",
+                "description": "Einwandfreie Umgebungen mit Liebe zum Detail und absoluter Diskretion, um Komfort und Produktivität für Ihr Team zu gewährleisten."
+            },
+            "storage": {
+                "title": "Sichere Lagerung",
+                "subtitle": "Tresor & Vermögensschutz",
+                "description": "Maximale Sicherheitslagerung in Freizonen. Präzisionsklimatisierung für wertvolle Vermögenswerte und vorübergehende Steuerbefreiung."
+            },
+            "events": {
+                "title": "Standbau für Messen und Events",
+                "subtitle": "Koordination & Präzision",
+                "description": "Tadellose Ausführung, bei der jedes Detail gepflegt wird, um visuelle Wirkung, Funktionalität und Pünktlichkeit zu garantieren."
+            }
+        }
+    },
+    "AboutPage": {
+        "hero": {
+            "title": "Die Große \nMigration.",
+            "description": "Vom goldenen Zeitalter der Hotellerie bis zur modernen Unternehmenslogistik. Ein Erbe im Dienste derer, die das Makellose verlangen."
+        },
+        "chapter1": {
+            "label": "Kapitel I — 1924",
+            "title": "Die Wintersaison.",
+            "text": {
+                "p1": "Jede Exzellenz entspringt einem Weg.",
+                "p2": "LA Global begann bescheiden, direkt vor Ort agierend, lernend von jedem Einsatz, jeder Herausforderung und jedem Kunden. Dieser ständige Kontakt mit der operativen Realität ermöglichte es dem Unternehmen, sich konsequent weiterzuentwickeln und Erfahrungen in verschiedenen Bereichen — von Wohngebieten bis zur spezialisierten Logistik — zu sammeln, bis es natürlich den Unternehmensmarkt erreichte.",
+                "subtitle1": "Ein Wachstum, das Reife hervorbringt",
+                "p3": "Diese Entwicklung, die wir Die Große Migration nennen, stellt keinen Bruch dar, sondern einen Reifeprozess. Es ist der Übergang von einer agilen Struktur zu einer Organisation, die darauf vorbereitet ist, Unternehmensabläufe mit Präzision, Verantwortung und strategischer Vision zu bewältigen.",
+                "subtitle2": "In der Praxis aufgebaute Expertise",
+                "p4": "Heute arbeitet LA Global mit klaren Methoden, strukturierten Prozessen und der Fähigkeit zur Antizipation. Wir verstehen, dass jedes Unternehmen seine eigenen Herausforderungen, unterschiedlichen Anforderungen und spezifischen Bedürfnisse hat.",
+                "p5": "Diese genaue Marktkenntnis führte zur Gründung von LA Global Corporate — einer Struktur, die hochkomplexen professionellen Projekten gewidmet ist, bei denen Strenge, Vertraulichkeit und Leistung Hand in Hand gehen.",
+                "quote": "Die Exzellenz von LA Global ist kein bloßes Versprechen. Sie ist das Ergebnis eines gegangenen Weges."
+            },
+            "caption": "Abb. 1.0: Entladung des königlichen persönlichen Eigentums am Bahnhof Gstaad (ca. 1928)."
+        },
+        "chapter2": {
+            "label": "Eigene Methodik",
+            "title": "Das Vontobel-Protokoll",
+            "description": "Wir passen die Präzision der Luxushotellerie an die Komplexität der modernen Logistik an.",
+            "features": {
+                "visual_mapping": {
+                    "title": "Visuelles Mapping",
+                    "desc": "Bevor wir ein Objekt berühren, fotografieren und kartieren wir die ursprüngliche Anordnung. Jedes Buch, jeder Stift findet seinen exakten Platz wieder."
+                },
+                "chain_responsibility": {
+                    "title": "Verantwortungskette",
+                    "desc": "Inspiriert von der Diplomatie garantieren unsere Prozesse, dass die Verantwortung niemals an Dritte übertragen wird. Absolute Kontrolle."
+                },
+                "operational_silence": {
+                    "title": "Operative Stille",
+                    "desc": "Unsere Teams sind darauf geschult, in belebten Umgebungen zu arbeiten, ohne Lärm oder Ablenkung zu verursachen. Wir sind unsichtbar."
+                }
+            }
+        },
+        "chapter3": {
+            "label": "Führung",
+            "title": "Meister der \nKoordination.",
+            "description": "Unsere Führung hält den Geist der Gründer lebendig. Wir kombinieren die Disziplin des Schweizer Engineerings mit der kulturellen Sensibilität, die für den Umgang mit historischen Artefakten und Unternehmenszentralen erforderlich ist.",
+            "roles": {
+                "ops_director": {
+                    "role": "Anderson Dias Founder & CEO",
+                    "desc": "Schöpfer der Vision, die dem Unternehmen zugrunde liegt; er führt mit Zielstrebigkeit, Strategie und Fokus auf echte Wirkung. Er glaubt, dass starke Unternehmen durch Innovation, Hingabe und Menschen, die sich der Exzellenz verschrieben haben, aufgebaut werden."
+                },
+                "curator": {
+                    "role": "Aline Camargo - Logistikmanagerin",
+                    "desc": "Verantwortlich für die Planung, Koordination und Optimierung der logistischen Abläufe des Unternehmens. Sie managt Transport, Lagerung, Verteilung und Bestandsüberwachung und garantiert betriebliche Effizienz, Kostensenkung und Einhaltung von Fristen."
+                },
+                "fleet_manager": {
+                    "role": "Emerson Santos – Betriebsleiter",
+                    "desc": "Verantwortlich für das Prozessmanagement und die Optimierung, um Effizienz, Organisation und operative Exzellenz zu gewährleisten. Er handelt strategisch, um sicherzustellen, dass Planung, Ausführung und Ergebnisse immer in perfekter Harmonie sind."
+                }
+            }
+        }
+    },
+    "ServicesPage": {
+        "header": {
+            "title": "Unsere Divisionen",
+            "description": "Operative Exzellenz, angepasst an die einzigartigen Bedürfnisse globaler Unternehmen und großer Privatanwesen."
+        },
+        "items": {
+            "corporate": {
+                "features": {
+                    "f1": {
+                        "name": "Risikomanagement ISO 31000",
+                        "desc": "Strenge Protokolle zur Risikoidentifikation und -minderung, um die absolute Sicherheit Ihrer Vermögenswerte bei jedem Schritt zu gewährleisten."
+                    },
+                    "f2": {
+                        "name": "Zertifizierte Anlagenentsorgung",
+                        "desc": "Sicherer und ökologischer Prozess der Datenvernichtung und des Materialrecyclings mit vollständigen Konformitätszertifikaten."
+                    },
+                    "f3": {
+                        "name": "Schlüsselfertige operative Einrichtung",
+                        "desc": "Vollständige Installation und funktionale Konfiguration Ihrer neuen Arbeitsräume, bereit für den Einsatz ab dem ersten Tag."
+                    },
+                    "f4": {
+                        "name": "Spezialtransport",
+                        "desc": "Fahrzeugflotte für empfindliche Geräte, mit Luftfederung und Klimatisierung."
+                    },
+                    "f5": {
+                        "name": "Planung",
+                        "desc": "Detaillierte Strategie und präzise Abfolge der Abläufe, um die Auswirkungen auf Ihre Geschäftstätigkeit zu minimieren."
+                    },
+                    "f6": {
+                        "name": "Umzugskoordination",
+                        "desc": "Zentralisierte Steuerung durch einen dedizierten Projektleiter, die eine reibungslose Kommunikation und fehlerfreie Ausführung gewährleistet."
+                    }
+                }
+            },
+            "private": {
+                "features": {
+                    "f1": {
+                        "name": "Haute-Couture-Verpackung",
+                        "desc": "Maßgeschneiderte Schutzmaterialien und Kunstverpackungstechniken für Ihre wertvollsten und empfindlichsten Güter."
+                    },
+                    "f2": {
+                        "name": "Katalogisierung von Bibliotheken",
+                        "desc": "Fotografisches Inventar und methodische Klassifizierung Ihrer Werke unter Beibehaltung ihrer ursprünglichen Ordnung."
+                    },
+                    "f3": {
+                        "name": "Temporäres Innendesign",
+                        "desc": "Ästhetische provisorische Einrichtung, um Ihren Komfort während der Übergangsphasen aufrechtzuerhalten."
+                    },
+                    "f4": {
+                        "name": "Personalisierte Installation",
+                        "desc": "Sorgfältige Anordnung Ihrer Möbel und persönlichen Gegenstände nach Ihren exakten Wünschen."
+                    },
+                    "f5": {
+                        "name": "Verwaltung von Kunstwerken und Antiquitäten",
+                        "desc": "Spezialisierte Expertise in der Handhabung und Erhaltung unschätzbarer Sammlungsstücke."
+                    },
+                    "f6": {
+                        "name": "Administrative Dienste und Conciergerie",
+                        "desc": "Umfassende Unterstützung bei administrativen Schritten und Komfortleistungen im Zusammenhang mit Ihrem Wohnortwechsel."
+                    }
+                }
+            },
+            "art": {
+                "features": {
+                    "f1": {
+                        "name": "Klimatisierte Kisten (ISPM 15)",
+                        "desc": "Maßgefertigte Transportkisten nach internationalen Standards, die optimalen Schutz garantieren."
+                    },
+                    "f2": {
+                        "name": "CITES-Zollformalitäten",
+                        "desc": "Expertise in der Verwaltung von Genehmigungen und Vorschriften für den internationalen Transport geschützter Arten und regulierter Objekte."
+                    },
+                    "f3": {
+                        "name": "Spezialisierte Installation",
+                        "desc": "Technische Montage und Aufhängung durch Experten der Museografie."
+                    },
+                    "f4": {
+                        "name": "Nagel-zu-Nagel-Versicherung",
+                        "desc": "Umfassender All-Risk-Schutz, von der ersten Abnahme bis zur finalen Installation."
+                    },
+                    "f5": {
+                        "name": "Verpackung und Schutz",
+                        "desc": "Hochleistungsfähige Polsterungs- und Pufferlösungen für absolute Stabilität während des Transports."
+                    }
+                }
+            },
+            "cleaning": {
+                "features": {
+                    "f1": {
+                        "name": "Zertifizierte Reinigung",
+                        "desc": "Strenge Hygieneprotokolle mit validierten Methoden für ein gesundes Arbeitsumfeld."
+                    },
+                    "f2": {
+                        "name": "Diskretion des Teams",
+                        "desc": "Personal, das auf Vertraulichkeit und das Arbeiten in belebten Umgebungen geschult ist, ohne Ihre Abläufe zu stören."
+                    },
+                    "f3": {
+                        "name": "Ökologische Produkte",
+                        "desc": "Ausschließliche Verwendung von Reinigungsmitteln, die umwelt- und gesundheitsfreundlich sind."
+                    },
+                    "f4": {
+                        "name": "Flexible Arbeitszeiten",
+                        "desc": "Anpassung der Einsätze an Ihren Rhythmus, auch außerhalb der Geschäftszeiten."
+                    },
+                    "f5": {
+                        "name": "Servicepersonal",
+                        "desc": "Bereitstellung von qualifiziertem Personal für Kaffeeservice, Empfang oder kontinuierliche Pflege."
+                    },
+                    "f6": {
+                        "name": "Dokumentenmanagement",
+                        "desc": "Archivierung, Sortierung und sichere Vernichtung Ihrer vertraulichen Dokumente."
+                    }
+                }
+            },
+            "storage": {
+                "features": {
+                    "f1": {
+                        "name": "Biometrische Sicherheit Stufe 5",
+                        "desc": "Streng kontrollierter Zugang durch biometrische Erkennung und 24/7-Überwachung für unantastbare Sicherheit."
+                    },
+                    "f2": {
+                        "name": "Redundante Klimakontrolle",
+                        "desc": "Doppelte Systeme zur Temperatur- und Feuchtigkeitsregulierung für eine perfekte Erhaltung."
+                    },
+                    "f3": {
+                        "name": "Steuerbefreiung (Zolllager)",
+                        "desc": "Lagerung unter Zollverschluss, die es ermöglicht, Zölle und Steuern bis zur endgültigen Einfuhr auszusetzen."
+                    },
+                    "f4": {
+                        "name": "Private Besichtigungsräume",
+                        "desc": "Elegante und gesicherte Räume für die Inspektion oder Präsentation Ihrer gelagerten Güter."
+                    },
+                    "f5": {
+                        "name": "Umweltkontrolle",
+                        "desc": "Ständige Überwachung der Luftqualität und Schutz vor Schädlingen."
+                    },
+                    "f6": {
+                        "name": "Warenannahme",
+                        "desc": "Vollständiger logistischer Service für Annahme, Prüfung und Einlagerung Ihrer Lieferungen."
+                    }
+                }
+            },
+            "events": {
+                "features": {
+                    "f1": {
+                        "name": "Just-in-Time-Logistik",
+                        "desc": "Auf die Minute genau koordinierte Lieferung zur perfekten Integration in den engen Zeitplan Ihrer Events."
+                    },
+                    "f2": {
+                        "name": "Handhabung sensibler Ausrüstung",
+                        "desc": "Technisches Know-how für den Transport und die Installation von zerbrechlichem audiovisuellen und technologischen Material."
+                    },
+                    "f3": {
+                        "name": "24/7 Montageteams",
+                        "desc": "Vollständige Verfügbarkeit für Auf- und Abbau, unabhängig von zeitlichen Einschränkungen."
+                    },
+                    "f4": {
+                        "name": "ATA-Carnet-Management",
+                        "desc": "Verwaltung von Zolldokumenten für die vorübergehende Einfuhr von Messematerial im Ausland."
+                    },
+                    "f5": {
+                        "name": "Audiovisuell und Multimedia",
+                        "desc": "Installation und Konfiguration von Präsentations- und Beleuchtungssystemen für Ihre Stände."
+                    },
+                    "f6": {
+                        "name": "Branding und Signaletik",
+                        "desc": "Sorgfältige Platzierung Ihrer visuellen Elemente und Markenkennzeichnungen für maximale Wirkung."
+                    }
+                }
+            }
+        }
+    },
+    "ContactPage": {
+        "hero": {
+            "label": "Dedizierter Service",
+            "title": "Sprechen Sie mit einem Experten."
+        },
+        "info": {
+            "hq_label": "Lancy HQ",
+            "direct_label": "Direkter Kontakt"
+        },
+        "quote": "Jedes Projekt wird von einem Senior Director betreut. Wir beantworten alle Anfragen so schnell wie möglich!",
+        "form": {
+            "labels": {
+                "name": "Vollständiger Name",
+                "company": "Firma / Organisation",
+                "email": "Geschäftliche E-Mail",
+                "phone": "Telefon",
+                "service": "Wählen Sie die Art der Dienstleistung",
+                "details": "Projektdetails",
+                "attachment": "Anhang (Max 5MB)"
+            },
+            "placeholders": {
+                "select": "Auswählen"
+            },
+            "submit": "Anfrage senden",
+            "submitting": "Wird gesendet...",
+            "success": {
+                "title": "Nachricht gesendet!",
+                "description": "Wir werden Ihre Anfrage in Kürze beantworten.",
+                "button": "Neue Nachricht senden"
+            },
+            "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte überprüfen Sie die Felder und versuchen Sie es erneut.",
+            "file_selected": "Ausgewählte Datei: ",
+            "choose_file": "Datei auswählen",
+            "no_file_chosen": "Keine Datei ausgewählt"
+        }
+    },
+    "Schema": {
+        "name_required": "Der Name muss mindestens 2 Zeichen lang sein.",
+        "email_invalid": "Ungültige E-Mail-Adresse.",
+        "phone_invalid": "Die Telefonnummer muss mindestens 10 Zeichen lang sein.",
+        "service_required": "Bitte wählen Sie eine Dienstleistung aus.",
+        "details_required": "Die Projektdetails müssen mindestens 10 Zeichen lang sein."
+    }
+}

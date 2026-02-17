@@ -142,16 +142,16 @@
                 "description": "Notre direction maintient vivant l'esprit des fondateurs. Nous combinons la discipline de l'ingénierie suisse avec la sensibilité culturelle nécessaire pour traiter des artefacts historiques et des sièges sociaux.",
                 "roles": {
                     "ops_director": {
-                        "role": "Directeur des Opérations",
-                        "desc": "20 ans d'expérience dans la logistique de foires d'art internationales."
+                        "role": "Anderson Dias Founder & CEO",
+                        "desc": "Créateur de la vision à l'origine de l'entreprise, il dirige avec détermination, stratégie et une volonté d'impact réel. Il croit que les entreprises solides se construisent par l'innovation, le dévouement et l'engagement envers l'excellence."
                     },
                     "curator": {
-                        "role": "Conservatrice des Beaux-Arts",
-                        "desc": "Spécialiste en conservation préventive et emballages climatisés."
+                        "role": "Aline Camargo - Directrice Logistique",
+                        "desc": "Responsable de la planification, de la coordination et de l'optimisation des opérations logistiques de l'entreprise. Elle assure la gestion du transport, de l'entreposage, de la distribution et du contrôle des stocks, garantissant l'efficacité opérationnelle, la réduction des coûts et le respect des délais."
                     },
                     "fleet_manager": {
-                        "role": "Gestionnaire de Flotte",
-                        "desc": "Ingénieur mécanique concentré sur le transport de précision sans vibration."
+                        "role": "Emerson Santos – Gestionnaire des Opérations",
+                        "desc": "Responsable de la gestion et de l'optimisation des processus, garantissant efficacité, organisation et excellence opérationnelle. Il agit de manière stratégique pour assurer que la planification, l'exécution et les résultats soient toujours en parfaite harmonie."
                     }
                 }
             }

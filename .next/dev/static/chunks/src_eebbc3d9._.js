@@ -22,7 +22,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl
 ;
 const locales = [
     'en',
-    'fr'
+    'fr',
+    'de'
 ];
 const localePrefix = 'always'; // Default
 const { Link, redirect, usePathname, useRouter, getPathname } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$intl$2f$dist$2f$esm$2f$development$2f$navigation$2f$react$2d$client$2f$createNavigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__createNavigation$3e$__["createNavigation"])({
@@ -44,12 +45,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/use-intl/dist/esm/development/react.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$navigation$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/navigation.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
-;
 ;
 ;
 ;
@@ -58,31 +56,6 @@ function LanguageSwitcher({ textColor = "#FFFFFF", borderColor = "rgba(255, 255,
     const locale = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLocale"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$navigation$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$navigation$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
-    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const toggleLanguage = (newLocale)=>{
-        router.replace(pathname, {
-            locale: newLocale
-        });
-        setIsOpen(false);
-    };
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "LanguageSwitcher.useEffect": ()=>{
-            const handleClickOutside = {
-                "LanguageSwitcher.useEffect.handleClickOutside": (event)=>{
-                    if (containerRef.current && !containerRef.current.contains(event.target)) {
-                        setIsOpen(false);
-                    }
-                }
-            }["LanguageSwitcher.useEffect.handleClickOutside"];
-            document.addEventListener('mousedown', handleClickOutside);
-            return ({
-                "LanguageSwitcher.useEffect": ()=>{
-                    document.removeEventListener('mousedown', handleClickOutside);
-                }
-            })["LanguageSwitcher.useEffect"];
-        }
-    }["LanguageSwitcher.useEffect"], []);
     const languages = [
         {
             code: 'fr',
@@ -91,122 +64,48 @@ function LanguageSwitcher({ textColor = "#FFFFFF", borderColor = "rgba(255, 255,
         {
             code: 'en',
             label: 'EN'
+        },
+        {
+            code: 'de',
+            label: 'DE'
         }
     ];
-    const currentLanguage = languages.find((l)=>l.code === locale) || languages[0];
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative z-50",
-        ref: containerRef,
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                onClick: ()=>setIsOpen(!isOpen),
+    const switchLanguage = (newLocale)=>{
+        router.replace(pathname, {
+            locale: newLocale
+        });
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        style: {
+            borderColor: borderColor,
+            backgroundColor: backgroundColor
+        },
+        className: "flex items-center p-1 rounded-full border backdrop-blur-sm transition-all duration-300 gap-1",
+        children: languages.map((lang)=>{
+            const isActive = locale === lang.code;
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                onClick: ()=>switchLanguage(lang.code),
+                className: `
+                            px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase transition-all duration-300
+                            ${isActive ? 'bg-swiss-red shadow-[0_2px_8px_rgba(166,25,46,0.25)]' : 'hover:bg-white/10'}
+                        `,
                 style: {
-                    color: textColor,
-                    borderColor: borderColor,
-                    backgroundColor: backgroundColor
+                    color: isActive ? '#FFFFFF' : textColor
                 },
-                className: "flex items-center gap-2 px-4 py-2 rounded-full border backdrop-blur-sm transition-all duration-300 hover:bg-white/10",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-xs font-bold tracking-widest uppercase",
-                        children: currentLanguage.label
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                        lineNumber: 61,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                        width: "10",
-                        height: "6",
-                        viewBox: "0 0 10 6",
-                        fill: "none",
-                        stroke: "currentColor",
-                        strokeWidth: "1.5",
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        className: `transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                            d: "M1 1L5 5L9 1"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                            lineNumber: 63,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                        lineNumber: 62,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: lang.label
+            }, lang.code, false, {
                 fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                lineNumber: 52,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                children: isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    initial: {
-                        opacity: 0,
-                        y: 10,
-                        scale: 0.95
-                    },
-                    animate: {
-                        opacity: 1,
-                        y: 0,
-                        scale: 1
-                    },
-                    exit: {
-                        opacity: 0,
-                        y: 10,
-                        scale: 0.95
-                    },
-                    transition: {
-                        duration: 0.2
-                    },
-                    className: "absolute top-full right-0 mt-2 bg-swiss-navy border border-white/10 rounded-lg shadow-xl overflow-hidden min-w-[120px]",
-                    children: languages.map((lang)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: ()=>toggleLanguage(lang.code),
-                            className: `w-full flex items-center justify-between px-4 py-3 hover:bg-white/10 transition-colors duration-200 text-left ${locale === lang.code ? 'bg-white/20' : ''}`,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: `text-xs font-bold tracking-widest uppercase ${locale === lang.code ? 'text-white' : 'text-white/70'}`,
-                                    children: lang.label
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                                    lineNumber: 83,
-                                    columnNumber: 33
-                                }, this),
-                                locale === lang.code && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-1.5 h-1.5 rounded-full bg-swiss-red shadow-[0_0_8px_rgba(255,0,0,0.5)]"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                                    lineNumber: 85,
-                                    columnNumber: 37
-                                }, this)
-                            ]
-                        }, lang.code, true, {
-                            fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                            lineNumber: 77,
-                            columnNumber: 29
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                    lineNumber: 69,
-                    columnNumber: 21
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/LanguageSwitcher.tsx",
-                lineNumber: 67,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                lineNumber: 43,
+                columnNumber: 21
+            }, this);
+        })
+    }, void 0, false, {
         fileName: "[project]/src/components/LanguageSwitcher.tsx",
-        lineNumber: 51,
+        lineNumber: 33,
         columnNumber: 9
     }, this);
 }
-_s(LanguageSwitcher, "Sp+dz6ztK8vpfKvq+fzBAc3S2CU=", false, function() {
+_s(LanguageSwitcher, "E8jaVxu5mdwpzK8S3eb/MqBQLUE=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$use$2d$intl$2f$dist$2f$esm$2f$development$2f$react$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLocale"],
         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$navigation$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"],

@@ -2,8 +2,7 @@
 
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '../navigation';
-import { motion, AnimatePresence, MotionValue } from 'framer-motion';
-import { useState, useRef, useEffect } from 'react';
+import { motion, MotionValue } from 'framer-motion';
 
 interface LanguageSwitcherProps {
     textColor?: string | MotionValue<string>;
@@ -19,76 +18,43 @@ export default function LanguageSwitcher({
     const locale = useLocale();
     const router = useRouter();
     const pathname = usePathname();
-    const [isOpen, setIsOpen] = useState(false);
-    const containerRef = useRef<HTMLDivElement>(null);
-
-    const toggleLanguage = (newLocale: 'en' | 'fr') => {
-        router.replace(pathname, { locale: newLocale });
-        setIsOpen(false);
-    };
-
-    useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
-            if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
-                setIsOpen(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
 
     const languages = [
         { code: 'fr', label: 'FR' },
-        { code: 'en', label: 'EN' }
+        { code: 'en', label: 'EN' },
+        { code: 'de', label: 'DE' }
     ] as const;
 
-    const currentLanguage = languages.find(l => l.code === locale) || languages[0];
+    const switchLanguage = (newLocale: 'en' | 'fr' | 'de') => {
+        router.replace(pathname, { locale: newLocale });
+    };
 
     return (
-        <div className="relative z-50" ref={containerRef}>
-            <motion.button
-                onClick={() => setIsOpen(!isOpen)}
-                style={{
-                    color: textColor,
-                    borderColor: borderColor,
-                    backgroundColor: backgroundColor
-                }}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border backdrop-blur-sm transition-all duration-300 hover:bg-white/10"
-            >
-                <span className="text-xs font-bold tracking-widest uppercase">{currentLanguage.label}</span>
-                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-                    <path d="M1 1L5 5L9 1" />
-                </svg>
-            </motion.button>
-
-            <AnimatePresence>
-                {isOpen && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                        animate={{ opacity: 1, y: 0, scale: 1 }}
-                        exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                        transition={{ duration: 0.2 }}
-                        className="absolute top-full right-0 mt-2 bg-swiss-navy border border-white/10 rounded-lg shadow-xl overflow-hidden min-w-[120px]"
+        <motion.div
+            style={{
+                borderColor: borderColor,
+                backgroundColor: backgroundColor
+            }}
+            className="flex items-center p-1 rounded-full border backdrop-blur-sm transition-all duration-300 gap-1"
+        >
+            {languages.map((lang) => {
+                const isActive = locale === lang.code;
+                return (
+                    <motion.button
+                        key={lang.code}
+                        onClick={() => switchLanguage(lang.code)}
+                        className={`
+                            px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase transition-all duration-300
+                            ${isActive ? 'bg-swiss-red shadow-[0_2px_8px_rgba(166,25,46,0.25)]' : 'hover:bg-white/10'}
+                        `}
+                        style={{
+                            color: isActive ? '#FFFFFF' : textColor
+                        }}
                     >
-                        {languages.map((lang) => (
-                            <button
-                                key={lang.code}
-                                onClick={() => toggleLanguage(lang.code as 'en' | 'fr')}
-                                className={`w-full flex items-center justify-between px-4 py-3 hover:bg-white/10 transition-colors duration-200 text-left ${locale === lang.code ? 'bg-white/20' : ''
-                                    }`}
-                            >
-                                <span className={`text-xs font-bold tracking-widest uppercase ${locale === lang.code ? 'text-white' : 'text-white/70'}`}>{lang.label}</span>
-                                {locale === lang.code && (
-                                    <div className="w-1.5 h-1.5 rounded-full bg-swiss-red shadow-[0_0_8px_rgba(255,0,0,0.5)]" />
-                                )}
-                            </button>
-                        ))}
-                    </motion.div>
-                )}
-            </AnimatePresence>
-        </div>
+                        {lang.label}
+                    </motion.button>
+                );
+            })}
+        </motion.div>
     );
 }
