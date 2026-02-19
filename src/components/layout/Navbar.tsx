@@ -129,13 +129,9 @@ const Navbar: React.FC = () => {
           </nav>
 
           {/* CTA Button & Language Switcher */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-8">
             <div className="hidden md:block">
-              <LanguageSwitcher
-                textColor="#FFFFFF"
-                borderColor={isHome ? "rgba(255, 255, 255, 0.2)" : "rgba(15, 23, 42, 0)"}
-                backgroundColor={isHome ? switcherBgColor : "#0F172A"}
-              />
+              <LanguageSwitcher />
             </div>
 
             <Link href="/contact" className="hidden md:block">
@@ -185,7 +181,7 @@ const Navbar: React.FC = () => {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
             className="fixed inset-0 z-40 bg-swiss-navy flex flex-col items-center justify-center gap-8 md:hidden pt-24"
           >
-            <nav className="flex flex-col items-center gap-8">
+            <nav className="flex flex-col items-center gap-8" style={{ "--nav-primary": "#FFFFFF", "--nav-link": "rgba(255, 255, 255, 0.7)", "--nav-accent": "#A6192E" } as React.CSSProperties}>
               {links.map((link) => (
                 <Link
                   key={link.label}

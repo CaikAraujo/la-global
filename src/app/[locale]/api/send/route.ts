@@ -32,8 +32,8 @@ export async function POST(request: Request, { params }: { params: Promise<{ loc
         }] : [];
 
         const data = await resend.emails.send({
-            from: 'Confœderatio Logistica <contact@laglobal.ch>',
-            to: ['la.global.demenagement@gmail.com'],
+            from: 'La Global Corporate <info@laglobalcorporate.ch>',
+            to: ['info@laglobalcorporate.ch'],
             subject: `Novo Contato: ${result.data.name} - ${result.data.service}`,
             react: ContactEmail({
                 name: result.data.name,

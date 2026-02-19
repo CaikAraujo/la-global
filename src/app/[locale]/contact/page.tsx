@@ -43,6 +43,8 @@ export default function ContactPage() {
         }
     };
 
+    const fileInputRef = React.useRef<HTMLInputElement>(null);
+
     const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
         if (file) {
@@ -74,6 +76,14 @@ export default function ContactPage() {
             reader.readAsDataURL(file);
         } else {
             setAttachment(undefined);
+        }
+    };
+
+    const handleRemoveFile = () => {
+        setAttachment(undefined);
+        setErrors(prev => ({ ...prev, attachment: undefined }));
+        if (fileInputRef.current) {
+            fileInputRef.current.value = "";
         }
     };
 
@@ -140,7 +150,7 @@ export default function ContactPage() {
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.direct_label')}</h3>
                                 <p className="font-light text-xl">+41 22 535 6333</p>
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="font-light text-xl underline decoration-swiss-red/30 underline-offset-8 mt-2 block w-fit hover:text-swiss-red transition-colors">contact@laglobal.ch</a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch" target="_blank" rel="noopener noreferrer" className="font-light text-xl underline decoration-swiss-red/30 underline-offset-8 mt-2 block w-fit hover:text-swiss-red transition-colors">info@laglobalcorporate.ch</a>
                             </div>
                         </div>
 
@@ -335,11 +345,25 @@ export default function ContactPage() {
                                                     type="file"
                                                     onChange={handleFileChange}
                                                     className="hidden"
+                                                    ref={fileInputRef}
                                                 />
                                             </label>
                                             <span className={`text-sm ${errors.attachment ? 'text-red-500' : 'text-swiss-navy/60 italic'}`}>
                                                 {errors.attachment ? errors.attachment : (attachment ? attachment.filename : t('form.no_file_chosen'))}
                                             </span>
+                                            {attachment && (
+                                                <button
+                                                    type="button"
+                                                    onClick={handleRemoveFile}
+                                                    className="text-swiss-red hover:text-red-700 transition-colors p-1 rounded-full hover:bg-swiss-red/10"
+                                                    title="Remove file"
+                                                >
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                                    </svg>
+                                                </button>
+                                            )}
                                         </div>
                                     </div>
 

@@ -58,13 +58,11 @@ const Footer: React.FC = () => {
 
           <div>
             <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">{t('headquarters.title')}</h3>
-            <address className="text-white/80 font-light not-italic leading-7">
-              {t.rich('headquarters.address', {
-                br: () => <br />
-              })}<br />
+            <address className="text-white/80 font-light not-italic leading-7 whitespace-pre-line">
+              {t('headquarters.address')}<br />
               <br />
               +41 22 535 6333<br />
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">contact@laglobal.ch</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">info@laglobalcorporate.ch</a>
             </address>
 
 
@@ -75,17 +73,34 @@ const Footer: React.FC = () => {
               <h3 className="text-xs font-bold tracking-widest uppercase mb-6 text-white/40">{t('legal.title')}</h3>
               <ul className="space-y-4">
                 {[
-                  { label: t('legal.privacy'), href: '#' },
-                  { label: t('legal.terms'), href: '#' },
+                  { label: t('legal.privacy'), href: '/Politique-LaGB.pdf', target: '_blank' },
+                  { label: t('legal.terms'), href: '/Conditions-Generales-LaGB.pdf', target: '_blank' },
                   { label: t('legal.insurance'), href: '#' },
                   { label: t('legal.portal'), href: '#' }
-                ].map(link => (
-                  <li key={link.label}>
-                    <a href={link.href} className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
+                ].map(link => {
+                  const isInternal = !link.href.endsWith('.pdf') && !link.href.startsWith('http') && link.href !== '#';
+                  if (isInternal) {
+                    return (
+                      <li key={link.label}>
+                        <Link href={link.href} className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">
+                          {link.label}
+                        </Link>
+                      </li>
+                    );
+                  }
+                  return (
+                    <li key={link.label}>
+                      <a
+                        href={link.href}
+                        target={link.target || '_self'}
+                        rel={link.target === '_blank' ? "noopener noreferrer" : undefined}
+                        className="text-white/60 hover:text-white text-sm transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
