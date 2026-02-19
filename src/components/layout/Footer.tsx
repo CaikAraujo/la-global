@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
             <address className="text-white/80 font-light not-italic leading-7 whitespace-pre-line">
               {t('headquarters.address')}<br />
               <br />
-              +41 22 535 6333<br />
+              +41 22 535 63 33<br />
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white/20 pb-1">info@laglobalcorporate.ch</a>
             </address>
 
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
                 {[
                   { label: t('legal.privacy'), href: '/Politique-LaGB.pdf', target: '_blank' },
                   { label: t('legal.terms'), href: '/Conditions-Generales-LaGB.pdf', target: '_blank' },
-                  { label: t('legal.insurance'), href: '#' },
+                  { label: t('legal.insurance'), href: '/Assurances-Garanties-LaGB.pdf', target: '_blank' },
                   { label: t('legal.portal'), href: '#' }
                 ].map(link => {
                   const isInternal = !link.href.endsWith('.pdf') && !link.href.startsWith('http') && link.href !== '#';

@@ -149,7 +149,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.direct_label')}</h3>
-                                <p className="font-light text-xl">+41 22 535 6333</p>
+                                <p className="font-light text-xl">+41 22 535 63 33</p>
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch" target="_blank" rel="noopener noreferrer" className="font-light text-xl underline decoration-swiss-red/30 underline-offset-8 mt-2 block w-fit hover:text-swiss-red transition-colors">info@laglobalcorporate.ch</a>
                             </div>
                         </div>

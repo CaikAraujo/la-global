@@ -282,18 +282,18 @@ function ContactPage() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "font-light text-xl",
-                                                children: "+41 22 535 6333"
+                                                children: "+41 22 535 63 33"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/[locale]/contact/page.tsx",
                                                 lineNumber: 152,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "https://mail.google.com/mail/?view=cm&fs=1&to=contact@laglobal.ch",
+                                                href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch",
                                                 target: "_blank",
                                                 rel: "noopener noreferrer",
                                                 className: "font-light text-xl underline decoration-swiss-red/30 underline-offset-8 mt-2 block w-fit hover:text-swiss-red transition-colors",
-                                                children: "contact@laglobal.ch"
+                                                children: "info@laglobalcorporate.ch"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/[locale]/contact/page.tsx",
                                                 lineNumber: 153,

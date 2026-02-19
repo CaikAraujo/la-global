@@ -239,6 +239,10 @@
                     "f5": {
                         "name": "Imballaggio e Protezione",
                         "desc": "Soluzioni di bloccaggio e imbottitura ad alte prestazioni per una stabilità assoluta durante il trasporto."
+                    },
+                    "f6": {
+                        "name": "Trasporto Auto da Collezione",
+                        "desc": "Soluzioni di trasporto chiuse e discrete per le vostre auto d'eccezione, con un'attenzione meticolosa ad ogni dettaglio meccanico ed estetico."
                     }
                 }
             },

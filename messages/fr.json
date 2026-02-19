@@ -239,6 +239,10 @@
                         "f5": {
                             "name": "Emballage et Protection",
                             "desc": "Solutions de calage et de tamponnage haute performance pour une stabilité absolue durant le transport."
+                        },
+                        "f6": {
+                            "name": "Transport de Véhicules de Collection",
+                            "desc": "Solutions de transport fermées et discrètes pour vos automobiles d'exception, avec une attention méticuleuse portée à chaque détail mécanique et esthétique."
                         }
                     }
                 },

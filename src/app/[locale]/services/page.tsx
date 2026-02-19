@@ -9,7 +9,7 @@ const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'even
 const featureKeysMap: Record<string, string[]> = {
     corporate: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
     private: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    art: ['f1', 'f2', 'f3', 'f4', 'f5'],
+    art: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
     cleaning: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
     storage: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
     events: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6']
