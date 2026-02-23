@@ -15,9 +15,9 @@ const featureKeysMap: Record<string, string[]> = {
     events: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6']
 };
 const serviceImages: Record<string, string> = {
-    corporate: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
-    private: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop',
-    art: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop',
+    corporate: '/images/corporate-service.jpg',
+    private: '/images/private-service.jpg',
+    art: '/images/art-service.jpg',
     cleaning: '/images/cleaning-service.jpg',
     storage: '/images/secure-storage.png',
     events: '/images/event-logistics.png'

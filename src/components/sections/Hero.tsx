@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         >
           {/* Using a specific architectural/moody image */}
           <Image
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop"
+            src="/images/hero-bg.jpg"
             alt="Swiss Corporate Office"
             fill
             priority

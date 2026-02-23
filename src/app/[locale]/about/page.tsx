@@ -101,7 +101,7 @@ export default function AboutPage() {
                         className="relative mt-12 lg:mt-0 h-[600px] w-full"
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1600&q=80"
+                            src="/images/about-hero-bg.jpg"
                             alt="Vintage Train Station Luggage"
                             fill
                             className="object-cover grayscale sepia-[0.1]"
