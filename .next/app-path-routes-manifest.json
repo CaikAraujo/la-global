@@ -1,9 +1,0 @@
-{
-  "/[locale]/about/page": "/[locale]/about",
-  "/[locale]/contact/page": "/[locale]/contact",
-  "/[locale]/page": "/[locale]",
-  "/[locale]/services/page": "/[locale]/services",
-  "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found",
-  "/page": "/"
-}
