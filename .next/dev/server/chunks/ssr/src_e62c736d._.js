@@ -38,7 +38,7 @@ const Hero = ()=>{
                         },
                         className: "w-full h-full",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            src: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop",
+                            src: "/images/hero-bg.jpg",
                             alt: "Swiss Corporate Office",
                             fill: true,
                             priority: true,
@@ -231,9 +231,9 @@ const serviceKeys = [
     'events'
 ];
 const serviceImages = {
-    corporate: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop',
-    private: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop',
-    art: 'https://images.unsplash.com/photo-1564399580075-5dfe19c205f3?q=80&w=2070&auto=format&fit=crop',
+    corporate: '/images/corporate-service.jpg',
+    private: '/images/private-service.jpg',
+    art: '/images/art-service.jpg',
     cleaning: '/images/cleaning-service.jpg',
     storage: '/images/secure-storage.png',
     events: '/images/event-logistics.png'

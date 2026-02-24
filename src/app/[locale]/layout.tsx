@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -18,6 +18,10 @@ export const metadata = {
     },
 };
 
+export function generateStaticParams() {
+    return locales.map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
     children,
     params
@@ -26,6 +30,7 @@ export default async function LocaleLayout({
     params: Promise<{ locale: string }>;
 }) {
     const { locale } = await params;
+    setRequestLocale(locale);
 
     // Validate that the incoming `locale` parameter is valid
     if (!locales.includes(locale as any)) notFound();

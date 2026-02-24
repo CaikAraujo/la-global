@@ -111,7 +111,7 @@ export default function ContactPage() {
         }
 
         try {
-            const res = await fetch("/api/send", {
+            const res = await fetch("/send-email.php", {
                 method: "POST",
                 body: JSON.stringify(result.data),
                 headers: { "Content-Type": "application/json" },
