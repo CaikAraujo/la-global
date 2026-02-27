@@ -12,9 +12,9 @@ export default function AboutPage() {
 
     const protocolFeatures = ['visual_mapping', 'chain_responsibility', 'operational_silence'];
     const teamMembers = [
-        { key: 'ops_director', bg: "/images/team/director_ops.jpg", className: "object-cover object-top grayscale" },
-        { key: 'curator', bg: "/images/team/curator_arts.jpg", className: "object-cover object-top grayscale" },
-        { key: 'fleet_manager', bg: "/images/team/fleet_manager.jpg", className: "object-cover object-center grayscale" }
+        { key: 'ops_director', bg: "/images/team/director_ops.jpg", className: "object-cover object-top md:grayscale" },
+        { key: 'curator', bg: "/images/team/curator_arts.jpg", className: "object-cover object-top md:grayscale" },
+        { key: 'fleet_manager', bg: "/images/team/fleet_manager.jpg", className: "object-cover object-center md:grayscale" }
     ];
 
     return (
@@ -104,7 +104,7 @@ export default function AboutPage() {
                             src="/images/about-hero-bg.jpg"
                             alt="Vintage Train Station Luggage"
                             fill
-                            className="object-cover grayscale sepia-[0.1]"
+                            className="object-cover md:grayscale sepia-[0.1]"
                             sizes="(max-width: 1024px) 100vw, 50vw"
                         />
                         <div className="absolute bottom-8 -left-8 bg-white p-6 max-w-xs shadow-xl border border-swiss-navy/10 z-20 hidden md:block">

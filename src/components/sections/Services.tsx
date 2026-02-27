@@ -63,7 +63,7 @@ const Services: React.FC = () => {
                       src={serviceImages[key]}
                       alt={t(`items.${key}.title`)}
                       fill
-                      className="object-cover filter grayscale transition-all duration-700 group-hover:grayscale-0"
+                      className="object-cover filter md:grayscale transition-all duration-700 group-hover:grayscale-0"
                       sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                   </motion.div>
