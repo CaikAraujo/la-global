@@ -103,7 +103,7 @@ export async function POST(request: Request) {
                      ✓ Notre équipe vous répondra dans les plus brefs délais.
                   </div>
                   <div style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
-                     <p><strong>La Global Corporate</strong><br>Av. des Communes-Réunies 43<br>1212 Grand-Lancy, Suisse<br>+41 22 535 63 33<br>info@laglobalcorporate.ch</p>
+                     <p><strong>La Global Corporate</strong><br>Rue de la Sablière 3<br>1242 Satigny<br>+41 22 535 63 33<br>info@laglobalcorporate.ch</p>
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@
         },
         "headquarters": {
             "title": "Headquarters",
-            "address": "Av. des Communes-Réunies 43\n1212 Grand-Lancy\nSwitzerland"
+            "address": "Rue de la Sablière 3\n1242 Satigny"
         },
         "legal": {
             "title": "Legal Notice",
@@ -27,7 +27,7 @@
             "portal": "Client Portal"
         },
         "copyright": "© {year} L.A Global Corporation - Advanced Logistics. All rights reserved.",
-        "developer": "Developed by Caik Araujo",
+        "developer": "Developed by ATHANA",
         "made_in": "Swiss Made"
     },
     "TrustMarquee": {
@@ -161,24 +161,27 @@
             "title": "Our Divisions",
             "description": "Operational excellence tailored to the unique needs of global enterprises and grand private estates."
         },
+        "learnMore": "Learn more",
+        "subservicesTitle": "Subservices",
+        "subservicesDescription": "Discover the specialised operational modules included in this service.",
         "items": {
             "corporate": {
                 "features": {
                     "f1": {
-                        "name": "ISO 31000 Risk Management",
-                        "desc": "Rigorous protocols for risk identification and mitigation to ensure the absolute security of your assets at every stage."
+                        "name": "High-Rise Glass and Facade Cleaning",
+                        "desc": "Your building facade is your first visual statement. Our specialised high-rise cleaning service combines industrial rope access, certified equipment, and strict safety protocols to restore complex glass and facade structures. We apply biodegradable products and material-safe techniques to deliver durable shine without damaging surfaces or the environment. The result is immediate: more natural light, more pleasant workplaces, and stronger property value. Contact us for a free facade assessment and a tailored quote."
                     },
                     "f2": {
-                        "name": "Certified Asset Disposal",
-                        "desc": "Secure and eco-friendly process for data destruction and hardware recycling, with full compliance certificates."
+                        "name": "Corporate Concierge Service",
+                        "desc": "Corporate concierge is redefining the workplace as a strategic service for employee wellbeing and operational efficiency. Inspired by luxury hospitality standards, it helps teams delegate personal and administrative tasks so they can focus on core responsibilities. Services are fully customisable, covering daily logistics, personal assistance, wellbeing support, travel and appointment management, and vehicle-related needs. The impact is measurable: stronger employer branding, higher productivity, fewer personal disruptions, and reduced absenteeism. Implementation can be physical, digital, or hybrid, with transparent and scalable cost models."
                     },
                     "f3": {
-                        "name": "\"Turnkey\" Operational Setup",
-                        "desc": "Complete installation and functional configuration of your new workspaces, ready for use from day one."
+                        "name": "Relocation Coordination",
+                        "desc": "Relocation coordination turns a high-pressure move into a controlled and seamless transition. We act as end-to-end project managers: strategic planning, inventory audits, partner selection, administrative handling, and on-site supervision on moving day. Our approach serves both corporate and private contexts with the same level of precision: business continuity, protection of sensitive assets and data, organised setup of new spaces, and personalised follow-up until full operational readiness. You benefit from disciplined execution, real-time issue management, and cost optimisation throughout the process."
                     },
                     "f4": {
                         "name": "Specialised Transport",
-                        "desc": "Fleet of vehicles adapted for sensitive equipment, featuring air suspension and climate control."
+                        "desc": "Specialised transport is designed for your most sensitive and high-value assets. Beyond moving items, we ensure precision, protection, and full operational control at every stage. Our expertise serves healthcare equipment, industrial machinery, fine art, and critical IT infrastructure, with custom logistics built around each risk profile. Technical differentiators include an adapted fleet, air suspension, real-time tracking, custom packaging, and teams trained for complex handling conditions. The outcome is clear: reduced risk, regulatory compliance, value-based insurance coverage, and end-to-end coordination through a single point of contact."
                     },
                     "f5": {
                         "name": "Planning",
@@ -221,26 +224,18 @@
             "art": {
                 "features": {
                     "f1": {
-                        "name": "Climate-Controlled Crates (ISPM 15)",
-                        "desc": "Bespoke manufacture of transport crates complying with international standards, ensuring optimal protection."
+                        "name": "Packaging & Protection",
+                        "desc": "Strategic protection for corporate furniture and sensitive assets: tailored materials, expert techniques, and integrity preserved through to installation."
                     },
                     "f2": {
-                        "name": "CITES Customs Formalities",
-                        "desc": "Expert management of permits and regulations for the international transport of protected species and regulated objects."
+                        "name": "Customs Formalities",
+                        "desc": "End-to-end customs handling for national and international movements of art and regulated cultural goods, with compliant documentation and coordinated timing."
                     },
                     "f3": {
                         "name": "Specialised Installation",
                         "desc": "Technical assembly and hanging carried out by museography experts."
                     },
                     "f4": {
-                        "name": "\"Nail-to-Nail\" Insurance",
-                        "desc": "Comprehensive all-risk coverage, from the initial unhooking to the final installation."
-                    },
-                    "f5": {
-                        "name": "Packaging & Protection",
-                        "desc": "High-performance cushioning and buffering solutions for absolute stability during transport."
-                    },
-                    "f6": {
                         "name": "Classic & Prestige Car Transport",
                         "desc": "Enclosed and discreet transport solutions for your exceptional automobiles, with meticulous attention paid to every mechanical and aesthetic detail."
                     }
@@ -249,40 +244,40 @@
             "cleaning": {
                 "features": {
                     "f1": {
-                        "name": "Certified Cleaning",
-                        "desc": "Strict hygiene protocols using validated methods for a healthy working environment."
+                        "name": "Professional Cleaning and Organisation",
+                        "desc": "Excellence and daily peace of mind: an impeccable environment strengthens your brand image, reduces mental load, and supports higher productivity. Our service combines professional cleaning, functional space organisation, strict hygiene and disinfection standards, and full support for glazing, consumables, and waste handling. We operate with a strong eco-responsible approach through Ecolabel products, selective sorting, and responsible water and energy use. Our method includes a free initial assessment, discreet interventions aligned with your schedule, and recurring quality controls. You benefit from total flexibility, a single point of contact, and premium execution that keeps your workplace consistently organised and inspiring."
                     },
                     "f2": {
-                        "name": "Discreet Team",
-                        "desc": "Personnel trained in confidentiality and working in occupied environments without disrupting your operations."
+                        "name": "Office Maintenance and Workspace Adjustments",
+                        "desc": "In a fast-changing business environment, office maintenance is a strategic lever for performance, brand perception, and employee wellbeing. Our agile facility management approach helps you quickly reconfigure spaces, optimise resources, and maintain smooth daily operations. We also support sustainability goals through energy efficiency actions, selective waste sorting, and indoor air quality monitoring. For unexpected issues, our corrective maintenance service operates 24/7 with digital ticket tracking for full transparency. Flexible plans are tailored to your property footprint, with emergency response times ranging from 8 hours to under 4 hours. Contact us for a free office audit and a tailored proposal."
                     },
                     "f3": {
-                        "name": "Eco-Friendly Products",
-                        "desc": "Exclusive use of cleaning products that are respectful of the environment and health."
+                        "name": "Confidential Disposal and Recycling",
+                        "desc": "Your data security is our absolute priority. We provide certified destruction of paper documents (DIN 66399, levels P-3 to P-7) and digital media, with a compliance certificate issued for every operation. Beyond paper, we also handle the secure dismantling and recycling of WEEE according to the strictest environmental standards, with 100% of materials routed to specialised recycling streams. Our 4-step methodology — audit, secure collection, high-security shredding, and traceable recycling — ensures GDPR compliance, uninterrupted chain of custody, and measurable CSR impact. Contact us for a free audit and a customised quote within 24 hours."
                     },
                     "f4": {
-                        "name": "Flexible Hours",
-                        "desc": "Intervention adapted to your business rhythm, including outside of business hours."
+                        "name": "Corporate Concierge Service",
+                        "desc": "Dedicated concierge support for office operations, including light administrative requests, internal task coordination, workspace organisation, and day-to-day assistance. Personalised and discreet service that improves efficiency and comfort."
                     },
                     "f5": {
-                        "name": "Service Personnel",
-                        "desc": "Provision of qualified staff for coffee service, reception, or continuous maintenance."
+                        "name": "Glass and Facade Cleaning",
+                        "desc": "Specialised cleaning for internal and external glass surfaces and facades. Using professional techniques and proper equipment, we remove marks, dust, and impurities with careful execution and a premium finish, even in difficult-access areas."
                     },
                     "f6": {
-                        "name": "Document Management",
-                        "desc": "Archiving, sorting, and secure destruction of your confidential documents."
+                        "name": "Executive Transfer and Transportation",
+                        "desc": "Exclusive executive transport service for airports, meetings, corporate events, and professional commitments. We deliver comfort, punctuality, security, and confidentiality with a smooth, reliable, high-standard experience."
                     }
                 }
             },
             "storage": {
                 "features": {
                     "f1": {
-                        "name": "Level 5 Biometric Security",
-                        "desc": "Strictly controlled access via biometric recognition and 24/7 surveillance for inviolable security."
+                        "name": "Goods Reception",
+                        "desc": "Premium goods reception with technical control, speed, and full traceability to secure inbound flow and improve supply-chain performance."
                     },
                     "f2": {
-                        "name": "Redundant Climate Control",
-                        "desc": "Dual temperature and humidity regulation systems for perfect preservation."
+                        "name": "Bonded Warehouse & Tax Exemption",
+                        "desc": "Bonded warehousing and tax-exemption strategy to optimise cash flow, defer tax burden, and align customs release with market demand."
                     },
                     "f3": {
                         "name": "Fiscal Exemption (Bonded Warehouse)",
@@ -305,20 +300,20 @@
             "events": {
                 "features": {
                     "f1": {
-                        "name": "\"Just-in-Time\" Logistics",
-                        "desc": "Delivery coordinated to the minute to integrate perfectly with the tight schedule of your events."
+                        "name": "Showroom Assembly",
+                        "desc": "Premium showroom assembly that turns space into a brand experience, from concept planning to flawless final installation."
                     },
                     "f2": {
-                        "name": "Sensitive Equipment Handling",
-                        "desc": "Technical know-how for the transport and installation of fragile audiovisual and technological equipment."
+                        "name": "Corporate Furniture Assembly and Installation",
+                        "desc": "Professional corporate furniture assembly and installation to build productive, ergonomic, and brand-aligned work environments."
                     },
                     "f3": {
-                        "name": "24/7 Assembly Teams",
-                        "desc": "Total availability for assembly and dismantling, regardless of time constraints."
+                        "name": "Excellence Hospitality",
+                        "desc": "Premium hospitality designed around personalisation, anticipation, and discretion to create unforgettable guest experiences."
                     },
                     "f4": {
                         "name": "ATA Carnet Management",
-                        "desc": "Administration of customs documents for the temporary admission of exhibition material abroad."
+                        "desc": "Expert ATA Carnet management to simplify temporary international movement of goods while reducing duties, delays, and administrative risk."
                     },
                     "f5": {
                         "name": "Audiovisual & Multimedia",
@@ -327,6 +322,242 @@
                     "f6": {
                         "name": "Branding & Signage",
                         "desc": "Meticulous placement of your visual elements and branding for maximum impact."
+                    }
+                }
+            }
+        },
+        "details": {
+            "corporate": {
+                "description": "A complete corporate relocation program built for business continuity, with precise planning and secure execution.",
+                "subservices": {
+                    "sub01": {
+                        "title": "High-Rise Glass and Facade Cleaning",
+                        "description": "Your building facade is your first visual statement. Our specialised high-rise cleaning service combines industrial rope access, certified equipment, and strict safety protocols to restore complex glass and facade structures. We apply biodegradable products and material-safe techniques to deliver durable shine without damaging surfaces or the environment. The result is immediate: more natural light, more pleasant workplaces, and stronger property value. Contact us for a free facade assessment and a tailored quote.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "High-Rise Glass and Facade Cleaning"
+                    },
+                    "sub02": {
+                        "title": "Corporate Concierge Service",
+                        "description": "Corporate concierge is redefining the workplace as a strategic service for employee wellbeing and operational efficiency. Inspired by luxury hospitality standards, it helps teams delegate personal and administrative tasks so they can focus on core responsibilities. Services are fully customisable, covering daily logistics, personal assistance, wellbeing support, travel and appointment management, and vehicle-related needs. The impact is measurable: stronger employer branding, higher productivity, fewer personal disruptions, and reduced absenteeism. Implementation can be physical, digital, or hybrid, with transparent and scalable cost models.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Corporate Concierge Service"
+                    },
+                    "sub03": {
+                        "title": "Relocation Coordination",
+                        "description": "Relocation coordination turns a high-pressure move into a controlled and seamless transition. We act as end-to-end project managers: strategic planning, inventory audits, partner selection, administrative handling, and on-site supervision on moving day. Our approach serves both corporate and private contexts with the same level of precision: business continuity, protection of sensitive assets and data, organised setup of new spaces, and personalised follow-up until full operational readiness. You benefit from disciplined execution, real-time issue management, and cost optimisation throughout the process.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Relocation Coordination"
+                    },
+                    "sub04": {
+                        "title": "Specialised Transport",
+                        "description": "Specialised transport is designed for your most sensitive and high-value assets. Beyond moving items, we ensure precision, protection, and full operational control at every stage. Our expertise serves healthcare equipment, industrial machinery, fine art, and critical IT infrastructure, with custom logistics built around each risk profile. Technical differentiators include an adapted fleet, air suspension, real-time tracking, custom packaging, and teams trained for complex handling conditions. The outcome is clear: reduced risk, regulatory compliance, value-based insurance coverage, and end-to-end coordination through a single point of contact.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Specialised Transport"
+                    },
+                    "sub05": {
+                        "title": "Planning",
+                        "description": "Detailed strategy and precise sequencing of operations to minimise impact on your business activity.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Planning"
+                    },
+                    "sub06": {
+                        "title": "Relocation Coordination",
+                        "description": "Centralised steering by a dedicated Project Manager, ensuring fluid communication and flawless execution.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Relocation Coordination"
+                    }
+                }
+            },
+            "private": {
+                "description": "\"White-glove\" service for residences and estates. Comprehensive inventory management and recreation of the domestic atmosphere at the destination.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Bespoke Packaging",
+                        "description": "Made-to-measure protective materials and art packaging techniques for your most precious and delicate possessions.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Bespoke Packaging"
+                    },
+                    "sub02": {
+                        "title": "Library Cataloguing",
+                        "description": "Photographic inventory and methodical classification of your volumes, respecting their original organisation.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Library Cataloguing"
+                    },
+                    "sub03": {
+                        "title": "Interim Interior Design",
+                        "description": "Aesthetic temporary arrangement to maintain your comfort during transition phases.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Interim Interior Design"
+                    },
+                    "sub04": {
+                        "title": "Personalised Installation",
+                        "description": "Meticulous arrangement of your furniture and personal objects according to your exact preferences.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Personalised Installation"
+                    },
+                    "sub05": {
+                        "title": "Fine Art & Antique Management",
+                        "description": "Specialised expertise in the handling and preservation of invaluable collection pieces.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Fine Art & Antique Management"
+                    },
+                    "sub06": {
+                        "title": "Administrative & Concierge Services",
+                        "description": "Comprehensive assistance for administrative procedures and comfort services related to your change of residence.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Administrative & Concierge Services"
+                    }
+                }
+            },
+            "art": {
+                "description": "Bespoke protection, secure movement, and professional installation for invaluable masterpieces and regulated cultural goods.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Packaging & Protection",
+                        "description": "Art packaging is a risk and reputation lever, not a standard parcel workflow. We engineer museum-aligned protection against shock, vibration, humidity shifts, handling stress, and documentation gaps. Our scope spans material selection (films, foams, barrier wraps, technical textiles), bespoke crates and containers with dimensioned internal bracing, and disciplined packing and unpacking with condition checks. The outcome is tangible: fewer damage events, protected exhibition timelines, stronger alignment with insurers and institutions, and a receiving state ready for installation or secure storage.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Packaging & Protection"
+                    },
+                    "sub02": {
+                        "title": "Customs Formalities",
+                        "description": "End-to-end customs handling for national and international movements of art and regulated cultural goods, with compliant documentation and coordinated timing.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Customs Formalities"
+                    },
+                    "sub03": {
+                        "title": "Specialised Installation",
+                        "description": "Technical assembly and hanging carried out by museography experts.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Specialised Installation"
+                    },
+                    "sub04": {
+                        "title": "Classic & Prestige Car Transport",
+                        "description": "Enclosed and discreet transport solutions for your exceptional automobiles, with meticulous attention paid to every mechanical and aesthetic detail.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Classic & Prestige Car Transport"
+                    }
+                }
+            },
+            "cleaning": {
+                "description": "Immaculate environments, with attention to detail and total discretion, ensuring comfort and productivity for your team.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Professional Cleaning and Organisation",
+                        "description": "Excellence and daily peace of mind: an impeccable environment strengthens your brand image, reduces mental load, and supports higher productivity. Our service combines professional cleaning, functional space organisation, strict hygiene and disinfection standards, and full support for glazing, consumables, and waste handling. We operate with a strong eco-responsible approach through Ecolabel products, selective sorting, and responsible water and energy use. Our method includes a free initial assessment, discreet interventions aligned with your schedule, and recurring quality controls. You benefit from total flexibility, a single point of contact, and premium execution that keeps your workplace consistently organised and inspiring.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Professional Cleaning and Organisation"
+                    },
+                    "sub02": {
+                        "title": "Office Maintenance and Workspace Adjustments",
+                        "description": "In a fast-changing business environment, office maintenance is a strategic lever for performance, brand perception, and employee wellbeing. Our agile facility management approach helps you quickly reconfigure spaces, optimise resources, and maintain smooth daily operations. We also support sustainability goals through energy efficiency actions, selective waste sorting, and indoor air quality monitoring. For unexpected issues, our corrective maintenance service operates 24/7 with digital ticket tracking for full transparency. Flexible plans are tailored to your property footprint, with emergency response times ranging from 8 hours to under 4 hours. Contact us for a free office audit and a tailored proposal.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Office Maintenance and Workspace Adjustments"
+                    },
+                    "sub03": {
+                        "title": "Confidential Disposal and Recycling",
+                        "description": "Your data security is our absolute priority. We provide certified destruction of paper documents (DIN 66399, levels P-3 to P-7) and digital media, with a compliance certificate issued for every operation. Beyond paper, we also handle the secure dismantling and recycling of WEEE according to the strictest environmental standards, with 100% of materials routed to specialised recycling streams. Our 4-step methodology — audit, secure collection, high-security shredding, and traceable recycling — ensures GDPR compliance, uninterrupted chain of custody, and measurable CSR impact. Contact us for a free audit and a customised quote within 24 hours.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Confidential Disposal and Recycling"
+                    },
+                    "sub04": {
+                        "title": "Corporate Concierge Service",
+                        "description": "Dedicated concierge support for office operations, including light administrative requests, internal task coordination, workspace organisation, and day-to-day assistance. Personalised and discreet service that improves efficiency and comfort.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Corporate Concierge Service"
+                    },
+                    "sub05": {
+                        "title": "Glass and Facade Cleaning",
+                        "description": "Specialised cleaning for internal and external glass surfaces and facades. Using professional techniques and proper equipment, we remove marks, dust, and impurities with careful execution and a premium finish, even in difficult-access areas.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Glass and Facade Cleaning"
+                    },
+                    "sub06": {
+                        "title": "Executive Transfer and Transportation",
+                        "description": "Exclusive executive transport service for airports, meetings, corporate events, and professional commitments. We deliver comfort, punctuality, security, and confidentiality with a smooth, reliable, high-standard experience.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Executive Transfer and Transportation"
+                    }
+                }
+            },
+            "storage": {
+                "description": "Maximum security storage in freeports. Precision climate control for precious assets and temporary fiscal exemption.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Goods Reception",
+                        "description": "Goods reception is far more than unloading: it is the operational gateway to logistics excellence. A well-executed inbound process protects inventory integrity, improves product conformity, and sets the pace for downstream performance. Our specialised cycle includes dock planning, controlled unloading, quantity and quality checks, non-conformity inspection, and immediate WMS registration for complete traceability. We leverage barcode/RFID scanning, integrated WMS workflows, and documented reservation protocols to reduce counting errors and legal exposure. Strategic gains are clear: higher inventory accuracy, lower damage-related costs, faster product availability for sales or production, and stronger compliance across your logistics operation.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Goods Reception"
+                    },
+                    "sub02": {
+                        "title": "Bonded Warehouse & Tax Exemption",
+                        "description": "Bonded warehousing is a strategic customs regime that allows imported goods to be stored under full tax suspension until nationalisation is required. This gives your company financial control by aligning fiscal disbursement with actual market demand. We manage the full operational cycle: customs setup, classification control, compliance governance, timeline monitoring, and release planning. Core mechanisms include suspension of import taxes during storage, partial nationalisation for pay-as-you-withdraw economics, and tax exemption when goods are re-exported. The model also allows selected in-warehouse operations such as conservation handling, commercial adaptation, and technical sampling. Strategic outcomes are immediate: stronger working capital, reduced logistics cost, faster market response, and legal certainty in monitored bonded facilities.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Bonded Warehouse & Tax Exemption"
+                    },
+                    "sub03": {
+                        "title": "Fiscal Exemption (Bonded Warehouse)",
+                        "description": "Storage under customs bond allowing the suspension of duties and taxes until final importation.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Fiscal Exemption (Bonded Warehouse)"
+                    },
+                    "sub04": {
+                        "title": "Private Viewing Rooms",
+                        "description": "Elegant and secure spaces for the inspection or presentation of your stored assets.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Private Viewing Rooms"
+                    },
+                    "sub05": {
+                        "title": "Environmental Control",
+                        "description": "Constant monitoring of air quality and protection against pests.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Environmental Control"
+                    },
+                    "sub06": {
+                        "title": "Goods Reception",
+                        "description": "Complete logistical service for the reception, verification, and stocking of your deliveries.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Goods Reception"
+                    }
+                }
+            },
+            "events": {
+                "description": "Flawless execution, attending to every detail to ensure visual impact, functionality, and punctuality.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Showroom Assembly",
+                        "description": "Showroom assembly goes beyond product display: it creates immersive brand environments designed to convert attention into sales. We manage the full excellence cycle with precision: brand and objective analysis, detailed design, premium material and furniture selection, production and secure logistics, technical installation, and final scenography and merchandising. Our teams deliver tailored showroom solutions across luxury retail, interior design and furniture, automotive, and technology. The result is a high-impact environment that strengthens brand perception, drives purchase decisions, and supports multiple business uses including sales, training, and events.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Showroom Assembly"
+                    },
+                    "sub02": {
+                        "title": "Corporate Furniture Assembly and Installation",
+                        "description": "Corporate furniture assembly is more than putting parts together: it is about shaping workspaces that support performance, safety, and employee wellbeing. We convert your workplace project into a fully functional setup with strict compliance to technical specifications and safety standards. Our scope includes modular systems, executive furniture, storage solutions, partitions, and applied ergonomics. We execute with a technical process that covers planning and logistics, receiving and inspection, distribution and assembly, levelling and alignment, and final cleaning before handover. Strategic gains are clear: faster operational readiness, reduced downtime, preserved manufacturer warranties, and flexible scheduling, including after-hours interventions.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Corporate Furniture Assembly and Installation"
+                    },
+                    "sub03": {
+                        "title": "Excellence Hospitality",
+                        "description": "Excellence hospitality is where service becomes an art. Beyond physical comfort, true distinction comes from anticipating needs, personalising every detail, and delivering with refined discretion. Our premium service pillars are built around guest understanding, proactive care, and flawless human interaction. We activate high-impact services that transform each stay: proactive concierge support, tailored wellness experiences, and elevated gastronomy adapted to personal preferences. The benefit for your guests is clear and measurable: more peace of mind, a stronger feeling of exclusivity, and lasting memories that drive loyalty and repeat stays.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Excellence Hospitality"
+                    },
+                    "sub04": {
+                        "title": "ATA Carnet Management",
+                        "description": "The ATA Carnet is the global passport for your temporary goods. It enables entry and re-entry across more than 80 countries without temporary import duties and complex repetitive paperwork. We manage the full specialist cycle: issuance advisory, customs classification validation, guarantee coordination, border logistics guidance, deadline monitoring, and final regularisation with guarantee release. Eligible categories include commercial samples, professional equipment, and trade-fair materials. Strategic outcomes are immediate: direct financial savings, faster and more predictable customs clearance, stronger legal certainty, and smoother access to key international markets.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "ATA Carnet Management"
+                    },
+                    "sub05": {
+                        "title": "Audiovisual & Multimedia",
+                        "description": "Installation and configuration of presentation and lighting systems for your stands.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Audiovisual & Multimedia"
+                    },
+                    "sub06": {
+                        "title": "Branding & Signage",
+                        "description": "Meticulous placement of your visual elements and branding for maximum impact.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Branding & Signage"
                     }
                 }
             }
@@ -377,6 +608,6 @@
     },
     "TermsPage": {
         "title": "General Terms and Conditions of Sale and Service",
-        "content": "<p>Last updated: February 2026</p><h2>1. Object and Scope of Application</h2><p>These General Terms and Conditions of Sale (GTCS) govern all contractual relations between <strong>LA Global Corporation</strong> (hereinafter \"the Provider\"), headquartered in Grand-Lancy, Switzerland, and any natural or legal person (hereinafter \"the Client\") wishing to benefit from our logistics, moving, storage, and asset management services.</p><p>By validating a quote or placing an order, the Client accepts these conditions without reservation, which prevail over any other document, unless specifically agreed in writing.</p><h2>2. Order and Conclusion of Contract</h2><p>Our services are subject to a personalized quote, established following a precise assessment of your needs. The contract is deemed concluded upon receipt by the Provider of the quote dated and signed by the Client, accompanied, where applicable, by the requested deposit.</p><p>Any subsequent modification of the order must be the subject of a written amendment and may result in a price adjustment.</p><h2>3. Rates and Payment Terms</h2><p>Our rates are denominated in Swiss Francs (CHF) and are exclusive of tax, unless otherwise stated. Costs related to customs formalities or specific local taxes remain the responsibility of the Client.</p><ul><li><strong>Deposit:</strong> A deposit of 30% to 50% may be required upon signature to confirm the reservation of resources.</li><li><strong>Balance:</strong> The balance is payable upon receipt of the final invoice, according to the terms indicated thereon (generally within 10 or 30 days).</li></ul><p>In the event of late payment, default interest may be applied in accordance with prevailing rates.</p><h2>4. Execution of Services and Delivery</h2><p>We undertake to execute the services with the utmost care, in accordance with \"Swiss Excellence\" quality standards.</p><ul><li><strong>Deadlines:</strong> Execution dates are set by mutual agreement. Although we make every effort to respect them, the Provider cannot be held responsible for delays due to external causes (customs, weather, force majeure).</li><li><strong>Access:</strong> The Client must guarantee accessibility to the premises (departure and arrival) and report any technical difficulties (elevator, parking) in advance.</li></ul><h2>5. Insurance and Liability</h2><p>LA Global Corporation acts with absolute professional diligence.</p><ul><li><strong>Liability:</strong> We are liable in the event of proven damage resulting directly from our handling, within applicable legal limits.</li><li><strong>Insurance:</strong> We propose and strongly recommend subscribing to our \"All-Risk\" (Nail-to-Nail) insurance for valuables, fine art, and precious goods, offering optimal coverage beyond basic contractual liabilities.</li></ul><h2>6. Right of Withdrawal and Cancellation</h2><p>In compliance with Swiss law, any cancellation by the Client must be notified in writing.</p><ul><li><strong>More than 30 days before the start:</strong> The deposit may be partially refunded, minus administrative fees.</li><li><strong>Less than 15 days:</strong> The deposit remains with the Provider as compensation.</li><li><strong>Less than 48 hours:</strong> The full amount of the service may be due.</li></ul><h2>7. Data Protection (FADP / GDPR)</h2><p>We treat your personal data (identity, addresses, inventory) with the strictest confidentiality, solely for the purposes of contract execution. In accordance with the Federal Act on Data Protection (FADP) and the GDPR if applicable, you have a right of access and rectification of your data.</p><h2>8. Applicable Law and Jurisdiction</h2><p>These conditions are subject to <strong>Swiss Law</strong>. Any dispute relating to their interpretation or execution will be under the exclusive jurisdiction of the courts of the canton of <strong>Geneva</strong>, subject to appeal to the Federal Court.</p>"
+        "content": "<p>Last updated: February 2026</p><h2>1. Object and Scope of Application</h2><p>These General Terms and Conditions of Sale (GTCS) govern all contractual relations between <strong>LA Global Corporation</strong> (hereinafter \"the Provider\"), headquartered at Rue de la Sablière 3, 1242 Satigny, Switzerland, and any natural or legal person (hereinafter \"the Client\") wishing to benefit from our logistics, moving, storage, and asset management services.</p><p>By validating a quote or placing an order, the Client accepts these conditions without reservation, which prevail over any other document, unless specifically agreed in writing.</p><h2>2. Order and Conclusion of Contract</h2><p>Our services are subject to a personalized quote, established following a precise assessment of your needs. The contract is deemed concluded upon receipt by the Provider of the quote dated and signed by the Client, accompanied, where applicable, by the requested deposit.</p><p>Any subsequent modification of the order must be the subject of a written amendment and may result in a price adjustment.</p><h2>3. Rates and Payment Terms</h2><p>Our rates are denominated in Swiss Francs (CHF) and are exclusive of tax, unless otherwise stated. Costs related to customs formalities or specific local taxes remain the responsibility of the Client.</p><ul><li><strong>Deposit:</strong> A deposit of 30% to 50% may be required upon signature to confirm the reservation of resources.</li><li><strong>Balance:</strong> The balance is payable upon receipt of the final invoice, according to the terms indicated thereon (generally within 10 or 30 days).</li></ul><p>In the event of late payment, default interest may be applied in accordance with prevailing rates.</p><h2>4. Execution of Services and Delivery</h2><p>We undertake to execute the services with the utmost care, in accordance with \"Swiss Excellence\" quality standards.</p><ul><li><strong>Deadlines:</strong> Execution dates are set by mutual agreement. Although we make every effort to respect them, the Provider cannot be held responsible for delays due to external causes (customs, weather, force majeure).</li><li><strong>Access:</strong> The Client must guarantee accessibility to the premises (departure and arrival) and report any technical difficulties (elevator, parking) in advance.</li></ul><h2>5. Insurance and Liability</h2><p>LA Global Corporation acts with absolute professional diligence.</p><ul><li><strong>Liability:</strong> We are liable in the event of proven damage resulting directly from our handling, within applicable legal limits.</li><li><strong>Insurance:</strong> We propose and strongly recommend subscribing to our \"All-Risk\" (Nail-to-Nail) insurance for valuables, fine art, and precious goods, offering optimal coverage beyond basic contractual liabilities.</li></ul><h2>6. Right of Withdrawal and Cancellation</h2><p>In compliance with Swiss law, any cancellation by the Client must be notified in writing.</p><ul><li><strong>More than 30 days before the start:</strong> The deposit may be partially refunded, minus administrative fees.</li><li><strong>Less than 15 days:</strong> The deposit remains with the Provider as compensation.</li><li><strong>Less than 48 hours:</strong> The full amount of the service may be due.</li></ul><h2>7. Data Protection (FADP / GDPR)</h2><p>We treat your personal data (identity, addresses, inventory) with the strictest confidentiality, solely for the purposes of contract execution. In accordance with the Federal Act on Data Protection (FADP) and the GDPR if applicable, you have a right of access and rectification of your data.</p><h2>8. Applicable Law and Jurisdiction</h2><p>These conditions are subject to <strong>Swiss Law</strong>. Any dispute relating to their interpretation or execution will be under the exclusive jurisdiction of the courts of the canton of <strong>Geneva</strong>, subject to appeal to the Federal Court.</p>"
     }
 }

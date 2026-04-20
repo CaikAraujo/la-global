@@ -1,18 +1,19 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/navigation';
 
-const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'events'];
+const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'];
 const featureKeysMap: Record<string, string[]> = {
-    corporate: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    private: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    art: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    cleaning: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    storage: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    events: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6']
+    corporate: ['f1', 'f2', 'f3', 'f4'],
+    private: ['f1', 'f2', 'f3', 'f4'],
+    art: ['f1', 'f2', 'f3', 'f4'],
+    cleaning: ['f1', 'f2', 'f3', 'f4'],
+    storage: ['f1', 'f2', 'f3', 'f4'],
+    events: ['f1', 'f2', 'f3', 'f4']
 };
 const serviceImages: Record<string, string> = {
     corporate: '/images/corporate-service.jpg',
@@ -23,65 +24,26 @@ const serviceImages: Record<string, string> = {
     events: '/images/event-logistics.png'
 };
 
-const FeatureItem = ({ feature }: { feature: { name: string, description: string } }) => {
-    const [isOpen, setIsOpen] = useState(false);
-    const containerRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        const handleClickOutside = (event: MouseEvent) => {
-            if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
-                setIsOpen(false);
-            }
-        };
-
-        document.addEventListener('click', handleClickOutside);
-        return () => {
-            document.removeEventListener('click', handleClickOutside);
-        };
-    }, []);
-
+const FeatureItem = ({ feature }: { feature: { name: string, href: string } }) => {
     return (
-        <div
-            ref={containerRef}
-            className="relative"
+        <Link
+            href={feature.href}
+            className="flex items-center justify-between gap-3 border-b border-swiss-navy/10 pb-2 transition-colors duration-300 hover:border-swiss-red/30 group"
         >
-            <div
-                onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center gap-3 border-b border-swiss-navy/10 pb-2 cursor-pointer transition-colors duration-300 hover:border-swiss-red/30"
-            >
-                <div className={`w-1 h-1 rounded-full transition-colors duration-300 ${isOpen ? 'bg-swiss-red' : 'bg-swiss-navy'}`} />
-                <span className={`text-sm font-medium uppercase tracking-wide transition-colors duration-300 ${isOpen ? 'text-swiss-red' : 'text-swiss-text hover:text-swiss-red'}`}>
+            <div className="flex items-center gap-3">
+                <div className="w-1 h-1 rounded-full bg-swiss-navy group-hover:bg-swiss-red transition-colors duration-300" />
+                <span className="text-sm font-medium uppercase tracking-wide text-swiss-text group-hover:text-swiss-red transition-colors duration-300">
                     {feature.name}
                 </span>
             </div>
-
-            <AnimatePresence>
-                {isOpen && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                        animate={{ opacity: 1, y: 0, scale: 1 }}
-                        exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                        transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute bottom-full left-0 mb-3 w-72 bg-swiss-navy text-white p-5 rounded-lg shadow-xl z-50"
-                    >
-                        <div className="absolute bottom-[-6px] left-4 w-3 h-3 bg-swiss-navy transform rotate-45" />
-                        <h4 className="font-serif text-lg mb-2 text-white">{feature.name}</h4>
-                        <p className="text-white/80 text-sm font-light leading-relaxed">
-                            {feature.description}
-                        </p>
-                    </motion.div>
-                )}
-            </AnimatePresence>
-        </div>
+            <span className="text-swiss-navy/40 group-hover:text-swiss-red transition-colors duration-300">
+                →
+            </span>
+        </Link>
     );
 };
 
 export default function ServicesPage() {
-    const t = useTranslations('ServicesPage');
-
-    // Construct services with features dynamically from translations
-
-    // I need to use `useTranslations` properly.
     const tServicesSection = useTranslations('ServicesSection');
     const tServicesPage = useTranslations('ServicesPage');
 
@@ -137,9 +99,18 @@ export default function ServicesPage() {
                                     {featuresList.map((fKey, i) => (
                                         <FeatureItem key={i} feature={{
                                             name: tServicesPage(`items.${key}.features.${fKey}.name`),
-                                            description: tServicesPage(`items.${key}.features.${fKey}.desc`)
+                                            href: `/services/${key}/${fKey}`
                                         }} />
                                     ))}
+                                </div>
+
+                                <div className="mt-10">
+                                    <Link
+                                        href={`/services/${key}`}
+                                        className="inline-flex items-center px-8 py-3 text-xs font-semibold tracking-swiss uppercase border border-swiss-navy text-swiss-navy transition-all duration-500 ease-out hover:bg-swiss-navy hover:text-white"
+                                    >
+                                        {tServicesPage('learnMore')}
+                                    </Link>
                                 </div>
                             </div>
                         </motion.div>

@@ -17,7 +17,7 @@
         },
         "headquarters": {
             "title": "Hauptsitz",
-            "address": "Av. des Communes-Réunies 43\n1212 Grand-Lancy\nSchweiz"
+            "address": "Rue de la Sablière 3\n1242 Satigny"
         },
         "legal": {
             "title": "Rechtliches",
@@ -27,7 +27,7 @@
             "portal": "Kundenportal"
         },
         "copyright": "© {year} L.A Global Corporation - Logistique Avancée. Alle Rechte vorbehalten.",
-        "developer": "Entwickelt von Caik Araujo",
+        "developer": "Entwickelt von ATHANA",
         "made_in": "Made in Suisse"
     },
     "TrustMarquee": {
@@ -161,24 +161,27 @@
             "title": "Unsere Divisionen",
             "description": "Operative Exzellenz, angepasst an die einzigartigen Bedürfnisse globaler Unternehmen und großer Privatanwesen."
         },
+        "learnMore": "Mehr erfahren",
+        "subservicesTitle": "Unterservices",
+        "subservicesDescription": "Entdecken Sie die spezialisierten operativen Module, die in diesem Service enthalten sind.",
         "items": {
             "corporate": {
                 "features": {
                     "f1": {
-                        "name": "Risikomanagement ISO 31000",
-                        "desc": "Strenge Protokolle zur Risikoidentifikation und -minderung, um die absolute Sicherheit Ihrer Vermögenswerte bei jedem Schritt zu gewährleisten."
+                        "name": "Hoehenreinigung von Glas und Fassaden",
+                        "desc": "Die Fassade Ihres Gebaeudes ist Ihre wichtigste Visitenkarte. Unser spezialisierter Hoehenreinigungsservice kombiniert Industrieklettern, zertifizierte Ausruestung und strenge Sicherheitsprotokolle, um Glas- und Fassadenflaechen auch an komplexen Punkten zu reinigen und zu schuetzen. Wir arbeiten mit biologisch abbaubaren Produkten und materialschonenden Verfahren fuer langanhaltenden Glanz ohne Schaeden an Struktur oder Umwelt. Das Ergebnis ist sofort sichtbar: mehr Tageslicht, angenehmere Arbeitsbereiche und eine direkte Aufwertung Ihrer Immobilie. Kontaktieren Sie uns fuer eine kostenlose Fassadenanalyse und ein individuelles Angebot."
                     },
                     "f2": {
-                        "name": "Zertifizierte Anlagenentsorgung",
-                        "desc": "Sicherer und ökologischer Prozess der Datenvernichtung und des Materialrecyclings mit vollständigen Konformitätszertifikaten."
+                        "name": "Corporate Concierge Service",
+                        "desc": "Corporate Concierge entwickelt sich zu einem strategischen Instrument fuer Effizienz und Mitarbeiterwohl. Inspiriert von der Luxushotellerie entlastet der Service Teams von persoenlichen und administrativen Aufgaben, damit sie sich auf ihre Kernaufgaben konzentrieren koennen. Die Leistungen sind flexibel anpassbar und reichen von Tageslogistik und persoenlicher Assistenz bis zu Wohlbefinden, Termin- und Reisekoordination sowie fahrzeugbezogenen Services. Die Vorteile sind klar: staerkere Arbeitgebermarke, mehr Produktivitaet, weniger Ablenkungen und geringere Fehlzeiten. Die Umsetzung kann physisch, digital oder hybrid erfolgen, mit transparenten und skalierbaren Kostenmodellen."
                     },
                     "f3": {
-                        "name": "Schlüsselfertige operative Einrichtung",
-                        "desc": "Vollständige Installation und funktionale Konfiguration Ihrer neuen Arbeitsräume, bereit für den Einsatz ab dem ersten Tag."
+                        "name": "Umzugskoordination",
+                        "desc": "Umzugskoordination macht aus einem komplexen Wechsel einen kontrollierten und stressarmen Prozess. Wir uebernehmen die Gesamtsteuerung als Projektpartner: strategische Planung, Inventur, Partnerauswahl, administrative Abwicklung und operative Supervision am Umzugstag. Unser Ansatz deckt Unternehmens- und Privatumzuege mit demselben Qualitaetsanspruch ab: Sicherung der Kontinuitaet, Schutz sensibler Daten und Gueter, strukturierte Einrichtung am Zielort und persoenliche Begleitung bis zur vollen Einsatzbereitschaft. Sie profitieren von klarer Ausfuehrung, Echtzeit-Loesung von Stoerungen und messbarer Kostenoptimierung."
                     },
                     "f4": {
                         "name": "Spezialtransport",
-                        "desc": "Fahrzeugflotte für empfindliche Geräte, mit Luftfederung und Klimatisierung."
+                        "desc": "Spezialtransport ist fuer besonders sensible und hochwertige Gueter ausgelegt. Es geht nicht nur um Bewegung von A nach B, sondern um praezise Steuerung, Schutz und Sicherheit in jeder Phase. Unsere Expertise reicht von Medizintechnik und Industrieanlagen bis zu Kunstwerken und kritischer IT-Infrastruktur, mit individuell angepassten Logistikprozessen. Technische Vorteile umfassen spezialisierte Fahrzeugflotte, Luftfederung, Echtzeit-Tracking, massgeschneiderte Verpackung und Teams fuer komplexes Handling. Das Ergebnis: minimiertes Risiko, regulatorische Konformitaet, wertbasierter Versicherungsschutz und End-to-End-Betreuung mit einem zentralen Ansprechpartner."
                     },
                     "f5": {
                         "name": "Planung",
@@ -221,26 +224,18 @@
             "art": {
                 "features": {
                     "f1": {
-                        "name": "Klimatisierte Kisten (ISPM 15)",
-                        "desc": "Maßgefertigte Transportkisten nach internationalen Standards, die optimalen Schutz garantieren."
+                        "name": "Verpackung und Schutz",
+                        "desc": "Strategischer Schutz von Corporate-Mobiliar und sensiblen Werten: passende Materialien, fachgerechte Techniken und Erhalt der Integrität bis zur Installation."
                     },
                     "f2": {
-                        "name": "CITES-Zollformalitäten",
-                        "desc": "Expertise in der Verwaltung von Genehmigungen und Vorschriften für den internationalen Transport geschützter Arten und regulierter Objekte."
+                        "name": "Zollformalitäten",
+                        "desc": "End-to-end Zollabwicklung für nationale und internationale Bewegungen von Kunst und regulierten Kulturgütern mit konformer Dokumentation."
                     },
                     "f3": {
                         "name": "Spezialisierte Installation",
                         "desc": "Technische Montage und Aufhängung durch Experten der Museografie."
                     },
                     "f4": {
-                        "name": "Nagel-zu-Nagel-Versicherung",
-                        "desc": "Umfassender All-Risk-Schutz, von der ersten Abnahme bis zur finalen Installation."
-                    },
-                    "f5": {
-                        "name": "Verpackung und Schutz",
-                        "desc": "Hochleistungsfähige Polsterungs- und Pufferlösungen für absolute Stabilität während des Transports."
-                    },
-                    "f6": {
                         "name": "Transport von Oldtimern",
                         "desc": "Geschlossene und diskrete Transportlösungen für Ihre außergewöhnlichen Automobile, mit akribischer Aufmerksamkeit für jedes mechanische und ästhetische Detail."
                     }
@@ -249,40 +244,40 @@
             "cleaning": {
                 "features": {
                     "f1": {
-                        "name": "Zertifizierte Reinigung",
-                        "desc": "Strenge Hygieneprotokolle mit validierten Methoden für ein gesundes Arbeitsumfeld."
+                        "name": "Professionelle Reinigung und Organisation",
+                        "desc": "Exzellenz und taegliche Entlastung: Ein makelloses Umfeld staerkt Ihre Markenwahrnehmung, reduziert mentale Belastung und foerdert Produktivitaet. Unser Leistungsumfang verbindet professionelle Reinigung, funktionale Raumorganisation, strenge Hygiene- und Desinfektionsstandards sowie Betreuung von Verglasung, Verbrauchsmaterialien und Abfallmanagement. Mit Ecolabel-Produkten, Abfalltrennung sowie verantwortungsvollem Wasser- und Energieeinsatz verfolgen wir einen klar nachhaltigen Ansatz. Unsere Methode umfasst eine kostenlose Erstanalyse, diskrete Einsaetze nach Ihrem Zeitplan und regelmaessige Qualitaetskontrollen. Sie erhalten maximale Flexibilitaet, einen zentralen Ansprechpartner und konstant hohe Servicequalitaet."
                     },
                     "f2": {
-                        "name": "Diskretion des Teams",
-                        "desc": "Personal, das auf Vertraulichkeit und das Arbeiten in belebten Umgebungen geschult ist, ohne Ihre Abläufe zu stören."
+                        "name": "Wartung und Anpassungen von Bueroraeumen",
+                        "desc": "In einer dynamischen Arbeitswelt ist die Wartung von Bueros ein strategischer Faktor fuer Leistung, Markenwirkung und Wohlbefinden der Teams. Unser agiler Facility-Management-Ansatz ermoeglicht eine schnelle Reorganisation von Flaechen, eine bessere Ressourcennutzung und stabile taegliche Ablaeufe. Gleichzeitig unterstuetzen wir nachhaltige Standards durch Energieeffizienz, Abfalltrennung und Kontrolle der Innenraumluft. Bei Stoerungen steht unsere corrective maintenance 24/7 mit digitalem Ticket-Tracking zur Verfuegung. Unsere flexiblen Pakete passen sich Ihrer Immobiliengroesse an, mit Reaktionszeiten von 8 Stunden bis unter 4 Stunden bei Notfaellen. Kontaktieren Sie uns fuer ein kostenloses Buero-Audit und ein individuelles Angebot."
                     },
                     "f3": {
-                        "name": "Ökologische Produkte",
-                        "desc": "Ausschließliche Verwendung von Reinigungsmitteln, die umwelt- und gesundheitsfreundlich sind."
+                        "name": "Vertrauliche Entsorgung und Recycling",
+                        "desc": "Die Sicherheit Ihrer Daten hat für uns höchste Priorität. Wir bieten die zertifizierte Vernichtung von Papierdokumenten (DIN 66399, Stufen P-3 bis P-7) und digitalen Datenträgern, inklusive Konformitätszertifikat für jeden Einsatz. Über Papier hinaus übernehmen wir auch die sichere Demontage und das Recycling von Elektro- und Elektronikaltgeräten nach strengsten Umweltstandards, wobei 100% der Materialien in spezialisierte Recyclingketten geleitet werden. Unsere 4-stufige Methodik — Audit, sichere Abholung, Hochsicherheits-Schreddern und rückverfolgbares Recycling — garantiert DSGVO-Konformität, lückenlose Nachverfolgbarkeit und messbare CSR-Wirkung. Kontaktieren Sie uns für ein kostenloses Audit und ein individuelles Angebot innerhalb von 24 Stunden."
                     },
                     "f4": {
-                        "name": "Flexible Arbeitszeiten",
-                        "desc": "Anpassung der Einsätze an Ihren Rhythmus, auch außerhalb der Geschäftszeiten."
+                        "name": "Corporate Concierge Service",
+                        "desc": "Exklusiver Concierge-Service für Büros: Unterstützung bei administrativen Kleinanfragen, Koordination interner Aufgaben, Organisation von Flächen und operative Alltagsassistenz. Diskret, schnell und individuell."
                     },
                     "f5": {
-                        "name": "Servicepersonal",
-                        "desc": "Bereitstellung von qualifiziertem Personal für Kaffeeservice, Empfang oder kontinuierliche Pflege."
+                        "name": "Glas- und Fassadenreinigung",
+                        "desc": "Spezialisierte Reinigung von Innen- und Außenglasflächen sowie Fassaden. Mit professionellen Methoden entfernen wir Spuren, Staub und Rückstände sorgfältig und sicher, auch in schwer zugänglichen Bereichen."
                     },
                     "f6": {
-                        "name": "Dokumentenmanagement",
-                        "desc": "Archivierung, Sortierung und sichere Vernichtung Ihrer vertraulichen Dokumente."
+                        "name": "Executive Transfer und Transport",
+                        "desc": "Exklusiver Fahrdienst für Flughäfen, Meetings, Events und geschäftliche Termine. Wir gewährleisten Komfort, Pünktlichkeit, Sicherheit und Diskretion für eine professionelle und zuverlässige Mobilitätslösung."
                     }
                 }
             },
             "storage": {
                 "features": {
                     "f1": {
-                        "name": "Biometrische Sicherheit Stufe 5",
-                        "desc": "Streng kontrollierter Zugang durch biometrische Erkennung und 24/7-Überwachung für unantastbare Sicherheit."
+                        "name": "Warenannahme",
+                        "desc": "Professionelle Warenannahme mit technischer Kontrolle, hoher Geschwindigkeit und voller Rueckverfolgbarkeit fuer stabile Inbound-Prozesse."
                     },
                     "f2": {
-                        "name": "Redundante Klimakontrolle",
-                        "desc": "Doppelte Systeme zur Temperatur- und Feuchtigkeitsregulierung für eine perfekte Erhaltung."
+                        "name": "Zolllager & Steuerbefreiung",
+                        "desc": "Zolllager und steuerliche Entlastung zur Verbesserung des Cashflows und zur bedarfsgerechten Steuerung von Nationalisierung und Abgaben."
                     },
                     "f3": {
                         "name": "Steuerbefreiung (Zolllager)",
@@ -305,20 +300,20 @@
             "events": {
                 "features": {
                     "f1": {
-                        "name": "Just-in-Time-Logistik",
-                        "desc": "Auf die Minute genau koordinierte Lieferung zur perfekten Integration in den engen Zeitplan Ihrer Events."
+                        "name": "Showroom-Montage",
+                        "desc": "Premium-Showroom-Montage, die Flaechen in immersive Markenerlebnisse verwandelt, von der Konzeption bis zur praezisen Endinstallation."
                     },
                     "f2": {
-                        "name": "Handhabung sensibler Ausrüstung",
-                        "desc": "Technisches Know-how für den Transport und die Installation von zerbrechlichem audiovisuellen und technologischen Material."
+                        "name": "Montage und Installation von Corporate-Moebeln",
+                        "desc": "Professionelle Montage und Installation von Corporate-Moebeln fuer produktive, ergonomische und markenkonforme Arbeitsumgebungen."
                     },
                     "f3": {
-                        "name": "24/7 Montageteams",
-                        "desc": "Vollständige Verfügbarkeit für Auf- und Abbau, unabhängig von zeitlichen Einschränkungen."
+                        "name": "Exzellente Hotellerie",
+                        "desc": "Premium-Hotellerie mit Fokus auf Personalisierung, Beduerfnisantizipation und diskreten Service fuer unvergessliche Gaesteerlebnisse."
                     },
                     "f4": {
                         "name": "ATA-Carnet-Management",
-                        "desc": "Verwaltung von Zolldokumenten für die vorübergehende Einfuhr von Messematerial im Ausland."
+                        "desc": "Professionelles ATA-Carnet-Management fuer die temporaere internationale Warenbewegung mit weniger Kosten, weniger Bueroaufwand und hoher Rechtssicherheit."
                     },
                     "f5": {
                         "name": "Audiovisuell und Multimedia",
@@ -327,6 +322,242 @@
                     "f6": {
                         "name": "Branding und Signaletik",
                         "desc": "Sorgfältige Platzierung Ihrer visuellen Elemente und Markenkennzeichnungen für maximale Wirkung."
+                    }
+                }
+            }
+        },
+        "details": {
+            "corporate": {
+                "description": "Ein vollständiges Programm für Unternehmensumzüge, ausgelegt auf Geschäftskontinuität mit präziser Planung und sicherer Ausführung.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Hoehenreinigung von Glas und Fassaden",
+                        "description": "Die Fassade Ihres Gebaeudes ist Ihre wichtigste Visitenkarte. Unser spezialisierter Hoehenreinigungsservice kombiniert Industrieklettern, zertifizierte Ausruestung und strenge Sicherheitsprotokolle, um Glas- und Fassadenflaechen auch an komplexen Punkten zu reinigen und zu schuetzen. Wir arbeiten mit biologisch abbaubaren Produkten und materialschonenden Verfahren fuer langanhaltenden Glanz ohne Schaeden an Struktur oder Umwelt. Das Ergebnis ist sofort sichtbar: mehr Tageslicht, angenehmere Arbeitsbereiche und eine direkte Aufwertung Ihrer Immobilie. Kontaktieren Sie uns fuer eine kostenlose Fassadenanalyse und ein individuelles Angebot.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Hoehenreinigung von Glas und Fassaden"
+                    },
+                    "sub02": {
+                        "title": "Corporate Concierge Service",
+                        "description": "Corporate Concierge entwickelt sich zu einem strategischen Instrument fuer Effizienz und Mitarbeiterwohl. Inspiriert von der Luxushotellerie entlastet der Service Teams von persoenlichen und administrativen Aufgaben, damit sie sich auf ihre Kernaufgaben konzentrieren koennen. Die Leistungen sind flexibel anpassbar und reichen von Tageslogistik und persoenlicher Assistenz bis zu Wohlbefinden, Termin- und Reisekoordination sowie fahrzeugbezogenen Services. Die Vorteile sind klar: staerkere Arbeitgebermarke, mehr Produktivitaet, weniger Ablenkungen und geringere Fehlzeiten. Die Umsetzung kann physisch, digital oder hybrid erfolgen, mit transparenten und skalierbaren Kostenmodellen.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Corporate Concierge Service"
+                    },
+                    "sub03": {
+                        "title": "Umzugskoordination",
+                        "description": "Umzugskoordination macht aus einem komplexen Wechsel einen kontrollierten und stressarmen Prozess. Wir uebernehmen die Gesamtsteuerung als Projektpartner: strategische Planung, Inventur, Partnerauswahl, administrative Abwicklung und operative Supervision am Umzugstag. Unser Ansatz deckt Unternehmens- und Privatumzuege mit demselben Qualitaetsanspruch ab: Sicherung der Kontinuitaet, Schutz sensibler Daten und Gueter, strukturierte Einrichtung am Zielort und persoenliche Begleitung bis zur vollen Einsatzbereitschaft. Sie profitieren von klarer Ausfuehrung, Echtzeit-Loesung von Stoerungen und messbarer Kostenoptimierung.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Umzugskoordination"
+                    },
+                    "sub04": {
+                        "title": "Spezialtransport",
+                        "description": "Spezialtransport ist fuer besonders sensible und hochwertige Gueter ausgelegt. Es geht nicht nur um Bewegung von A nach B, sondern um praezise Steuerung, Schutz und Sicherheit in jeder Phase. Unsere Expertise reicht von Medizintechnik und Industrieanlagen bis zu Kunstwerken und kritischer IT-Infrastruktur, mit individuell angepassten Logistikprozessen. Technische Vorteile umfassen spezialisierte Fahrzeugflotte, Luftfederung, Echtzeit-Tracking, massgeschneiderte Verpackung und Teams fuer komplexes Handling. Das Ergebnis: minimiertes Risiko, regulatorische Konformitaet, wertbasierter Versicherungsschutz und End-to-End-Betreuung mit einem zentralen Ansprechpartner.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Spezialtransport"
+                    },
+                    "sub05": {
+                        "title": "Planung",
+                        "description": "Detaillierte Strategie und präzise Abfolge der Abläufe, um die Auswirkungen auf Ihre Geschäftstätigkeit zu minimieren.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Planung"
+                    },
+                    "sub06": {
+                        "title": "Umzugskoordination",
+                        "description": "Zentralisierte Steuerung durch einen dedizierten Projektleiter, die eine reibungslose Kommunikation und fehlerfreie Ausführung gewährleistet.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Umzugskoordination"
+                    }
+                }
+            },
+            "private": {
+                "description": "\"White-Glove\"-Service für Residenzen und Anwesen. Vollständige Inventarverwaltung und Wiederherstellung der wohnlichen Atmosphäre am Zielort.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Haute-Couture-Verpackung",
+                        "description": "Maßgeschneiderte Schutzmaterialien und Kunstverpackungstechniken für Ihre wertvollsten und empfindlichsten Güter.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Haute-Couture-Verpackung"
+                    },
+                    "sub02": {
+                        "title": "Katalogisierung von Bibliotheken",
+                        "description": "Fotografisches Inventar und methodische Klassifizierung Ihrer Werke unter Beibehaltung ihrer ursprünglichen Ordnung.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Katalogisierung von Bibliotheken"
+                    },
+                    "sub03": {
+                        "title": "Temporäres Innendesign",
+                        "description": "Ästhetische provisorische Einrichtung, um Ihren Komfort während der Übergangsphasen aufrechtzuerhalten.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Temporäres Innendesign"
+                    },
+                    "sub04": {
+                        "title": "Personalisierte Installation",
+                        "description": "Sorgfältige Anordnung Ihrer Möbel und persönlichen Gegenstände nach Ihren exakten Wünschen.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Personalisierte Installation"
+                    },
+                    "sub05": {
+                        "title": "Verwaltung von Kunstwerken und Antiquitäten",
+                        "description": "Spezialisierte Expertise in der Handhabung und Erhaltung unschätzbarer Sammlungsstücke.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Verwaltung von Kunstwerken und Antiquitäten"
+                    },
+                    "sub06": {
+                        "title": "Administrative Dienste und Conciergerie",
+                        "description": "Umfassende Unterstützung bei administrativen Schritten und Komfortleistungen im Zusammenhang mit Ihrem Wohnortwechsel.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Administrative Dienste und Conciergerie"
+                    }
+                }
+            },
+            "art": {
+                "description": "Massgeschneiderter Schutz, sichere Bewegung und professionelle Installation fuer unschaetzbare Meisterwerke und regulierte Kulturgueter.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Verpackung und Schutz",
+                        "description": "Kunstverpackung ist ein Hebel fuer Risiko und Reputation. Wir entwickeln Schutz gegen Stoss, Vibration, Feuchteschwankungen und Handhabungsstress mit technischen Materialien, Sonderkisten und kontrolliertem Auspacken.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Verpackung und Schutz"
+                    },
+                    "sub02": {
+                        "title": "Zollformalitäten",
+                        "description": "End-to-end Zollabwicklung fuer nationale und internationale Bewegungen von Kunst und regulierten Kulturguetern mit konformer Dokumentation und abgestimmtem Timing.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Zollformalitäten"
+                    },
+                    "sub03": {
+                        "title": "Spezialisierte Installation",
+                        "description": "Technische Montage und Aufhängung durch Experten der Museografie.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Spezialisierte Installation"
+                    },
+                    "sub04": {
+                        "title": "Transport von Oldtimern",
+                        "description": "Geschlossene und diskrete Transportlösungen für Ihre außergewöhnlichen Automobile, mit akribischer Aufmerksamkeit für jedes mechanische und ästhetische Detail.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Transport von Oldtimern"
+                    }
+                }
+            },
+            "cleaning": {
+                "description": "Einwandfreie Umgebungen mit Liebe zum Detail und absoluter Diskretion, um Komfort und Produktivität für Ihr Team zu gewährleisten.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Professionelle Reinigung und Organisation",
+                        "description": "Exzellenz und taegliche Entlastung: Ein makelloses Umfeld staerkt Ihre Markenwahrnehmung, reduziert mentale Belastung und foerdert Produktivitaet. Unser Leistungsumfang verbindet professionelle Reinigung, funktionale Raumorganisation, strenge Hygiene- und Desinfektionsstandards sowie Betreuung von Verglasung, Verbrauchsmaterialien und Abfallmanagement. Mit Ecolabel-Produkten, Abfalltrennung sowie verantwortungsvollem Wasser- und Energieeinsatz verfolgen wir einen klar nachhaltigen Ansatz. Unsere Methode umfasst eine kostenlose Erstanalyse, diskrete Einsaetze nach Ihrem Zeitplan und regelmaessige Qualitaetskontrollen. Sie erhalten maximale Flexibilitaet, einen zentralen Ansprechpartner und konstant hohe Servicequalitaet.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Professionelle Reinigung und Organisation"
+                    },
+                    "sub02": {
+                        "title": "Wartung und Anpassungen von Bueroraeumen",
+                        "description": "In einer dynamischen Arbeitswelt ist die Wartung von Bueros ein strategischer Faktor fuer Leistung, Markenwirkung und Wohlbefinden der Teams. Unser agiler Facility-Management-Ansatz ermoeglicht eine schnelle Reorganisation von Flaechen, eine bessere Ressourcennutzung und stabile taegliche Ablaeufe. Gleichzeitig unterstuetzen wir nachhaltige Standards durch Energieeffizienz, Abfalltrennung und Kontrolle der Innenraumluft. Bei Stoerungen steht unsere corrective maintenance 24/7 mit digitalem Ticket-Tracking zur Verfuegung. Unsere flexiblen Pakete passen sich Ihrer Immobiliengroesse an, mit Reaktionszeiten von 8 Stunden bis unter 4 Stunden bei Notfaellen. Kontaktieren Sie uns fuer ein kostenloses Buero-Audit und ein individuelles Angebot.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Wartung und Anpassungen von Bueroraeumen"
+                    },
+                    "sub03": {
+                        "title": "Vertrauliche Entsorgung und Recycling",
+                        "description": "Die Sicherheit Ihrer Daten hat für uns höchste Priorität. Wir bieten die zertifizierte Vernichtung von Papierdokumenten (DIN 66399, Stufen P-3 bis P-7) und digitalen Datenträgern, inklusive Konformitätszertifikat für jeden Einsatz. Über Papier hinaus übernehmen wir auch die sichere Demontage und das Recycling von Elektro- und Elektronikaltgeräten nach strengsten Umweltstandards, wobei 100% der Materialien in spezialisierte Recyclingketten geleitet werden. Unsere 4-stufige Methodik — Audit, sichere Abholung, Hochsicherheits-Schreddern und rückverfolgbares Recycling — garantiert DSGVO-Konformität, lückenlose Nachverfolgbarkeit und messbare CSR-Wirkung. Kontaktieren Sie uns für ein kostenloses Audit und ein individuelles Angebot innerhalb von 24 Stunden.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Vertrauliche Entsorgung und Recycling"
+                    },
+                    "sub04": {
+                        "title": "Corporate Concierge Service",
+                        "description": "Exklusiver Concierge-Service für Büros: Unterstützung bei administrativen Kleinanfragen, Koordination interner Aufgaben, Organisation von Flächen und operative Alltagsassistenz. Diskret, schnell und individuell.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Corporate Concierge Service"
+                    },
+                    "sub05": {
+                        "title": "Glas- und Fassadenreinigung",
+                        "description": "Spezialisierte Reinigung von Innen- und Außenglasflächen sowie Fassaden. Mit professionellen Methoden entfernen wir Spuren, Staub und Rückstände sorgfältig und sicher, auch in schwer zugänglichen Bereichen.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Glas- und Fassadenreinigung"
+                    },
+                    "sub06": {
+                        "title": "Executive Transfer und Transport",
+                        "description": "Exklusiver Fahrdienst für Flughäfen, Meetings, Events und geschäftliche Termine. Wir gewährleisten Komfort, Pünktlichkeit, Sicherheit und Diskretion für eine professionelle und zuverlässige Mobilitätslösung.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Executive Transfer und Transport"
+                    }
+                }
+            },
+            "storage": {
+                "description": "Maximale Sicherheitslagerung in Freizonen. Präzisionsklimatisierung für wertvolle Vermögenswerte und vorübergehende Steuerbefreiung.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Warenannahme",
+                        "description": "Warenannahme ist weit mehr als Entladung: Sie ist der erste und entscheidende Hebel fuer logistische Exzellenz. Ein sauber gesteuerter Inbound-Prozess sichert Bestandsgenauigkeit, Produktkonformitaet und operative Stabilitaet ueber die gesamte Kette. Unser technischer Ablauf umfasst Rampenplanung, kontrollierte Entladung, Mengen- und Qualitaetspruefung, Non-Conformity-Inspektion sowie sofortige WMS-Erfassung fuer lueckenlose Traceability. Mit Barcode/RFID-Scans, integrierten WMS-Workflows und dokumentierten Vorbehaltsprotokollen reduzieren wir Fehler und rechtliche Risiken deutlich. Das Ergebnis: hoehere Inventurpraezision, geringere Kosten durch fruehe Schadenserkennung, schnellere Produktverfuegbarkeit und staerkere Compliance in Ihrer Logistikoperation.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Warenannahme"
+                    },
+                    "sub02": {
+                        "title": "Zolllager & Steuerbefreiung",
+                        "description": "Das Zolllager ist ein strategisches Sonderregime fuer den internationalen Handel. Importierte Waren koennen unter vollstaendiger Abgabensuspension gelagert werden, waehrend Sie den Zeitpunkt der Nationalisierung aktiv nach Marktnachfrage steuern. Wir uebernehmen das End-to-End-Management: zolltechnische Einrichtung, tarifliche Kontrolle, Compliance-Steuerung, Fristenmonitoring und operative Freigabeplanung. Die zentralen Mechanismen sind klar: Aussetzung von II, IPI, PIS/COFINS und ICMS waehrend der Lagerung, partielle Nationalisierung mit abgabenbezogener Entnahme sowie Steuerentlastung bei Reexport. Innerhalb des Regimes sind zusaetzlich konservierende, anpassende und technische Inhouse-Operationen moeglich. Ihr Vorteil: bessere Liquiditaet, niedrigere Logistikkosten, schnellere Kundenversorgung und hoehere Rechtssicherheit in ueberwachten Zollanlagen.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Zolllager & Steuerbefreiung"
+                    },
+                    "sub03": {
+                        "title": "Steuerbefreiung (Zolllager)",
+                        "description": "Lagerung unter Zollverschluss, die es ermöglicht, Zölle und Steuern bis zur endgültigen Einfuhr auszusetzen.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Steuerbefreiung (Zolllager)"
+                    },
+                    "sub04": {
+                        "title": "Private Besichtigungsräume",
+                        "description": "Elegante und gesicherte Räume für die Inspektion oder Präsentation Ihrer gelagerten Güter.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Private Besichtigungsräume"
+                    },
+                    "sub05": {
+                        "title": "Umweltkontrolle",
+                        "description": "Ständige Überwachung der Luftqualität und Schutz vor Schädlingen.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Umweltkontrolle"
+                    },
+                    "sub06": {
+                        "title": "Warenannahme",
+                        "description": "Vollständiger logistischer Service für Annahme, Prüfung und Einlagerung Ihrer Lieferungen.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Warenannahme"
+                    }
+                }
+            },
+            "events": {
+                "description": "Tadellose Ausführung, bei der jedes Detail gepflegt wird, um visuelle Wirkung, Funktionalität und Pünktlichkeit zu garantieren.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Showroom-Montage",
+                        "description": "Showroom-Montage ist weit mehr als Produktausstellung: Sie schafft immersive Markenraeume, die Aufmerksamkeit in Kaufentscheidungen umwandeln. Wir steuern den gesamten Exzellenzprozess praezise: Analyse von Marke und Zielen, detailliertes Design, Auswahl hochwertiger Materialien und Moebel, Produktion und sichere Logistik, technische Installation sowie finale Szenografie und Merchandising. Unsere Teams realisieren massgeschneiderte Loesungen fuer Luxury Retail, Design und Moebel, Automotive sowie Technologie. Das Ergebnis ist ein hochwirksamer Raum, der Ihre Markenwahrnehmung staerkt, den Vertrieb unterstuetzt und den Showroom als multifunktionale Plattform fuer Verkauf, Training und Events positioniert.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Showroom-Montage"
+                    },
+                    "sub02": {
+                        "title": "Montage und Installation von Corporate-Moebeln",
+                        "description": "Corporate-Moebelmontage ist mehr als Zusammenbau: Sie schafft sichere und effiziente Arbeitsumgebungen, die Produktivitaet und Wohlbefinden foerdern. Wir setzen Ihr Projekt funktionssicher um und halten technische Spezifikationen sowie Sicherheitsnormen konsequent ein. Unser Leistungsumfang umfasst modulare Systeme, Executive-Mobiliar, Stauraumloesungen, Trennwaende und ergonomische Konfigurationen. Der technische Ablauf ist klar strukturiert: Planung und Logistik, Warenannahme und Kontrolle, Verteilung und Montage, Nivellierung und Ausrichtung sowie Endreinigung und Uebergabe. Ergebnis: schnellere Betriebsbereitschaft, weniger Ausfallzeit, Erhalt der Herstellergarantien und flexible Einsaetze, auch ausserhalb der Geschaeftszeiten.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Montage und Installation von Corporate-Moebeln"
+                    },
+                    "sub03": {
+                        "title": "Exzellente Hotellerie",
+                        "description": "Exzellente Hotellerie bedeutet mehr als Komfort: Sie schafft bleibende Erlebnisse durch praezise Aufmerksamkeit, individuelle Betreuung und diskrete Perfektion. Entscheidend sind drei Premium-Pfeiler: personalisierte Services, vorausschauendes Handeln und eine Servicekultur, die nahbar bleibt, ohne aufdringlich zu sein. Wir gestalten Aufenthalte mit hoher Erlebnisdichte durch proaktive Concierge-Services, massgeschneiderte Wellness-Angebote und hochwertige Gastronomie nach individuellen Vorlieben. Der Mehrwert fuer Ihre Gaeste ist unmittelbar: mehr Entlastung, echtes Exklusivitaetsgefuehl und emotionale Erinnerungen, die Bindung und Wiederkehr deutlich staerken.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Exzellente Hotellerie"
+                    },
+                    "sub04": {
+                        "title": "ATA-Carnet-Management",
+                        "description": "Das ATA-Carnet ist der internationale Reisepass fuer temporaer eingesetzte Waren. Es vereinfacht Ein- und Ausfuhren in mehr als 80 Laendern und reduziert Zollformalitaeten sowie Einfuhrabgaben bei voruebergehender Verwendung. Wir steuern den gesamten Fachprozess: Beratung bei Ausstellung, korrekte tarifliche Einordnung, Koordination der Sicherheiten, praezise Zoll- und Grenzlogistik, Fristenkontrolle und finale Abwicklung mit Freigabe der Garantien. Typische Gueterkategorien sind Warenmuster, Berufsausruestung und Messematerial. Ihr Nutzen: direkte Kosteneinsparung, schnellere und planbarere Grenzabfertigung, hoehere Rechtssicherheit und effizienterer Zugang zu internationalen Zielmaerkten.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "ATA-Carnet-Management"
+                    },
+                    "sub05": {
+                        "title": "Audiovisuell und Multimedia",
+                        "description": "Installation und Konfiguration von Präsentations- und Beleuchtungssystemen für Ihre Stände.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Audiovisuell und Multimedia"
+                    },
+                    "sub06": {
+                        "title": "Branding und Signaletik",
+                        "description": "Sorgfältige Platzierung Ihrer visuellen Elemente und Markenkennzeichnungen für maximale Wirkung.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Branding und Signaletik"
                     }
                 }
             }
@@ -377,6 +608,6 @@
     },
     "TermsPage": {
         "title": "Allgemeine Geschäftsbedingungen für Verkauf und Dienstleistung",
-        "content": "<p>Letzte Aktualisierung: Februar 2026</p><h2>1. Gegenstand und Geltungsbereich</h2><p>Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die gesamten vertraglichen Beziehungen zwischen <strong>LA Global Corporation</strong> (nachfolgend «der Dienstleister»), mit Sitz in Grand-Lancy, Schweiz, und jeder natürlichen oder juristischen Person (nachfolgend «der Kunde»), die unsere Dienstleistungen in den Bereichen Logistik, Umzug, Lagerung und Vermögensverwaltung in Anspruch nehmen möchte.</p><p>Durch die Bestätigung eines Kostenvoranschlags oder einer Bestellung akzeptiert der Kunde diese Bedingungen vorbehaltlos, die Vorrang vor jedem anderen Dokument haben, sofern nicht schriftlich etwas anderes vereinbart wurde.</p><h2>2. Bestellung und Vertragsabschluss</h2><p>Unsere Leistungen unterliegen einem personalisierten Kostenvoranschlag, der nach einer genauen Bewertung Ihrer Bedürfnisse erstellt wird. Der Vertrag gilt als abgeschlossen, sobald der Dienstleister den vom Kunden datierten und unterzeichneten Kostenvoranschlag sowie gegebenenfalls die angeforderte Anzahlung erhalten hat.</p><p>Jede nachträgliche Änderung der Bestellung bedarf einer schriftlichen Zusatzvereinbarung und kann zu einer Preisanpassung führen.</p><h2>3. Preise und Zahlungsbedingungen</h2><p>Unsere Preise verstehen sich in Schweizer Franken (CHF) und exklusive Steuern, sofern nicht anders angegeben. Kosten im Zusammenhang mit Zollformalitäten oder spezifischen lokalen Steuern gehen zu Lasten des Kunden.</p><ul><li><strong>Anzahlung:</strong> Eine Anzahlung von 30% bis 50% kann bei Vertragsunterzeichnung verlangt werden, um die Reservierung der Ressourcen zu bestätigen.</li><li><strong>Restbetrag:</strong> Der Restbetrag ist bei Erhalt der Schlussrechnung gemäß den dort angegebenen Bedingungen (in der Regel innerhalb von 10 oder 30 Tagen) fällig.</li></ul><p>Bei Zahlungsverzug können Verzugszinsen gemäß den geltenden Sätzen erhoben werden.</p><h2>4. Ausführung der Leistungen und Lieferung</h2><p>Wir verpflichten uns, die Leistungen mit größter Sorgfalt und gemäß den Qualitätsstandards der «Schweizer Exzellenz» auszuführen.</p><ul><li><strong>Fristen:</strong> Die Ausführungstermine werden einvernehmlich festgelegt. Obwohl wir alles daransetzen, diese einzuhalten, kann der Dienstleister nicht für Verzögerungen aufgrund externer Ursachen (Zoll, Wetter, höhere Gewalt) haftbar gemacht werden.</li><li><strong>Zugang:</strong> Der Kunde muss die Zugänglichkeit der Räumlichkeiten (Abgang und Ziel) gewährleisten und etwaige technische Schwierigkeiten (Aufzug, Parkplätze) im Voraus melden.</li></ul><h2>5. Versicherung und Haftung</h2><p>LA Global Corporation handelt mit absoluter professioneller Sorgfalt.</p><ul><li><strong>Haftung:</strong> Unsere Haftung besteht für nachgewiesene Schäden, die direkt aus unserer Handhabung resultieren, im Rahmen der geltenden gesetzlichen Grenzen.</li><li><strong>Versicherung:</strong> Wir bieten an und empfehlen dringend den Abschluss unserer «All-Risk»-Versicherung (Nagel-zu-Nagel) für Wertsachen, Kunstwerke und kostbare Güter, die einen optimalen Schutz über die grundlegenden vertraglichen Haftungen hinaus bietet.</li></ul><h2>6. Widerrufsrecht und Stornierung</h2><p>In Übereinstimmung mit dem Schweizer Recht muss jede Stornierung durch den Kunden schriftlich mitgeteilt werden.</p><ul><li><strong>Mehr als 30 Tage vor Beginn:</strong> Die Anzahlung kann teilweise zurückerstattet werden, abzüglich Verwaltungskosten.</li><li><strong>Weniger als 15 Tage:</strong> Die Anzahlung verbleibt als Entschädigung beim Dienstleister.</li><li><strong>Weniger als 48 Stunden:</strong> Der gesamte Betrag der Leistung kann fällig werden.</li></ul><h2>7. Datenschutz (DSG / DSGVO)</h2><p>Wir behandeln Ihre personenbezogenen Daten (Identität, Adressen, Inventar) streng vertraulich und ausschließlich zum Zwecke der Vertragsdurchführung. Gemäß dem Bundesgesetz über den Datenschutz (DSG) und der DSGVO, falls anwendbar, haben Sie ein Recht auf Zugang und Berichtigung Ihrer Daten.</p><h2>8. Anwendbares Recht und Gerichtsstand</h2><p>Diese Bedingungen unterliegen <strong>Schweizerm Recht</strong>. Für alle Streitigkeiten bezüglich ihrer Auslegung oder Ausführung sind ausschließlich die Gerichte des Kantons <strong>Genf</strong> zuständig, vorbehaltlich einer Beschwerde an das Bundesgericht.</p>"
+        "content": "<p>Letzte Aktualisierung: Februar 2026</p><h2>1. Gegenstand und Geltungsbereich</h2><p>Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die gesamten vertraglichen Beziehungen zwischen <strong>LA Global Corporation</strong> (nachfolgend «der Dienstleister»), mit Sitz in Rue de la Sablière 3, 1242 Satigny, Schweiz, und jeder natürlichen oder juristischen Person (nachfolgend «der Kunde»), die unsere Dienstleistungen in den Bereichen Logistik, Umzug, Lagerung und Vermögensverwaltung in Anspruch nehmen möchte.</p><p>Durch die Bestätigung eines Kostenvoranschlags oder einer Bestellung akzeptiert der Kunde diese Bedingungen vorbehaltlos, die Vorrang vor jedem anderen Dokument haben, sofern nicht schriftlich etwas anderes vereinbart wurde.</p><h2>2. Bestellung und Vertragsabschluss</h2><p>Unsere Leistungen unterliegen einem personalisierten Kostenvoranschlag, der nach einer genauen Bewertung Ihrer Bedürfnisse erstellt wird. Der Vertrag gilt als abgeschlossen, sobald der Dienstleister den vom Kunden datierten und unterzeichneten Kostenvoranschlag sowie gegebenenfalls die angeforderte Anzahlung erhalten hat.</p><p>Jede nachträgliche Änderung der Bestellung bedarf einer schriftlichen Zusatzvereinbarung und kann zu einer Preisanpassung führen.</p><h2>3. Preise und Zahlungsbedingungen</h2><p>Unsere Preise verstehen sich in Schweizer Franken (CHF) und exklusive Steuern, sofern nicht anders angegeben. Kosten im Zusammenhang mit Zollformalitäten oder spezifischen lokalen Steuern gehen zu Lasten des Kunden.</p><ul><li><strong>Anzahlung:</strong> Eine Anzahlung von 30% bis 50% kann bei Vertragsunterzeichnung verlangt werden, um die Reservierung der Ressourcen zu bestätigen.</li><li><strong>Restbetrag:</strong> Der Restbetrag ist bei Erhalt der Schlussrechnung gemäß den dort angegebenen Bedingungen (in der Regel innerhalb von 10 oder 30 Tagen) fällig.</li></ul><p>Bei Zahlungsverzug können Verzugszinsen gemäß den geltenden Sätzen erhoben werden.</p><h2>4. Ausführung der Leistungen und Lieferung</h2><p>Wir verpflichten uns, die Leistungen mit größter Sorgfalt und gemäß den Qualitätsstandards der «Schweizer Exzellenz» auszuführen.</p><ul><li><strong>Fristen:</strong> Die Ausführungstermine werden einvernehmlich festgelegt. Obwohl wir alles daransetzen, diese einzuhalten, kann der Dienstleister nicht für Verzögerungen aufgrund externer Ursachen (Zoll, Wetter, höhere Gewalt) haftbar gemacht werden.</li><li><strong>Zugang:</strong> Der Kunde muss die Zugänglichkeit der Räumlichkeiten (Abgang und Ziel) gewährleisten und etwaige technische Schwierigkeiten (Aufzug, Parkplätze) im Voraus melden.</li></ul><h2>5. Versicherung und Haftung</h2><p>LA Global Corporation handelt mit absoluter professioneller Sorgfalt.</p><ul><li><strong>Haftung:</strong> Unsere Haftung besteht für nachgewiesene Schäden, die direkt aus unserer Handhabung resultieren, im Rahmen der geltenden gesetzlichen Grenzen.</li><li><strong>Versicherung:</strong> Wir bieten an und empfehlen dringend den Abschluss unserer «All-Risk»-Versicherung (Nagel-zu-Nagel) für Wertsachen, Kunstwerke und kostbare Güter, die einen optimalen Schutz über die grundlegenden vertraglichen Haftungen hinaus bietet.</li></ul><h2>6. Widerrufsrecht und Stornierung</h2><p>In Übereinstimmung mit dem Schweizer Recht muss jede Stornierung durch den Kunden schriftlich mitgeteilt werden.</p><ul><li><strong>Mehr als 30 Tage vor Beginn:</strong> Die Anzahlung kann teilweise zurückerstattet werden, abzüglich Verwaltungskosten.</li><li><strong>Weniger als 15 Tage:</strong> Die Anzahlung verbleibt als Entschädigung beim Dienstleister.</li><li><strong>Weniger als 48 Stunden:</strong> Der gesamte Betrag der Leistung kann fällig werden.</li></ul><h2>7. Datenschutz (DSG / DSGVO)</h2><p>Wir behandeln Ihre personenbezogenen Daten (Identität, Adressen, Inventar) streng vertraulich und ausschließlich zum Zwecke der Vertragsdurchführung. Gemäß dem Bundesgesetz über den Datenschutz (DSG) und der DSGVO, falls anwendbar, haben Sie ein Recht auf Zugang und Berichtigung Ihrer Daten.</p><h2>8. Anwendbares Recht und Gerichtsstand</h2><p>Diese Bedingungen unterliegen <strong>Schweizerm Recht</strong>. Für alle Streitigkeiten bezüglich ihrer Auslegung oder Ausführung sind ausschließlich die Gerichte des Kantons <strong>Genf</strong> zuständig, vorbehaltlich einer Beschwerde an das Bundesgericht.</p>"
     }
 }

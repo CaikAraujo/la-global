@@ -6,7 +6,7 @@ import { createContactSchema, ContactFormData } from '@/lib/schemas';
 import { z } from 'zod';
 import { useTranslations } from 'next-intl';
 
-const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'events'];
+const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'];
 
 export default function ContactPage() {
     const t = useTranslations('ContactPage');
@@ -145,7 +145,7 @@ export default function ContactPage() {
                         <div className="space-y-12 text-swiss-text">
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.hq_label')}</h3>
-                                <p className="font-light text-xl">Av. des Communes-Réunies 43<br />1212 Grand-Lancy<br />Suisse</p>
+                                <p className="font-light text-xl">Rue de la Sablière 3<br />1242 Satigny</p>
                             </div>
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.direct_label')}</h3>

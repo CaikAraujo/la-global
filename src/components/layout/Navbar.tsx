@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, useSpring, AnimatePresence } from 'framer-motion';
 import { Link, usePathname } from '@/navigation';
 import { useTranslations } from 'next-intl';
@@ -9,7 +9,9 @@ import { Logo } from '../Logo';
 
 const Navbar: React.FC = () => {
   const t = useTranslations('Navbar');
+  const tServices = useTranslations('ServicesSection');
   const { scrollY } = useScroll();
+  const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'] as const;
 
   const links = [
     { label: t('links.home'), href: "/" },
@@ -29,6 +31,21 @@ const Navbar: React.FC = () => {
   const pathname = usePathname();
   const isHome = pathname === '/';
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
+  const closeDropdownTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const openServicesDropdown = () => {
+    if (closeDropdownTimeoutRef.current) {
+      clearTimeout(closeDropdownTimeoutRef.current);
+    }
+    setIsServicesDropdownOpen(true);
+  };
+
+  const closeServicesDropdown = () => {
+    closeDropdownTimeoutRef.current = setTimeout(() => {
+      setIsServicesDropdownOpen(false);
+    }, 120);
+  };
 
   // --- Animation Definitions ---
   // Threshold: Start at 0, end at 60px.
@@ -114,18 +131,67 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-12">
-            {links.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={`text-sm font-medium tracking-swiss uppercase transition-colors duration-300 relative group flex flex-col`}
-              >
-                <span className={`text-[var(--nav-link)] ${pathname === link.href ? '!text-[var(--nav-primary)]' : 'group-hover:text-[var(--nav-primary)]'} transition-colors duration-300`}>
-                  {link.label}
-                </span>
-                <span className={`absolute -bottom-2 left-0 h-[1px] bg-[var(--nav-accent)] transition-all duration-300 ${pathname === link.href ? 'w-full' : 'w-0 group-hover:w-full'}`} />
-              </Link>
-            ))}
+            {links.map((link) => {
+              if (link.href === '/services') {
+                return (
+                  <div
+                    key={link.label}
+                    className="relative"
+                    onMouseEnter={openServicesDropdown}
+                    onMouseLeave={closeServicesDropdown}
+                  >
+                    <Link
+                      href={link.href}
+                      aria-expanded={isServicesDropdownOpen}
+                      className="text-sm font-medium tracking-swiss uppercase transition-colors duration-300 relative group flex flex-col"
+                    >
+                      <span className={`text-[var(--nav-link)] ${pathname === link.href ? '!text-[var(--nav-primary)]' : 'group-hover:text-[var(--nav-primary)]'} transition-colors duration-300`}>
+                        {link.label}
+                      </span>
+                      <span className={`absolute -bottom-2 left-0 h-[1px] bg-[var(--nav-accent)] transition-all duration-300 ${pathname === link.href ? 'w-full' : 'w-0 group-hover:w-full'}`} />
+                    </Link>
+
+                    <AnimatePresence>
+                      {isServicesDropdownOpen && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -8 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -8 }}
+                          transition={{ duration: 0.2, ease: "easeOut" }}
+                          className="absolute top-full left-1/2 mt-4 w-72 -translate-x-1/2 rounded-lg border border-swiss-navy/10 bg-white/95 p-3 shadow-xl backdrop-blur-md"
+                        >
+                          <ul className="space-y-1">
+                            {serviceKeys.map((serviceKey) => (
+                              <li key={serviceKey}>
+                                <Link
+                                  href={`/services/${serviceKey}`}
+                                  className="block rounded-md px-4 py-2 text-xs uppercase tracking-wider text-swiss-text transition-colors duration-200 hover:bg-swiss-navy hover:text-white"
+                                >
+                                  {tServices(`items.${serviceKey}.title`)}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                );
+              }
+
+              return (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm font-medium tracking-swiss uppercase transition-colors duration-300 relative group flex flex-col"
+                >
+                  <span className={`text-[var(--nav-link)] ${pathname === link.href ? '!text-[var(--nav-primary)]' : 'group-hover:text-[var(--nav-primary)]'} transition-colors duration-300`}>
+                    {link.label}
+                  </span>
+                  <span className={`absolute -bottom-2 left-0 h-[1px] bg-[var(--nav-accent)] transition-all duration-300 ${pathname === link.href ? 'w-full' : 'w-0 group-hover:w-full'}`} />
+                </Link>
+              );
+            })}
           </nav>
 
           {/* CTA Button & Language Switcher */}

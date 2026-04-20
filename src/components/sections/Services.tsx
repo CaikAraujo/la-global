@@ -7,7 +7,7 @@ import { Link } from '@/navigation';
 import { ServiceItem } from '../../types';
 import { useTranslations } from 'next-intl';
 
-const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'events'];
+const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'];
 
 const serviceImages: Record<string, string> = {
   corporate: '/images/corporate-service.jpg',
@@ -46,7 +46,7 @@ const Services: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-8">
           {serviceKeys.map((key, index) => (
-            <Link href={`/services#${key}`} key={key} className="block group cursor-pointer">
+            <Link href={`/services/${key}`} key={key} className="block group cursor-pointer">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}

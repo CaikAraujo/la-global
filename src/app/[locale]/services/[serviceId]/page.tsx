@@ -3,21 +3,43 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
-import ClientRedirect from './ClientRedirect';
+import SubservicesEditorial from './SubservicesEditorial';
 
 const SITE_URL = 'https://www.laglobalcorporation.ch';
 const SITE_NAME = 'LA Global Corporation';
 
-const serviceKeys = ['corporate', 'private', 'art', 'cleaning', 'storage', 'events'];
+const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'];
 const locales = ['en', 'fr', 'de', 'it'];
 
+type SubserviceTranslation = {
+    slug: string;
+    title: string;
+    description: string;
+    image: string;
+    alt: string;
+};
+
+type ServiceDetailsTranslation = {
+    description: string;
+    subservices: Record<string, SubserviceTranslation>;
+};
+
 const featureKeysMap: Record<string, string[]> = {
-    corporate: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    private: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    art: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    cleaning: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    storage: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
-    events: ['f1', 'f2', 'f3', 'f4', 'f5', 'f6'],
+    corporate: ['f1', 'f2', 'f3', 'f4'],
+    private: ['f1', 'f2', 'f3', 'f4'],
+    art: ['f1', 'f2', 'f3', 'f4'],
+    cleaning: ['f1', 'f2', 'f3', 'f4'],
+    storage: ['f1', 'f2', 'f3', 'f4'],
+    events: ['f1', 'f2', 'f3', 'f4'],
+};
+
+const subserviceKeysMap: Record<string, string[]> = {
+    corporate: ['sub01', 'sub02', 'sub03', 'sub04'],
+    private: ['sub01', 'sub02', 'sub03', 'sub04'],
+    art: ['sub01', 'sub02', 'sub03', 'sub04'],
+    cleaning: ['sub01', 'sub02', 'sub03', 'sub04'],
+    storage: ['sub01', 'sub02', 'sub03', 'sub04'],
+    events: ['sub01', 'sub02', 'sub03', 'sub04'],
 };
 
 const serviceImages: Record<string, string> = {
@@ -37,6 +59,53 @@ const ogLocales: Record<string, string> = {
     it: 'it_CH',
 };
 
+function getFallbackSubservices(
+    tPage: Awaited<ReturnType<typeof getTranslations>>,
+    serviceId: string
+): SubserviceTranslation[] {
+    const featureKeys = featureKeysMap[serviceId] || [];
+    return featureKeys.map((featureKey) => {
+        const title = tPage(`items.${serviceId}.features.${featureKey}.name`);
+        return {
+            slug: featureKey,
+            title,
+            description: tPage(`items.${serviceId}.features.${featureKey}.desc`),
+            image: serviceImages[serviceId],
+            alt: title,
+        };
+    });
+}
+
+function getServiceDetails(
+    tPage: Awaited<ReturnType<typeof getTranslations>>,
+    serviceId: string
+): ServiceDetailsTranslation | undefined {
+    try {
+        return tPage.raw(`details.${serviceId}`) as ServiceDetailsTranslation;
+    } catch {
+        return undefined;
+    }
+}
+
+function resolveSubservices(
+    tPage: Awaited<ReturnType<typeof getTranslations>>,
+    serviceId: string
+): SubserviceTranslation[] {
+    const details = getServiceDetails(tPage, serviceId);
+    const detailItems = details?.subservices
+        ? (subserviceKeysMap[serviceId] || Object.keys(details.subservices))
+            .map((key) => {
+                const detail = details.subservices[key];
+                if (!detail) return undefined;
+                const numericPart = Number(key.replace('sub', ''));
+                const slug = Number.isNaN(numericPart) ? '' : `f${numericPart}`;
+                return { ...detail, slug };
+            })
+            .filter((item): item is SubserviceTranslation => Boolean(item?.slug))
+        : [];
+    return detailItems.length > 0 ? detailItems : getFallbackSubservices(tPage, serviceId);
+}
+
 type Props = {
     params: Promise<{ locale: string; serviceId: string }>;
 };
@@ -49,7 +118,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const tPage = await getTranslations({ locale, namespace: 'ServicesPage' });
 
     const title = tSection(`items.${serviceId}.title`);
-    const description = tSection(`items.${serviceId}.description`);
+    const details = getServiceDetails(tPage, serviceId);
+    const resolvedSubservices = resolveSubservices(tPage, serviceId);
+    const description = details?.description || tSection(`items.${serviceId}.description`);
     const subtitle = tSection(`items.${serviceId}.subtitle`);
     const canonicalUrl = `${SITE_URL}/${locale}/services/${serviceId}`;
     const imageUrl = `${SITE_URL}${serviceImages[serviceId]}`;
@@ -61,13 +132,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
     alternates['x-default'] = `${SITE_URL}/en/services/${serviceId}`;
 
-    // Build keywords from feature names
-    const featuresList = featureKeysMap[serviceId] || [];
-    const keywords = featuresList
-        .map((fKey) => {
-            try { return tPage(`items.${serviceId}.features.${fKey}.name`); }
-            catch { return null; }
-        })
+    const subserviceKeywords = resolvedSubservices
+        .map((subservice) => subservice.title)
         .filter(Boolean)
         .join(', ');
 
@@ -75,7 +141,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         metadataBase: new URL(SITE_URL),
         title: `${title} | ${SITE_NAME}`,
         description,
-        keywords: `${title}, ${subtitle}, ${SITE_NAME}, Switzerland, logistics, ${keywords}`,
+        keywords: `${title}, ${subtitle}, ${SITE_NAME}, Switzerland, logistics, ${subserviceKeywords}`,
         authors: [{ name: SITE_NAME, url: SITE_URL }],
         creator: SITE_NAME,
         publisher: SITE_NAME,
@@ -139,10 +205,11 @@ export default async function ServiceSEOPage({ params }: Props) {
 
     const tSection = await getTranslations({ locale, namespace: 'ServicesSection' });
     const tPage = await getTranslations({ locale, namespace: 'ServicesPage' });
-    const featuresList = featureKeysMap[serviceId] || [];
+    const details = getServiceDetails(tPage, serviceId);
+    const resolvedSubservices = resolveSubservices(tPage, serviceId);
 
     const title = tSection(`items.${serviceId}.title`);
-    const description = tSection(`items.${serviceId}.description`);
+    const description = details?.description || tSection(`items.${serviceId}.description`);
     const subtitle = tSection(`items.${serviceId}.subtitle`);
     const canonicalUrl = `${SITE_URL}/${locale}/services/${serviceId}`;
     const imageUrl = `${SITE_URL}${serviceImages[serviceId]}`;
@@ -163,9 +230,9 @@ export default async function ServiceSEOPage({ params }: Props) {
             logo: `${SITE_URL}/header-logo.svg`,
             address: {
                 '@type': 'PostalAddress',
-                streetAddress: 'Av. des Communes-Réunies 43',
-                addressLocality: 'Grand-Lancy',
-                postalCode: '1212',
+                streetAddress: 'Rue de la Sablière 3',
+                addressLocality: 'Satigny',
+                postalCode: '1242',
                 addressCountry: 'CH',
             },
             contactPoint: {
@@ -186,19 +253,14 @@ export default async function ServiceSEOPage({ params }: Props) {
         },
         hasOfferCatalog: {
             '@type': 'OfferCatalog',
-            name: `${title} — Features`,
-            itemListElement: featuresList.map((fKey, i) => {
-                let name = '';
-                let desc = '';
-                try { name = tPage(`items.${serviceId}.features.${fKey}.name`); } catch { }
-                try { desc = tPage(`items.${serviceId}.features.${fKey}.desc`); } catch { }
-                return {
-                    '@type': 'Offer',
-                    position: i + 1,
-                    name,
-                    description: desc,
-                };
-            }),
+            name: `${title} — ${tPage('subservicesTitle')}`,
+            itemListElement: resolvedSubservices.map((subservice, index) => ({
+                '@type': 'Offer',
+                position: index + 1,
+                name: subservice.title,
+                description: subservice.description,
+                image: `${SITE_URL}${subservice.image}`,
+            })),
         },
     };
 
@@ -207,7 +269,7 @@ export default async function ServiceSEOPage({ params }: Props) {
             {/* JSON-LD Structured Data */}
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
             />
 
             {/* hreflang alternate links (injected manually for static export compatibility) */}
@@ -220,9 +282,6 @@ export default async function ServiceSEOPage({ params }: Props) {
                 />
             ))}
             <link rel="alternate" hrefLang="x-default" href={`${SITE_URL}/en/services/${serviceId}`} />
-
-            {/* Redirects human users instantly — bots see the full content below */}
-            <ClientRedirect serviceId={serviceId} />
 
             <div className="bg-swiss-surface min-h-screen pt-32 pb-24 px-6 md:px-12">
                 <div className="max-w-[1200px] mx-auto">
@@ -252,21 +311,17 @@ export default async function ServiceSEOPage({ params }: Props) {
                         />
                     </div>
 
-                    {/* Features Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        {featuresList.map((fKey, i) => {
-                            let name = '';
-                            let desc = '';
-                            try { name = tPage(`items.${serviceId}.features.${fKey}.name`); } catch { }
-                            try { desc = tPage(`items.${serviceId}.features.${fKey}.desc`); } catch { }
-                            return (
-                                <div key={i} className="bg-white p-6 rounded-lg shadow-sm border border-swiss-navy/5">
-                                    <h2 className="font-serif text-xl text-swiss-dark mb-3">{name}</h2>
-                                    <p className="text-swiss-text/70 font-light leading-relaxed">{desc}</p>
-                                </div>
-                            );
-                        })}
+                    {/* Subservices Grid */}
+                    <div className="mb-8">
+                        <h2 className="font-serif text-3xl md:text-4xl text-swiss-dark mb-3">
+                            {tPage('subservicesTitle')}
+                        </h2>
+                        <p className="text-swiss-text/70 font-light">
+                            {tPage('subservicesDescription')}
+                        </p>
                     </div>
+
+                    <SubservicesEditorial serviceId={serviceId} subservices={resolvedSubservices} ctaLabel={tPage('learnMore')} />
 
                     {/* Organization breadcrumb hint for SEO */}
                     <div className="mt-16 pt-8 border-t border-swiss-navy/10">

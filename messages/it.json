@@ -17,7 +17,7 @@
         },
         "headquarters": {
             "title": "Sede Centrale",
-            "address": "Av. des Communes-Réunies 43\n1212 Grand-Lancy\nSvizzera"
+            "address": "Rue de la Sablière 3\n1242 Satigny"
         },
         "legal": {
             "title": "Note Legali",
@@ -27,7 +27,7 @@
             "portal": "Portale Clienti"
         },
         "copyright": "© {year} L.A Global Corporation - Logistica Avanzata. Tutti i diritti riservati.",
-        "developer": "Sviluppato da Caik Araujo",
+        "developer": "Sviluppato da ATHANA",
         "made_in": "Swiss Made"
     },
     "TrustMarquee": {
@@ -161,24 +161,27 @@
             "title": "Le Nostre Divisioni",
             "description": "Eccellenza operativa adattata alle esigenze uniche delle aziende globali e delle grandi proprietà private."
         },
+        "learnMore": "Scopri di più",
+        "subservicesTitle": "Sottoservizi",
+        "subservicesDescription": "Scopri i moduli operativi specializzati inclusi in questo servizio.",
         "items": {
             "corporate": {
                 "features": {
                     "f1": {
-                        "name": "Gestione dei Rischi ISO 31000",
-                        "desc": "Rigorosi protocolli di identificazione e mitigazione dei rischi per garantire l'assoluta sicurezza dei vostri beni in ogni fase."
+                        "name": "Pulizia in Altezza di Vetri e Facciate",
+                        "desc": "La facciata del vostro edificio e il primo biglietto da visita della vostra azienda. Il nostro servizio specializzato di pulizia in altezza combina tecniche di lavoro su fune, attrezzature certificate e protocolli di sicurezza rigorosi per intervenire su vetri e facciate complesse. Utilizziamo prodotti biodegradabili e metodi che preservano i materiali, garantendo brillantezza duratura senza danneggiare struttura o ambiente. Il risultato e immediato: piu luce naturale, ambienti di lavoro piu piacevoli e valorizzazione concreta dell immobile. Contattateci per una diagnosi gratuita della facciata e un preventivo su misura."
                     },
                     "f2": {
-                        "name": "Smaltimento Certificato dei Beni",
-                        "desc": "Processo sicuro ed ecologico per la distruzione dei dati e il riciclaggio delle apparecchiature, con certificati di conformità completi."
+                        "name": "Servizio Concierge Aziendale",
+                        "desc": "La conciergerie aziendale sta ridefinendo il luogo di lavoro come leva strategica di benessere ed efficienza. Ispirata agli standard dell hotellerie di lusso, consente ai collaboratori di delegare attivita personali e burocratiche per concentrarsi sulle responsabilita principali. I servizi sono personalizzabili: logistica quotidiana, assistenza personale, supporto al benessere, gestione di viaggi e appuntamenti e servizi legati ai veicoli. I benefici sono tangibili: employer branding piu forte, aumento della produttivita, meno distrazioni personali e riduzione dell assenteismo. L implementazione puo essere fisica, digitale o ibrida, con modello economico chiaro e scalabile."
                     },
                     "f3": {
-                        "name": "Avviamento Operativo \"Chiavi in Mano\"",
-                        "desc": "Installazione completa e configurazione funzionale dei vostri nuovi spazi di lavoro, pronti all'uso fin dal primo giorno."
+                        "name": "Coordinamento Traslochi",
+                        "desc": "Il coordinamento traslochi trasforma una fase complessa in una transizione controllata e senza stress. Operiamo come project manager end-to-end: pianificazione strategica, audit inventariale, selezione partner, gestione amministrativa e supervisione operativa nel giorno del trasloco. L approccio e valido sia per aziende sia per privati con lo stesso standard di qualita: continuita operativa, protezione di beni e dati sensibili, installazione organizzata nei nuovi spazi e accompagnamento personalizzato fino alla piena operativita. Garantiamo esecuzione rigorosa, gestione in tempo reale degli imprevisti e ottimizzazione dei costi."
                     },
                     "f4": {
                         "name": "Trasporto Specializzato",
-                        "desc": "Flotta di veicoli adattati per apparecchiature sensibili, con sospensioni pneumatiche e controllo climatico."
+                        "desc": "Il trasporto specializzato e pensato per carichi sensibili, critici e di alto valore. Non significa solo spostare beni, ma garantire precisione, protezione e controllo in ogni fase. La nostra competenza copre apparecchiature medicali, macchinari industriali, opere d arte e infrastrutture IT delicate, con soluzioni logistiche su misura per ogni scenario. I nostri differenziali tecnici includono flotta adattata, sospensioni ad aria, tracciamento in tempo reale, imballaggi personalizzati e team formati per operazioni complesse. Il risultato e concreto: rischio ridotto, conformita normativa, copertura assicurativa commisurata al valore reale e gestione end-to-end con referente unico."
                     },
                     "f5": {
                         "name": "Pianificazione",
@@ -221,26 +224,18 @@
             "art": {
                 "features": {
                     "f1": {
-                        "name": "Casse Climatizzate (ISPM 15)",
-                        "desc": "Fabbricazione su misura di casse da trasporto conformi agli standard internazionali, garantendo una protezione ottimale."
+                        "name": "Imballaggio e Protezione",
+                        "desc": "Protezione strategica per mobili corporate e asset sensibili: materiali su misura, tecniche esperte e integrità preservata fino all'installazione."
                     },
                     "f2": {
-                        "name": "Formalità Doganali CITES",
-                        "desc": "Gestione esperta di permessi e regolamenti per il trasporto internazionale di specie protette e oggetti regolamentati."
+                        "name": "Formalità Doganali",
+                        "desc": "Gestione doganale end-to-end per movimenti nazionali e internazionali di arte e beni culturali regolamentati, con documentazione conforme."
                     },
                     "f3": {
                         "name": "Installazione Specializzata",
                         "desc": "Montaggio e allestimento tecnico realizzati da esperti in museografia."
                     },
                     "f4": {
-                        "name": "Assicurazione \"Da Chiodo a Chiodo\"",
-                        "desc": "Copertura completa tutti i rischi, dallo smontaggio iniziale fino all'installazione finale."
-                    },
-                    "f5": {
-                        "name": "Imballaggio e Protezione",
-                        "desc": "Soluzioni di bloccaggio e imbottitura ad alte prestazioni per una stabilità assoluta durante il trasporto."
-                    },
-                    "f6": {
                         "name": "Trasporto Auto da Collezione",
                         "desc": "Soluzioni di trasporto chiuse e discrete per le vostre auto d'eccezione, con un'attenzione meticolosa ad ogni dettaglio meccanico ed estetico."
                     }
@@ -249,40 +244,40 @@
             "cleaning": {
                 "features": {
                     "f1": {
-                        "name": "Pulizia Certificata",
-                        "desc": "Rigorosi protocolli di igiene utilizzando metodi validati per un ambiente di lavoro sano."
+                        "name": "Pulizia e Organizzazione Professionale",
+                        "desc": "Eccellenza e serenita quotidiana: un ambiente impeccabile valorizza il vostro brand, riduce il carico mentale e migliora la produttivita. Il nostro servizio integra pulizia professionale, organizzazione funzionale degli spazi, disinfezione secondo standard igienici rigorosi e gestione di vetrate, consumabili e rifiuti. Operiamo con un approccio eco-responsabile tramite prodotti Ecolabel, raccolta differenziata e uso razionale di acqua ed energia. La nostra metodologia include analisi iniziale gratuita, interventi discreti in base ai vostri orari e controlli qualita periodici. Avete massima flessibilita, un unico referente e una qualita premium costante."
                     },
                     "f2": {
-                        "name": "Team Discreto",
-                        "desc": "Personale formato alla riservatezza e al lavoro in ambienti occupati senza disturbare le vostre operazioni."
+                        "name": "Manutenzione e Adeguamenti degli Uffici",
+                        "desc": "In un contesto professionale in continua evoluzione, la manutenzione degli uffici e un leva strategica per performance, immagine aziendale e benessere dei team. Il nostro approccio di facility management agile consente di riconfigurare rapidamente gli spazi, ottimizzare le risorse e mantenere continuita operativa. Supportiamo anche gli obiettivi di sostenibilita con efficienza energetica, raccolta differenziata e controllo della qualita dell aria interna. In caso di imprevisti, la manutenzione correttiva opera 24h/7j con tracciamento digitale dei ticket. I nostri pacchetti flessibili si adattano alla dimensione del patrimonio immobiliare, con tempi di risposta da 8 ore a meno di 4 ore per le urgenze. Contattateci per un audit gratuito e un preventivo personalizzato."
                     },
                     "f3": {
-                        "name": "Prodotti Ecologici",
-                        "desc": "Utilizzo esclusivo di prodotti per la pulizia rispettosi dell'ambiente e della salute."
+                        "name": "Smaltimento Riservato e Riciclo",
+                        "desc": "La sicurezza dei vostri dati e la nostra priorità assoluta. Offriamo distruzione certificata di documenti cartacei (DIN 66399, livelli P-3 a P-7) e supporti digitali, con certificato di conformita per ogni intervento. Oltre alla carta, gestiamo anche smontaggio sicuro e riciclo dei RAEE secondo gli standard ambientali piu rigorosi, con il 100% dei materiali avviato a filiere specializzate. La nostra metodologia in 4 fasi — audit, raccolta sicura, triturazione ad alta sicurezza e riciclo tracciabile — garantisce conformita GDPR, catena di custodia continua e impatto ESG misurabile. Contattateci per un audit gratuito e un preventivo personalizzato entro 24 ore."
                     },
                     "f4": {
-                        "name": "Orari Flessibili",
-                        "desc": "Interventi adattati al vostro ritmo di attività, anche al di fuori degli orari lavorativi."
+                        "name": "Servizio Concierge Aziendale",
+                        "desc": "Servizio concierge dedicato agli uffici per semplificare le attività quotidiane: supporto amministrativo leggero, coordinamento operativo interno, organizzazione degli spazi e assistenza continua con attenzione ai dettagli."
                     },
                     "f5": {
-                        "name": "Personale di Servizio",
-                        "desc": "Messa a disposizione di personale qualificato per il servizio caffè, la reception o la manutenzione continua."
+                        "name": "Pulizia Vetri e Facciate",
+                        "desc": "Pulizia specializzata di vetri interni, esterni e facciate vetrate. Utilizziamo tecniche professionali per rimuovere aloni, polvere e impurità con precisione e sicurezza, anche in aree difficili da raggiungere."
                     },
                     "f6": {
-                        "name": "Gestione Documentale",
-                        "desc": "Archiviazione, smistamento e distruzione sicura dei vostri documenti riservati."
+                        "name": "Transfer e Trasporto Executive",
+                        "desc": "Servizio esclusivo di trasporto executive per aeroporti, riunioni, eventi aziendali e impegni professionali. Offriamo puntualità, comfort, sicurezza e riservatezza in ogni spostamento."
                     }
                 }
             },
             "storage": {
                 "features": {
                     "f1": {
-                        "name": "Sicurezza Biometrica Livello 5",
-                        "desc": "Accesso rigorosamente controllato tramite riconoscimento biometrico e sorveglianza 24/7 per una sicurezza inviolabile."
+                        "name": "Ricezione Merci",
+                        "desc": "Ricezione merci premium con controllo tecnico, rapidita e tracciabilita completa per garantire un inbound affidabile e performante."
                     },
                     "f2": {
-                        "name": "Controllo Climatico Ridondante",
-                        "desc": "Sistemi doppi per la regolazione della temperatura e dell'umidità per una conservazione perfetta."
+                        "name": "Deposito Doganale & Esenzione Fiscale",
+                        "desc": "Deposito doganale ed esenzione fiscale per ottimizzare il capitale circolante e allineare il carico tributario alla domanda reale."
                     },
                     "f3": {
                         "name": "Esenzione Fiscale (Deposito Doganale)",
@@ -305,20 +300,20 @@
             "events": {
                 "features": {
                     "f1": {
-                        "name": "Logistica \"Just-in-Time\"",
-                        "desc": "Consegna coordinata al minuto per integrarsi perfettamente nella rigida pianificazione dei vostri eventi."
+                        "name": "Allestimento Showroom",
+                        "desc": "Allestimento showroom premium che trasforma gli spazi in esperienze di marca immersive, dal concept iniziale all installazione finale."
                     },
                     "f2": {
-                        "name": "Manipolazione di Apparecchiature Sensibili",
-                        "desc": "Competenza tecnica per il trasporto e l'installazione di apparecchiature audiovisive e tecnologiche fragili."
+                        "name": "Montaggio e Installazione di Arredi Corporate",
+                        "desc": "Montaggio e installazione professionale di arredi corporate per creare ambienti di lavoro produttivi, ergonomici e coerenti con il vostro brand."
                     },
                     "f3": {
-                        "name": "Team di Montaggio 24/7",
-                        "desc": "Disponibilità totale per il montaggio e lo smontaggio, indipendentemente dai vincoli di orario."
+                        "name": "Hotellerie d Eccellenza",
+                        "desc": "Hotellerie premium basata su personalizzazione, anticipazione dei bisogni e discrezione per creare esperienze ospite memorabili."
                     },
                     "f4": {
                         "name": "Gestione del Carnet ATA",
-                        "desc": "Amministrazione dei documenti doganali per l'ammissione temporanea di materiale espositivo all'estero."
+                        "desc": "Gestione specialistica del Carnet ATA per semplificare la movimentazione temporanea internazionale riducendo costi, tempi e rischi doganali."
                     },
                     "f5": {
                         "name": "Audiovisivo e Multimediale",
@@ -327,6 +322,242 @@
                     "f6": {
                         "name": "Allestimento e Segnaletica",
                         "desc": "Disposizione accurata dei vostri elementi visivi e di branding per il massimo impatto."
+                    }
+                }
+            }
+        },
+        "details": {
+            "corporate": {
+                "description": "Un programma completo di ricollocazione aziendale pensato per la continuità operativa, con pianificazione precisa ed esecuzione sicura.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Pulizia in Altezza di Vetri e Facciate",
+                        "description": "La facciata del vostro edificio e il primo biglietto da visita della vostra azienda. Il nostro servizio specializzato di pulizia in altezza combina tecniche di lavoro su fune, attrezzature certificate e protocolli di sicurezza rigorosi per intervenire su vetri e facciate complesse. Utilizziamo prodotti biodegradabili e metodi che preservano i materiali, garantendo brillantezza duratura senza danneggiare struttura o ambiente. Il risultato e immediato: piu luce naturale, ambienti di lavoro piu piacevoli e valorizzazione concreta dell immobile. Contattateci per una diagnosi gratuita della facciata e un preventivo su misura.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Pulizia in Altezza di Vetri e Facciate"
+                    },
+                    "sub02": {
+                        "title": "Servizio Concierge Aziendale",
+                        "description": "La conciergerie aziendale sta ridefinendo il luogo di lavoro come leva strategica di benessere ed efficienza. Ispirata agli standard dell hotellerie di lusso, consente ai collaboratori di delegare attivita personali e burocratiche per concentrarsi sulle responsabilita principali. I servizi sono personalizzabili: logistica quotidiana, assistenza personale, supporto al benessere, gestione di viaggi e appuntamenti e servizi legati ai veicoli. I benefici sono tangibili: employer branding piu forte, aumento della produttivita, meno distrazioni personali e riduzione dell assenteismo. L implementazione puo essere fisica, digitale o ibrida, con modello economico chiaro e scalabile.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Servizio Concierge Aziendale"
+                    },
+                    "sub03": {
+                        "title": "Coordinamento Traslochi",
+                        "description": "Il coordinamento traslochi trasforma una fase complessa in una transizione controllata e senza stress. Operiamo come project manager end-to-end: pianificazione strategica, audit inventariale, selezione partner, gestione amministrativa e supervisione operativa nel giorno del trasloco. L approccio e valido sia per aziende sia per privati con lo stesso standard di qualita: continuita operativa, protezione di beni e dati sensibili, installazione organizzata nei nuovi spazi e accompagnamento personalizzato fino alla piena operativita. Garantiamo esecuzione rigorosa, gestione in tempo reale degli imprevisti e ottimizzazione dei costi.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Coordinamento Traslochi"
+                    },
+                    "sub04": {
+                        "title": "Trasporto Specializzato",
+                        "description": "Il trasporto specializzato e pensato per carichi sensibili, critici e di alto valore. Non significa solo spostare beni, ma garantire precisione, protezione e controllo in ogni fase. La nostra competenza copre apparecchiature medicali, macchinari industriali, opere d arte e infrastrutture IT delicate, con soluzioni logistiche su misura per ogni scenario. I nostri differenziali tecnici includono flotta adattata, sospensioni ad aria, tracciamento in tempo reale, imballaggi personalizzati e team formati per operazioni complesse. Il risultato e concreto: rischio ridotto, conformita normativa, copertura assicurativa commisurata al valore reale e gestione end-to-end con referente unico.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Trasporto Specializzato"
+                    },
+                    "sub05": {
+                        "title": "Pianificazione",
+                        "description": "Strategia dettagliata e sequenziamento preciso delle operazioni per ridurre al minimo l'impatto sulla vostra attività.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Pianificazione"
+                    },
+                    "sub06": {
+                        "title": "Coordinamento del Trasloco",
+                        "description": "Gestione centralizzata da parte di un project manager dedicato, che garantisce una comunicazione fluida e un'esecuzione impeccabile.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Coordinamento del Trasloco"
+                    }
+                }
+            },
+            "private": {
+                "description": "Servizio \"guanti bianchi\" per residenze e proprietà. Gestione completa dell'inventario e ricreazione dell'atmosfera domestica a destinazione.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Imballaggio Haute Couture",
+                        "description": "Materiali protettivi su misura e tecniche di imballaggio d'arte per i vostri beni più preziosi e delicati.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Imballaggio Haute Couture"
+                    },
+                    "sub02": {
+                        "title": "Catalogazione di Biblioteche",
+                        "description": "Inventario fotografico e classificazione metodica dei vostri volumi, rispettando la loro organizzazione originaria.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Catalogazione di Biblioteche"
+                    },
+                    "sub03": {
+                        "title": "Interior Design Temporaneo",
+                        "description": "Allestimento provvisorio estetico per mantenere il vostro comfort durante le fasi di transizione.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Interior Design Temporaneo"
+                    },
+                    "sub04": {
+                        "title": "Installazione Personalizzata",
+                        "description": "Disposizione meticolosa dei vostri mobili e oggetti personali secondo le vostre esatte preferenze.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Installazione Personalizzata"
+                    },
+                    "sub05": {
+                        "title": "Gestione di Opere d'Arte e Antichità",
+                        "description": "Competenza specializzata nella manipolazione e conservazione di pezzi da collezione inestimabili.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Gestione di Opere d'Arte e Antichità"
+                    },
+                    "sub06": {
+                        "title": "Servizi Amministrativi e Conciergerie",
+                        "description": "Assistenza completa per le procedure amministrative e servizi di comfort legati al vostro cambio di residenza.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Servizi Amministrativi e Conciergerie"
+                    }
+                }
+            },
+            "art": {
+                "description": "Protezione su misura, movimentazione sicura e installazione professionale per capolavori inestimabili e beni culturali regolamentati.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Imballaggio e Protezione",
+                        "description": "L'imballaggio dell'arte e una leva di rischio e reputazione: materiali tecnici, casse su misura, fissaggio interno e disimballaggio controllato con verifica di stato.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Imballaggio e Protezione"
+                    },
+                    "sub02": {
+                        "title": "Formalità Doganali",
+                        "description": "Gestione doganale end-to-end per movimenti nazionali e internazionali di arte e beni culturali regolamentati, con documentazione conforme e tempistiche coordinate.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Formalità Doganali"
+                    },
+                    "sub03": {
+                        "title": "Installazione Specializzata",
+                        "description": "Montaggio e allestimento tecnico realizzati da esperti in museografia.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Installazione Specializzata"
+                    },
+                    "sub04": {
+                        "title": "Trasporto Auto da Collezione",
+                        "description": "Soluzioni di trasporto chiuse e discrete per le vostre auto d'eccezione, con un'attenzione meticolosa ad ogni dettaglio meccanico ed estetico.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Trasporto Auto da Collezione"
+                    }
+                }
+            },
+            "cleaning": {
+                "description": "Ambienti impeccabili, con attenzione ai dettagli e totale discrezione, per garantire comfort e produttività al vostro team.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Pulizia e Organizzazione Professionale",
+                        "description": "Eccellenza e serenita quotidiana: un ambiente impeccabile valorizza il vostro brand, riduce il carico mentale e migliora la produttivita. Il nostro servizio integra pulizia professionale, organizzazione funzionale degli spazi, disinfezione secondo standard igienici rigorosi e gestione di vetrate, consumabili e rifiuti. Operiamo con un approccio eco-responsabile tramite prodotti Ecolabel, raccolta differenziata e uso razionale di acqua ed energia. La nostra metodologia include analisi iniziale gratuita, interventi discreti in base ai vostri orari e controlli qualita periodici. Avete massima flessibilita, un unico referente e una qualita premium costante.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Pulizia e Organizzazione Professionale"
+                    },
+                    "sub02": {
+                        "title": "Manutenzione e Adeguamenti degli Uffici",
+                        "description": "In un contesto professionale in continua evoluzione, la manutenzione degli uffici e un leva strategica per performance, immagine aziendale e benessere dei team. Il nostro approccio di facility management agile consente di riconfigurare rapidamente gli spazi, ottimizzare le risorse e mantenere continuita operativa. Supportiamo anche gli obiettivi di sostenibilita con efficienza energetica, raccolta differenziata e controllo della qualita dell aria interna. In caso di imprevisti, la manutenzione correttiva opera 24h/7j con tracciamento digitale dei ticket. I nostri pacchetti flessibili si adattano alla dimensione del patrimonio immobiliare, con tempi di risposta da 8 ore a meno di 4 ore per le urgenze. Contattateci per un audit gratuito e un preventivo personalizzato.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Manutenzione e Adeguamenti degli Uffici"
+                    },
+                    "sub03": {
+                        "title": "Smaltimento Riservato e Riciclo",
+                        "description": "La sicurezza dei vostri dati e la nostra priorità assoluta. Offriamo distruzione certificata di documenti cartacei (DIN 66399, livelli P-3 a P-7) e supporti digitali, con certificato di conformita per ogni intervento. Oltre alla carta, gestiamo anche smontaggio sicuro e riciclo dei RAEE secondo gli standard ambientali piu rigorosi, con il 100% dei materiali avviato a filiere specializzate. La nostra metodologia in 4 fasi — audit, raccolta sicura, triturazione ad alta sicurezza e riciclo tracciabile — garantisce conformita GDPR, catena di custodia continua e impatto ESG misurabile. Contattateci per un audit gratuito e un preventivo personalizzato entro 24 ore.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Smaltimento Riservato e Riciclo"
+                    },
+                    "sub04": {
+                        "title": "Servizio Concierge Aziendale",
+                        "description": "Servizio concierge dedicato agli uffici per semplificare le attività quotidiane: supporto amministrativo leggero, coordinamento operativo interno, organizzazione degli spazi e assistenza continua con attenzione ai dettagli.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Servizio Concierge Aziendale"
+                    },
+                    "sub05": {
+                        "title": "Pulizia Vetri e Facciate",
+                        "description": "Pulizia specializzata di vetri interni, esterni e facciate vetrate. Utilizziamo tecniche professionali per rimuovere aloni, polvere e impurità con precisione e sicurezza, anche in aree difficili da raggiungere.",
+                        "image": "/images/cleaning-service.jpg",
+                        "alt": "Pulizia Vetri e Facciate"
+                    },
+                    "sub06": {
+                        "title": "Transfer e Trasporto Executive",
+                        "description": "Servizio esclusivo di trasporto executive per aeroporti, riunioni, eventi aziendali e impegni professionali. Offriamo puntualità, comfort, sicurezza e riservatezza in ogni spostamento.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Transfer e Trasporto Executive"
+                    }
+                }
+            },
+            "storage": {
+                "description": "Stoccaggio di massima sicurezza in zone franche. Controllo climatico di precisione per beni preziosi ed esenzione fiscale temporanea.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Ricezione Merci",
+                        "description": "La ricezione merci e molto piu di uno scarico: e il punto di ingresso dell eccellenza logistica. Un processo inbound ben eseguito protegge integrita di stock, conformita prodotto e continuita operativa lungo tutta la supply chain. Il nostro ciclo specialistico include pianificazione baie, scarico controllato, verifica quantitativa e qualitativa, ispezione non conformita e registrazione immediata su WMS per tracciabilita totale. Utilizziamo barcode/RFID, flussi WMS integrati e protocolli di riserva documentati per ridurre errori e rischi legali. Benefici concreti: inventario piu accurato, minori costi da merce danneggiata, disponibilita prodotto piu rapida e maggiore conformita normativa.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Ricezione Merci"
+                    },
+                    "sub02": {
+                        "title": "Deposito Doganale & Esenzione Fiscale",
+                        "description": "Il deposito doganale e un regime strategico che consente di stoccare merci importate con sospensione totale dei tributi fino alla nazionalizzazione. Questo vi permette di governare il momento del pagamento fiscale in base alla domanda effettiva, migliorando cash flow e prevedibilita finanziaria. Gestiamo l intero ciclo operativo: impostazione doganale, controllo classificazione, monitoraggio scadenze, conformita documentale e pianificazione svincoli. I meccanismi chiave includono sospensione tributi in fase di giacenza, nazionalizzazione parziale con pagamento solo sui volumi ritirati ed esenzione in caso di riesportazione. Il regime consente inoltre operazioni ammesse come conservazione, adattamento commerciale e campionatura tecnica. Benefici concreti: minori costi logistici, risposta piu agile al mercato, maggiore sicurezza legale e vantaggio competitivo internazionale.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Deposito Doganale & Esenzione Fiscale"
+                    },
+                    "sub03": {
+                        "title": "Esenzione Fiscale (Deposito Doganale)",
+                        "description": "Stoccaggio allo stato estero che consente la sospensione di dazi e imposte fino all'importazione definitiva.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Esenzione Fiscale (Deposito Doganale)"
+                    },
+                    "sub04": {
+                        "title": "Sale di Visione Private",
+                        "description": "Spazi eleganti e sicuri per l'ispezione o la presentazione dei vostri beni stoccati.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Sale di Visione Private"
+                    },
+                    "sub05": {
+                        "title": "Controllo Ambientale",
+                        "description": "Monitoraggio costante della qualità dell'aria e protezione contro i parassiti.",
+                        "image": "/images/secure-storage.png",
+                        "alt": "Controllo Ambientale"
+                    },
+                    "sub06": {
+                        "title": "Ricezione Merci",
+                        "description": "Servizio logistico completo di ricezione, verifica e stoccaggio delle vostre consegne.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Ricezione Merci"
+                    }
+                }
+            },
+            "events": {
+                "description": "Esecuzione impeccabile, curando ogni dettaglio per garantire impatto visivo, funzionalità e puntualità.",
+                "subservices": {
+                    "sub01": {
+                        "title": "Allestimento Showroom",
+                        "description": "L allestimento showroom va oltre la semplice esposizione: crea ambienti immersivi che raccontano la vostra marca e guidano la decisione d acquisto. Gestiamo l intero processo con metodo e precisione: analisi del brand e degli obiettivi, progettazione dettagliata, selezione di materiali e arredi premium, produzione e logistica sicura, installazione tecnica, scenografia e merchandising finale. Operiamo con soluzioni su misura nei settori luxury retail, design e arredo, automotive e tecnologia. Il risultato e uno spazio ad alto impatto che rafforza l immagine del brand, aumenta l engagement e supporta vendite, formazione ed eventi.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Allestimento Showroom"
+                    },
+                    "sub02": {
+                        "title": "Montaggio e Installazione di Arredi Corporate",
+                        "description": "Il montaggio di arredi corporate non e solo assemblaggio: e progettazione operativa dello spazio per efficienza, sicurezza e benessere dei team. Trasformiamo il vostro progetto in una configurazione funzionale, rispettando specifiche tecniche e norme di sicurezza in ogni fase. Il nostro perimetro include sistemi modulari, arredi executive, soluzioni di storage, pareti divisorie ed ergonomia applicata. Operiamo con un processo tecnico rigoroso: pianificazione logistica, ricezione e ispezione, distribuzione e montaggio, livellamento e allineamento, pulizia finale e consegna. Benefici strategici: avvio operativo piu rapido, riduzione dei tempi morti, tutela delle garanzie dei produttori e massima flessibilita, anche fuori orario.",
+                        "image": "/images/corporate-service.jpg",
+                        "alt": "Montaggio e Installazione di Arredi Corporate"
+                    },
+                    "sub03": {
+                        "title": "Hotellerie d Eccellenza",
+                        "description": "L hotellerie d eccellenza e l arte di trasformare il soggiorno in un esperienza memorabile. Non riguarda solo comfort e lusso, ma la capacita di anticipare desideri, personalizzare ogni dettaglio e offrire un servizio impeccabile con discrezione. I pilastri del nostro approccio premium sono chiari: ascolto delle preferenze individuali, cura proattiva e relazione umana di altissimo livello. Attiviamo servizi che elevano davvero la permanenza: conciergerie anticipativa, benessere su misura e gastronomia d eccellenza personalizzata. I benefici per l ospite sono concreti: piu tempo di qualita, forte senso di esclusivita e ricordi durevoli che aumentano fidelizzazione e ritorno.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Hotellerie d Eccellenza"
+                    },
+                    "sub04": {
+                        "title": "Gestione del Carnet ATA",
+                        "description": "Il Carnet ATA e il passaporto internazionale delle merci temporanee. Consente ingresso e rientro in oltre 80 paesi senza imposte di importazione temporanea e con minore burocrazia. Gestiamo l intero ciclo specialistico: consulenza in fase di emissione, verifica classificazione doganale, coordinamento delle garanzie, istruzioni logistiche di frontiera, monitoraggio rigoroso delle scadenze e regolarizzazione finale con svincolo delle garanzie. Il sistema copre categorie come campioni commerciali, attrezzature professionali e beni per fiere ed eventi. I vantaggi operativi sono chiari: risparmio economico diretto, procedure piu rapide e prevedibili, maggiore tutela legale e accesso facilitato ai mercati globali.",
+                        "image": "/images/art-service.jpg",
+                        "alt": "Gestione del Carnet ATA"
+                    },
+                    "sub05": {
+                        "title": "Audiovisivo e Multimediale",
+                        "description": "Installazione e configurazione di sistemi di presentazione e illuminazione per i vostri stand.",
+                        "image": "/images/event-logistics.png",
+                        "alt": "Audiovisivo e Multimediale"
+                    },
+                    "sub06": {
+                        "title": "Allestimento e Segnaletica",
+                        "description": "Disposizione accurata dei vostri elementi visivi e di branding per il massimo impatto.",
+                        "image": "/images/private-service.jpg",
+                        "alt": "Allestimento e Segnaletica"
                     }
                 }
             }
@@ -377,6 +608,6 @@
     },
     "TermsPage": {
         "title": "Condizioni Generali di Vendita e di Servizio",
-        "content": "<p>Ultimo aggiornamento: Febbraio 2026</p><h2>1. Oggetto e Ambito di Applicazione</h2><p>Le presenti Condizioni Generali di Vendita (CGV) regolano tutti i rapporti contrattuali tra <strong>LA Global Corporation</strong> (di seguito «il Fornitore»), con sede a Grand-Lancy, Svizzera, e qualsiasi persona fisica o giuridica (di seguito «il Cliente») che desideri beneficiare dei nostri servizi di logistica, trasloco, stoccaggio e gestione dei beni.</p><p>Validando un preventivo o effettuando un ordine, il Cliente accetta senza riserve le presenti condizioni, che prevalgono su qualsiasi altro documento, salvo specifico accordo scritto.</p><h2>2. Ordine e Conclusione del Contratto</h2><p>I nostri servizi sono oggetto di un preventivo personalizzato, redatto a seguito di una precisa valutazione delle vostre esigenze. Il contratto si intende concluso dal momento della ricezione da parte del Fornitore del preventivo datato e firmato dal Cliente, accompagnato, se del caso, dall'acconto richiesto.</p><p>Qualsiasi successiva modifica dell'ordine dovrà essere oggetto di un'appendice scritta e potrà comportare un adeguamento tariffario.</p><h2>3. Tariffe e Modalità di Pagamento</h2><p>Le nostre tariffe sono espresse in Franchi Svizzeri (CHF) e si intendono tasse escluse, salvo diversa indicazione. I costi relativi alle formalità doganali o a tasse locali specifiche rimangono a carico del Cliente.</p><ul><li><strong>Acconto:</strong> Un acconto dal 30% al 50% può essere richiesto al momento della firma per confermare la prenotazione delle risorse.</li><li><strong>Saldo:</strong> Il saldo è pagabile al ricevimento della fattura finale, secondo i termini ivi indicati (generalmente a 10 o 30 giorni).</li></ul><p>In caso di ritardo nel pagamento, potranno essere applicati interessi di mora in conformità ai tassi vigenti.</p><h2>4. Esecuzione dei Servizi e Consegna</h2><p>Ci impegniamo ad eseguire i servizi con la massima cura, in conformità con gli standard di qualità dell'«Eccellenza Svizzera».</p><ul><li><strong>Tempistiche:</strong> Le date di esecuzione vengono fissate di comune accordo. Sebbene facciamo tutto il possibile per rispettarle, il Fornitore non può essere ritenuto responsabile per ritardi dovuti a cause esterne (dogane, maltempo, forza maggiore).</li><li><strong>Accesso:</strong> Il Cliente deve garantire l'accessibilità dei luoghi (partenza e arrivo) e segnalare in anticipo qualsiasi difficoltà tecnica (ascensore, parcheggio).</li></ul><h2>5. Assicurazioni e Responsabilità</h2><p>LA Global Corporation agisce con assoluta diligenza professionale.</p><ul><li><strong>Responsabilità:</strong> La nostra responsabilità è impegnata in caso di danni comprovati derivanti direttamente dalla nostra manipolazione, nei limiti legali applicabili.</li><li><strong>Assicurazione:</strong> Proponiamo e raccomandiamo vivamente di stipulare la nostra assicurazione «All-Risk» (Da Chiodo a Chiodo) per oggetti di valore, opere d'arte e beni preziosi, offrendo una copertura ottimale oltre alle responsabilità contrattuali di base.</li></ul><h2>6. Diritto di Recesso e Annullamento</h2><p>In conformità con il diritto svizzero, qualsiasi annullamento da parte del Cliente deve essere comunicato per iscritto.</p><ul><li><strong>Più di 30 giorni prima dell'inizio:</strong> L'acconto può essere parzialmente rimborsato, previa detrazione delle spese amministrative.</li><li><strong>Meno di 15 giorni:</strong> L'acconto viene trattenuto dal Fornitore a titolo di indennizzo.</li><li><strong>Meno di 48 ore:</strong> Potrebbe essere dovuto l'intero importo del servizio.</li></ul><h2>7. Protezione dei Dati (LPD / GDPR)</h2><p>Trattiamo i vostri dati personali (identità, indirizzi, inventario) con la massima riservatezza, esclusivamente ai fini dell'esecuzione del contratto. In conformità con la Legge federale sulla protezione dei dati (LPD) e il GDPR, ove applicabile, avete il diritto di accedere e rettificare i vostri dati.</p><h2>8. Diritto Applicabile e Foro Competente</h2><p>Le presenti condizioni sono soggette al <strong>Diritto Svizzero</strong>. Qualsiasi controversia relativa alla loro interpretazione o esecuzione sarà di competenza esclusiva dei tribunali del cantone di <strong>Ginevra</strong>, fatto salvo il ricorso al Tribunale Federale.</p>"
+        "content": "<p>Ultimo aggiornamento: Febbraio 2026</p><h2>1. Oggetto e Ambito di Applicazione</h2><p>Le presenti Condizioni Generali di Vendita (CGV) regolano tutti i rapporti contrattuali tra <strong>LA Global Corporation</strong> (di seguito «il Fornitore»), con sede in Rue de la Sablière 3, 1242 Satigny, Svizzera, e qualsiasi persona fisica o giuridica (di seguito «il Cliente») che desideri beneficiare dei nostri servizi di logistica, trasloco, stoccaggio e gestione dei beni.</p><p>Validando un preventivo o effettuando un ordine, il Cliente accetta senza riserve le presenti condizioni, che prevalgono su qualsiasi altro documento, salvo specifico accordo scritto.</p><h2>2. Ordine e Conclusione del Contratto</h2><p>I nostri servizi sono oggetto di un preventivo personalizzato, redatto a seguito di una precisa valutazione delle vostre esigenze. Il contratto si intende concluso dal momento della ricezione da parte del Fornitore del preventivo datato e firmato dal Cliente, accompagnato, se del caso, dall'acconto richiesto.</p><p>Qualsiasi successiva modifica dell'ordine dovrà essere oggetto di un'appendice scritta e potrà comportare un adeguamento tariffario.</p><h2>3. Tariffe e Modalità di Pagamento</h2><p>Le nostre tariffe sono espresse in Franchi Svizzeri (CHF) e si intendono tasse escluse, salvo diversa indicazione. I costi relativi alle formalità doganali o a tasse locali specifiche rimangono a carico del Cliente.</p><ul><li><strong>Acconto:</strong> Un acconto dal 30% al 50% può essere richiesto al momento della firma per confermare la prenotazione delle risorse.</li><li><strong>Saldo:</strong> Il saldo è pagabile al ricevimento della fattura finale, secondo i termini ivi indicati (generalmente a 10 o 30 giorni).</li></ul><p>In caso di ritardo nel pagamento, potranno essere applicati interessi di mora in conformità ai tassi vigenti.</p><h2>4. Esecuzione dei Servizi e Consegna</h2><p>Ci impegniamo ad eseguire i servizi con la massima cura, in conformità con gli standard di qualità dell'«Eccellenza Svizzera».</p><ul><li><strong>Tempistiche:</strong> Le date di esecuzione vengono fissate di comune accordo. Sebbene facciamo tutto il possibile per rispettarle, il Fornitore non può essere ritenuto responsabile per ritardi dovuti a cause esterne (dogane, maltempo, forza maggiore).</li><li><strong>Accesso:</strong> Il Cliente deve garantire l'accessibilità dei luoghi (partenza e arrivo) e segnalare in anticipo qualsiasi difficoltà tecnica (ascensore, parcheggio).</li></ul><h2>5. Assicurazioni e Responsabilità</h2><p>LA Global Corporation agisce con assoluta diligenza professionale.</p><ul><li><strong>Responsabilità:</strong> La nostra responsabilità è impegnata in caso di danni comprovati derivanti direttamente dalla nostra manipolazione, nei limiti legali applicabili.</li><li><strong>Assicurazione:</strong> Proponiamo e raccomandiamo vivamente di stipulare la nostra assicurazione «All-Risk» (Da Chiodo a Chiodo) per oggetti di valore, opere d'arte e beni preziosi, offrendo una copertura ottimale oltre alle responsabilità contrattuali di base.</li></ul><h2>6. Diritto di Recesso e Annullamento</h2><p>In conformità con il diritto svizzero, qualsiasi annullamento da parte del Cliente deve essere comunicato per iscritto.</p><ul><li><strong>Più di 30 giorni prima dell'inizio:</strong> L'acconto può essere parzialmente rimborsato, previa detrazione delle spese amministrative.</li><li><strong>Meno di 15 giorni:</strong> L'acconto viene trattenuto dal Fornitore a titolo di indennizzo.</li><li><strong>Meno di 48 ore:</strong> Potrebbe essere dovuto l'intero importo del servizio.</li></ul><h2>7. Protezione dei Dati (LPD / GDPR)</h2><p>Trattiamo i vostri dati personali (identità, indirizzi, inventario) con la massima riservatezza, esclusivamente ai fini dell'esecuzione del contratto. In conformità con la Legge federale sulla protezione dei dati (LPD) e il GDPR, ove applicabile, avete il diritto di accedere e rettificare i vostri dati.</p><h2>8. Diritto Applicabile e Foro Competente</h2><p>Le presenti condizioni sono soggette al <strong>Diritto Svizzero</strong>. Qualsiasi controversia relativa alla loro interpretazione o esecuzione sarà di competenza esclusiva dei tribunali del cantone di <strong>Ginevra</strong>, fatto salvo il ricorso al Tribunale Federale.</p>"
     }
 }
