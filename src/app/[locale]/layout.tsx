@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata = {
-    title: "LA Global Corporation | Swiss Precision Moving",
+    title: "LA Global Corporation SA | Swiss Precision Moving",
     description: "Logística global para corporações, residências de prestígio e belas artes.",
     icons: {
         icon: '/header-logo.svg',

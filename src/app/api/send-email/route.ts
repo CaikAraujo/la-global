@@ -41,7 +41,7 @@ export async function POST(request: Request) {
             <head>
               <meta charset="utf-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Nouvelle Demande de Contact - La Global Corporate</title>
+              <title>Nouvelle Demande de Contact - La Global Corporate SA</title>
             </head>
             <body style="background-color: #ffffff; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
               <table align="center" width="100%" border="0" cellPadding="0" cellSpacing="0" role="presentation" style="max-width:37.5em; margin: 0 auto;">
@@ -103,7 +103,7 @@ export async function POST(request: Request) {
                      ✓ Notre équipe vous répondra dans les plus brefs délais.
                   </div>
                   <div style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
-                     <p><strong>La Global Corporate</strong><br>Rue de la Sablière 3<br>1242 Satigny<br>+41 22 535 63 33<br>info@laglobalcorporate.ch</p>
+                     <p><strong>La Global Corporate SA</strong><br>Rue de la Sablière 3<br>1242 Satigny<br>Suisse<br>022 753 38 30<br>info@laglobalcorporate.ch</p>
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export async function POST(request: Request) {
       resend.emails.send({
         from: fromEmail,
         to: [adminEmail],
-        subject: `Nouveau contact de ${name} - La Global Corporate${attachments.length > 0 ? " 📎" : ""}`,
+        subject: `Nouveau contact de ${name} - La Global Corporate SA${attachments.length > 0 ? " 📎" : ""}`,
         html: companyHtml,
         replyTo: email,
         attachments: attachments.length > 0 ? attachments : undefined

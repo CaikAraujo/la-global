@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 import SubservicesEditorial from './SubservicesEditorial';
 
 const SITE_URL = 'https://www.laglobalcorporation.ch';
-const SITE_NAME = 'LA Global Corporation';
+const SITE_NAME = 'LA Global Corporation SA';
 
 const serviceKeys = ['cleaning', 'corporate', 'events', 'storage', 'art', 'private'];
 const locales = ['en', 'fr', 'de', 'it'];

@@ -78,6 +78,9 @@ const Navbar: React.FC = () => {
   // Switcher Background: Transparent/White Tint -> Swiss Navy
   const switcherBgColor = useTransform(smoothScrollY, colorRange, ["rgba(255, 255, 255, 0.05)", "#0F172A"]);
 
+  // Logo Rotation
+  const logoRotation = useTransform(smoothScrollY, colorRange, [0, 180]);
+
   // --- Computed Styles based on Route ---
   // If not Home, we provide static values (simulating the "scrolled" end state)
   // We cast as any because React.CSSProperties doesn't technically support custom vars with MotionValues
@@ -118,12 +121,14 @@ const Navbar: React.FC = () => {
         <div className="max-w-[1800px] mx-auto px-6 md:px-12 h-24 flex items-center justify-between">
           {/* Logo Area */}
           <Link href="/" className="flex items-center gap-4 group">
-            <div
-              className="w-10 h-10 flex items-center justify-center transition-all duration-500 group-hover:rotate-180"
-            >
-              <Logo />
-            </div>
-            <div className="hidden md:block">
+            <motion.div style={{ rotate: logoRotation }}>
+              <div
+                className="w-10 h-10 flex items-center justify-center transition-all duration-500 group-hover:rotate-180"
+              >
+                <Logo />
+              </div>
+            </motion.div>
+            <div>
               <h1 className="font-bold tracking-widest text-sm uppercase transition-colors duration-300 text-[var(--nav-primary)]">LA Global</h1>
               <h2 className="font-bold tracking-[0.2em] text-[10px] uppercase transition-colors duration-300 text-[var(--nav-secondary)]">{t('logo_subtitle')}</h2>
             </div>

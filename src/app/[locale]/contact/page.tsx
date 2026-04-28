@@ -145,11 +145,11 @@ export default function ContactPage() {
                         <div className="space-y-12 text-swiss-text">
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.hq_label')}</h3>
-                                <p className="font-light text-xl">Rue de la Sablière 3<br />1242 Satigny</p>
+                                <p className="font-light text-xl">Rue de la Sablière 3<br />1242 Satigny<br />Suisse</p>
                             </div>
                             <div>
                                 <h3 className="text-xs font-bold tracking-widest uppercase mb-4 text-swiss-navy/40">{t('info.direct_label')}</h3>
-                                <p className="font-light text-xl">+41 22 535 63 33</p>
+                                <p className="font-light text-xl">022 753 38 30</p>
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@laglobalcorporate.ch" target="_blank" rel="noopener noreferrer" className="font-light text-xl underline decoration-swiss-red/30 underline-offset-8 mt-2 block w-fit hover:text-swiss-red transition-colors">info@laglobalcorporate.ch</a>
                             </div>
                         </div>
